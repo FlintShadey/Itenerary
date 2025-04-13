@@ -10,16 +10,14 @@
     <h1 class="heading-spacing">Itinerary:</h1>
 
     <div class="day centered">
-      <p class="larger-text">
-        April 21, 2025 
+      <p class="larger-text">April 21, 2025 - UPDATED VERSION</p>
+      <p>AUS to LHR BA0190 British Airways</p>
+      <p class="larger-text">April 22, 2025</p>
+      <p>SEN to RAK K8ZCQ51 easy jet 1440pm flight number EZY5739</p>
+      <p>
+        Riad Palais Sebban 43 Derb My Abdellah Ben Hssein,, Rue el Ksour,
+        Marrakech 40000, Morocco https://www.palaissebban.com/
       </p>
-      <p>AUS to LHR BA0190 British Airways </p>
-      <p class="larger-text">
-        April 22, 2025 
-      </p>
-      <p>SEN to RAK K8ZCQ51 easy jet  1440pm flight number 
-EZY5739	</p>
-      <p>Riad Palais Sebban 43 Derb My Abdellah Ben Hssein,, Rue el Ksour, Marrakech 40000, Morocco https://www.palaissebban.com/</p>
       <p>April 25</p>
     </div>
   </div>
