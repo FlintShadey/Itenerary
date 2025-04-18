@@ -1,258 +1,372 @@
-<script setup></script>
+<script setup>
+// Arabic translation of the itinerary entries
+const arabicTranslations = [
+  {
+    date: "٢١ أبريل، ٢٠٢٥",
+    flight: "AUS إلى LHR رحلة BA0190 الخطوط الجوية البريطانية",
+  },
+  {
+    date: "٢٢ أبريل، ٢٠٢٥",
+    flight: "SEN إلى RAK رحلة K8ZCQ51 إيزي جيت الساعة ١٤:٤٠ رقم الرحلة EZY5739",
+    accommodation: "رياض قصر سيبان",
+    address: "٤٣ درب مولاي عبد الله بن حسين، زنقة القصور، مراكش ٤٠٠٠٠، المغرب",
+  },
+  {
+    date: "٢٥ أبريل، ٢٠٢٥",
+    accommodation: "فندق رياض باحمو",
+    address: "دوار آيت أوفي ASJS كم ٢٦ R ٧٠٤ مضيق بومالن دادس ٤٥١٥٠، المغرب",
+  },
+  {
+    date: "٢٧ أبريل، ٢٠٢٥",
+    accommodation: "رياض سملالية",
+    address: "٢٠، درب سورناس، درب الزيات، فاس ٣٠١١٠، المغرب",
+    phone: "٢١٢٥٣٥٦٣٣١٩٨+",
+  },
+  {
+    date: "١ مايو، ٢٠٢٥",
+    flight: "ريان إير ٥٩٣٠ فاس - مدريد",
+  },
+  {
+    date: "٤ مايو، ٢٠٢٥",
+    flight: "آير أوروبا مدريد -> كانكون UX0063",
+    accommodation: "ويندام ألترا بلايا ديل كارمن",
+    address:
+      "شارع كونستيتوينتس رقم ١، جونزالو جيريرو، ٧٧٧١٠ بلايا ديل كارمن، كينتانا رو، المكسيك",
+    phone: "٥٢٩٨٤٨٧٣٤٠٠٠+",
+  },
+  {
+    date: "٨ مايو، ٢٠٢٥",
+    flight: "AA2588 الساعة ١١:٤٥ صباحًا كانكون إلى أوستن",
+  },
+];
+</script>
 
 <template>
-  <div class="container">
-    <header>
-      <h1>John Smith & Jessica Miller</h1>
-      <p class="subtitle">Travel Itinerary</p>
+  <v-app>
+    <v-main>
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="10">
+            <v-card class="text-center pa-4 mb-6" elevation="3">
+              <v-card-title class="text-h4 primary--text"
+                >John Smith & Jessica Miller</v-card-title
+              >
+              <v-card-subtitle class="text-h5 mb-4"
+                >Travel Itinerary</v-card-subtitle
+              >
 
-      <div class="contact-info">
-        <p>
-          <span class="label">Primary:</span> +1 210 385-9809 (Whatsapp
-          available)
-        </p>
-        <p><span class="label">Secondary:</span> +1 415 860-2970</p>
-        <p><span class="label">Email:</span> flintsmith@gmail.com</p>
-      </div>
-    </header>
+              <v-card-text>
+                <div class="text-body-1">
+                  <p>
+                    <strong class="primary--text">Primary:</strong> +1 210
+                    385-9809 (Whatsapp available)
+                  </p>
+                  <p>
+                    <strong class="primary--text">Secondary:</strong> +1 415
+                    860-2970
+                  </p>
+                  <p>
+                    <strong class="primary--text">Email:</strong>
+                    flintsmith@gmail.com
+                  </p>
+                </div>
+              </v-card-text>
+            </v-card>
 
-    <h2 class="itinerary-heading">Itinerary</h2>
+            <h2 class="text-h4 text-center secondary--text mb-6">Itinerary</h2>
 
-    <div class="itinerary-cards">
-      <div class="card">
-        <div class="card-date">April 21, 2025</div>
-        <div class="card-content">
-          <p class="flight">AUS to LHR BA0190 British Airways</p>
-        </div>
-      </div>
+            <!-- April 21 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">April 21, 2025</v-card-title>
+                  <v-card-text>
+                    <p>AUS to LHR BA0190 British Airways</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
 
-      <div class="card">
-        <div class="card-date">April 22, 2025</div>
-        <div class="card-content">
-          <p class="flight">
-            SEN to RAK K8ZCQ51 easy jet 1440pm flight number EZY5739
-          </p>
-          <div class="accommodation">
-            <h3>Riad Palais Sebban</h3>
-            <p>
-              43 Derb My Abdellah Ben Hssein, Rue el Ksour, Marrakech 40000,
-              Morocco
-            </p>
-            <a href="https://www.palaissebban.com/" target="_blank"
-              >Visit website</a
-            >
-          </div>
-        </div>
-      </div>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[0].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <p>{{ arabicTranslations[0].flight }}</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
 
-      <div class="card">
-        <div class="card-date">April 25, 2025</div>
-        <div class="card-content">
-          <div class="accommodation">
-            <h3>Hotel Riad Bahammou</h3>
-            <p>
-              Douar Ait Ouffi ASJS Km 26 R 704 Gorges du, Boumalne Dades 45150,
-              Morocco
-            </p>
-            <a href="http://www.riadbahammou.com/" target="_blank"
-              >Visit website</a
-            >
-          </div>
-        </div>
-      </div>
+            <!-- April 22 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">April 22, 2025</v-card-title>
+                  <v-card-text>
+                    <p>
+                      SEN to RAK K8ZCQ51 easy jet 1440pm flight number EZY5739
+                    </p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Riad Palais Sebban
+                    </h3>
+                    <p>
+                      43 Derb My Abdellah Ben Hssein, Rue el Ksour, Marrakech
+                      40000, Morocco
+                    </p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.palaissebban.com/"
+                      target="_blank"
+                    >
+                      Visit website
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
 
-      <div class="card">
-        <div class="card-date">April 27, 2025</div>
-        <div class="card-content">
-          <div class="accommodation">
-            <h3>Riad Semlalia</h3>
-            <p>20, Derb Sornass, Derb Ziat, Fès 30110, Morocco</p>
-            <p class="phone">+212 535 633 198</p>
-            <a href="https://www.riadsemlalia.com/" target="_blank"
-              >Visit website</a
-            >
-          </div>
-        </div>
-      </div>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[1].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <p>{{ arabicTranslations[1].flight }}</p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      {{ arabicTranslations[1].accommodation }}
+                    </h3>
+                    <p>{{ arabicTranslations[1].address }}</p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.palaissebban.com/"
+                      target="_blank"
+                    >
+                      زيارة الموقع
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
 
-      <div class="card">
-        <div class="card-date">May 1, 2025</div>
-        <div class="card-content">
-          <p class="flight">Ryanair 5930 FEZ - MAD</p>
-        </div>
-      </div>
+            <!-- April 25 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">April 25, 2025</v-card-title>
+                  <v-card-text>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Hotel Riad Bahammou
+                    </h3>
+                    <p>
+                      Douar Ait Ouffi ASJS Km 26 R 704 Gorges du, Boumalne Dades
+                      45150, Morocco
+                    </p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="http://www.riadbahammou.com/"
+                      target="_blank"
+                    >
+                      Visit website
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
 
-      <div class="card">
-        <div class="card-date">May 4, 2025</div>
-        <div class="card-content">
-          <p class="flight">AirEuropa MAD -> CUN UX0063</p>
-          <div class="accommodation">
-            <h3>Wyndham Alltra Playa Del Carmen</h3>
-            <p>
-              Av. Constituyentes #1, Gonzalo Guerrero, 77710 Playa del Carmen,
-              Q.R., Mexico
-            </p>
-            <p class="phone">+52 984 873 4000</p>
-            <a href="https://alltrabyplaya.com/playa-del-carmen" target="_blank"
-              >Visit website</a
-            >
-          </div>
-        </div>
-      </div>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[2].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      {{ arabicTranslations[2].accommodation }}
+                    </h3>
+                    <p>{{ arabicTranslations[2].address }}</p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="http://www.riadbahammou.com/"
+                      target="_blank"
+                    >
+                      زيارة الموقع
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
 
-      <div class="card">
-        <div class="card-date">May 8, 2025</div>
-        <div class="card-content">
-          <p class="flight">AA2588 1145am CUN to AUS</p>
-        </div>
-      </div>
-    </div>
-  </div>
+            <!-- April 27 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">April 27, 2025</v-card-title>
+                  <v-card-text>
+                    <h3 class="text-h6 secondary--text mb-2">Riad Semlalia</h3>
+                    <p>20, Derb Sornass, Derb Ziat, Fès 30110, Morocco</p>
+                    <p><strong>Phone:</strong> +212 535 633 198</p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.riadsemlalia.com/"
+                      target="_blank"
+                    >
+                      Visit website
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[3].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      {{ arabicTranslations[3].accommodation }}
+                    </h3>
+                    <p>{{ arabicTranslations[3].address }}</p>
+                    <p>
+                      <strong>هاتف:</strong> {{ arabicTranslations[3].phone }}
+                    </p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.riadsemlalia.com/"
+                      target="_blank"
+                    >
+                      زيارة الموقع
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+
+            <!-- May 1 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">May 1, 2025</v-card-title>
+                  <v-card-text>
+                    <p>Ryanair 5930 FEZ - MAD</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[4].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <p>{{ arabicTranslations[4].flight }}</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+
+            <!-- May 4 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">May 4, 2025</v-card-title>
+                  <v-card-text>
+                    <p>AirEuropa MAD -> CUN UX0063</p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Wyndham Alltra Playa Del Carmen
+                    </h3>
+                    <p>
+                      Av. Constituyentes #1, Gonzalo Guerrero, 77710 Playa del
+                      Carmen, Q.R., Mexico
+                    </p>
+                    <p><strong>Phone:</strong> +52 984 873 4000</p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://alltrabyplaya.com/playa-del-carmen"
+                      target="_blank"
+                    >
+                      Visit website
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[5].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <p>{{ arabicTranslations[5].flight }}</p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      {{ arabicTranslations[5].accommodation }}
+                    </h3>
+                    <p>{{ arabicTranslations[5].address }}</p>
+                    <p>
+                      <strong>هاتف:</strong> {{ arabicTranslations[5].phone }}
+                    </p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://alltrabyplaya.com/playa-del-carmen"
+                      target="_blank"
+                    >
+                      زيارة الموقع
+                    </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+
+            <!-- May 8 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">May 8, 2025</v-card-title>
+                  <v-card-text>
+                    <p>AA2588 1145am CUN to AUS</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary">{{
+                    arabicTranslations[6].date
+                  }}</v-card-title>
+                  <v-card-text>
+                    <p>{{ arabicTranslations[6].flight }}</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
-<style scoped>
-/* Modern color palette and base styles */
-:root {
-  --primary: #3a86ff;
-  --secondary: #fb5607;
-  --background: #f8f9fa;
-  --text: #212529;
-  --light-text: #6c757d;
-  --card-bg: #ffffff;
-  --border: #e9ecef;
+<style>
+/* Add any additional custom styles here if needed */
+.primary {
+  background-color: #3a86ff !important;
+  color: white !important;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, sans-serif;
-  color: var(--text);
-  background-color: var(--background);
-  line-height: 1.6;
+.secondary--text {
+  color: #fb5607 !important;
 }
 
-/* Header styling */
-header {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: var(--primary);
-}
-
-.subtitle {
-  font-size: 1.5rem;
-  color: var(--light-text);
-  margin-bottom: 2rem;
-}
-
-.contact-info {
-  background-color: var(--card-bg);
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  margin-top: 2rem;
-}
-
-.label {
-  font-weight: 600;
-  color: var(--primary);
-}
-
-/* Itinerary section */
-.itinerary-heading {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 2rem 0;
-  text-align: center;
-  color: var(--secondary);
-}
-
-/* Cards */
-.itinerary-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.card {
-  background-color: var(--card-bg);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-}
-
-.card-date {
-  background-color: var(--primary);
-  color: blue;
-  font-weight: 600;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.2rem;
-}
-
-.card-content {
-  padding: 1.5rem;
-}
-
-/* Content styling */
-.flight {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.accommodation h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  color: var(--secondary);
-}
-
-.accommodation p {
-  margin-bottom: 0.5rem;
-}
-
-.phone {
-  font-weight: 500;
-}
-
-a {
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: 500;
-  display: inline-block;
-  margin-top: 0.5rem;
-  transition: color 0.2s;
-}
-
-a:hover {
-  color: var(--secondary);
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .subtitle {
-    font-size: 1.2rem;
-  }
+.primary--text {
+  color: #3a86ff !important;
 }
 </style>
