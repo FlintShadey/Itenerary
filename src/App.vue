@@ -64,7 +64,7 @@ const arabicTranslations = [
                 <div class="text-body-1">
                   <p>
                     <strong class="primary--text">Primary:</strong> +1 210
-                    385-9809 (Whatsapp available)
+                    385-9809 <br>(Whatsapp available)
                   </p>
                   <p>
                     <strong class="primary--text">Secondary:</strong> +1 415
