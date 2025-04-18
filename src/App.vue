@@ -54,7 +54,7 @@ const arabicTranslations = [
             <v-card class="text-center pa-4 mb-6" elevation="3">
               <v-card-title class="text-h4 primary--text"
                 >John Smith <br />
-                & Jessica Miller</v-card-title
+                Jessica Miller</v-card-title
               >
               <v-card-subtitle class="text-h5 mb-4"
                 >Travel Itinerary</v-card-subtitle
