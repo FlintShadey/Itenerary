@@ -25,6 +25,10 @@ const arabicTranslations = [
   {
     date: "١ مايو، ٢٠٢٥",
     flight: "ريان إير ٥٩٣٠ فاس - مدريد",
+    accommodation: "غرف أوبتيمي مدريد",
+    address: "كاي دي لا بويبلا 7، باخو، وسط مدينة مدريد، 28004 مدريد، إسبانيا",
+    phone: "34 617 42 76 76+",
+    email: "madrid@optimirooms.com",
   },
   {
     date: "٤ مايو، ٢٠٢٥",
@@ -49,7 +53,8 @@ const arabicTranslations = [
           <v-col cols="12" md="10">
             <v-card class="text-center pa-4 mb-6" elevation="3">
               <v-card-title class="text-h4 primary--text"
-                >John Smith & Jessica Miller</v-card-title
+                >John Smith <br />
+                & Jessica Miller</v-card-title
               >
               <v-card-subtitle class="text-h5 mb-4"
                 >Travel Itinerary</v-card-subtitle
@@ -254,6 +259,24 @@ const arabicTranslations = [
                   <v-card-title class="primary">May 1, 2025</v-card-title>
                   <v-card-text>
                     <p>Ryanair 5930 FEZ - MAD</p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Optimi Rooms Madrid
+                    </h3>
+                    <p>
+                      Calle de la Puebla 7, Bajo, Madrid City Center, 28004
+                      Madrid, Spain
+                    </p>
+                    <p><strong>Phone:</strong> +34 617 42 76 76</p>
+                    <p><strong>Email:</strong> madrid@optimirooms.com</p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.optimirooms.com/inicio_madrid/"
+                      target="_blank"
+                    >
+                      Visit website
+                    </v-btn>
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -265,6 +288,26 @@ const arabicTranslations = [
                   }}</v-card-title>
                   <v-card-text>
                     <p>{{ arabicTranslations[4].flight }}</p>
+                    <v-divider class="my-3"></v-divider>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      {{ arabicTranslations[4].accommodation }}
+                    </h3>
+                    <p>{{ arabicTranslations[4].address }}</p>
+                    <p>
+                      <strong>هاتف:</strong> {{ arabicTranslations[4].phone }}
+                    </p>
+                    <p>
+                      <strong>بريد إلكتروني:</strong>
+                      {{ arabicTranslations[4].email }}
+                    </p>
+                    <v-btn
+                      color="primary"
+                      variant="text"
+                      href="https://www.optimirooms.com/inicio_madrid/"
+                      target="_blank"
+                    >
+                      زيارة الموقع
+                    </v-btn>
                   </v-card-text>
                 </v-card>
               </v-col>
