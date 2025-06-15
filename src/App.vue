@@ -6,6 +6,11 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" md="10">
+            <!-- Logo Section -->
+            <div class="text-center mb-4">
+              <img src="./LOGO.png" alt="Logo" class="logo-image" />
+            </div>
+            
             <v-card class="text-center pa-4 mb-6" elevation="3">
               <v-card-title class="text-h4 primary--text"
                 >John Smith <br />
@@ -162,5 +167,13 @@
 
 .primary--text {
   color: #3a86ff !important;
+}
+
+.logo-image {
+  max-width: 200px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 </style>
