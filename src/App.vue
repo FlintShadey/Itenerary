@@ -10,7 +10,7 @@
             <div class="text-center mb-4">
               <img src="./LOGO.png" alt="Logo" class="logo-image" />
             </div>
-            
+
             <v-card class="text-center pa-4 mb-6" elevation="3">
               <v-card-title class="text-h4 primary--text"
                 >John Smith <br />
