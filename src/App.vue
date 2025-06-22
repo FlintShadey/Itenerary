@@ -87,6 +87,37 @@
               </v-col>
             </v-row>
 
+            <!-- July 2 -->
+            <v-row>
+              <v-col cols="12" md="6">
+                <v-card hover elevation="2" class="mb-4">
+                  <v-card-title class="primary"
+                    >July 2, 2025 at 10:00 AM</v-card-title
+                  >
+                  <v-card-text>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Chacchoben Archaeological Site Private Tour
+                    </h3>
+                    <p>
+                      Discover these amazing Mayan Ruins on a half day guided
+                      tour
+                    </p>
+                    <p><strong>Duration:</strong> 4 hours</p>
+                    <p><strong>People:</strong> 4 people</p>
+                    <p>
+                      <strong>Location:</strong> Mahahual, Quintana Roo, 77976,
+                      Mexico
+                    </p>
+                    <v-divider class="my-2"></v-divider>
+                    <p><strong>Booking Reference:</strong> #CLRCYJ</p>
+                    <p><strong>ToursByLocals:</strong> #684517</p>
+                    <p><strong>Tour Guide:</strong> Juan Carlos A.</p>
+                    <p><strong>Guide Phone:</strong> 529831078052</p>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+
             <!-- July 7 -->
             <v-row>
               <v-col cols="12" md="6">
