@@ -44,9 +44,13 @@
             <v-row>
               <v-col cols="12">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">Flight Confirmation</v-card-title>
+                  <v-card-title class="primary"
+                    >Flight Confirmation</v-card-title
+                  >
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">United Airlines</h3>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      United Airlines
+                    </h3>
                     <p><strong>Confirmation Number:</strong> NBB5EJ</p>
                     <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
@@ -58,11 +62,19 @@
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">Flight 1 of 4 - UA283</v-card-title>
+                  <v-card-title class="primary"
+                    >Flight 1 of 4 - UA283</v-card-title
+                  >
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">Tuesday, August 12, 2025</h3>
-                    <p><strong>Departure:</strong> 04:28 PM - Austin, TX (AUS)</p>
-                    <p><strong>Arrival:</strong> 05:31 PM - Houston, TX (IAH)</p>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Tuesday, August 12, 2025
+                    </h3>
+                    <p>
+                      <strong>Departure:</strong> 04:28 PM - Austin, TX (AUS)
+                    </p>
+                    <p>
+                      <strong>Arrival:</strong> 05:31 PM - Houston, TX (IAH)
+                    </p>
                     <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
@@ -73,11 +85,19 @@
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">Flight 2 of 4 - UA2198</v-card-title>
+                  <v-card-title class="primary"
+                    >Flight 2 of 4 - UA2198</v-card-title
+                  >
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">Tuesday, August 12, 2025</h3>
-                    <p><strong>Departure:</strong> 06:31 PM - Houston, TX (IAH)</p>
-                    <p><strong>Arrival:</strong> 09:55 PM - Calgary, AB (YYC)</p>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Tuesday, August 12, 2025
+                    </h3>
+                    <p>
+                      <strong>Departure:</strong> 06:31 PM - Houston, TX (IAH)
+                    </p>
+                    <p>
+                      <strong>Arrival:</strong> 09:55 PM - Calgary, AB (YYC)
+                    </p>
                     <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
@@ -88,10 +108,16 @@
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">Flight 3 of 4 - UA1953</v-card-title>
+                  <v-card-title class="primary"
+                    >Flight 3 of 4 - UA1953</v-card-title
+                  >
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">Sunday, August 17, 2025</h3>
-                    <p><strong>Departure:</strong> 01:30 PM - Calgary, AB (YYC)</p>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Sunday, August 17, 2025
+                    </h3>
+                    <p>
+                      <strong>Departure:</strong> 01:30 PM - Calgary, AB (YYC)
+                    </p>
                     <p><strong>Arrival:</strong> 04:04 PM - Denver, CO (DEN)</p>
                     <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
@@ -103,10 +129,16 @@
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">Flight 4 of 4 - UA1942</v-card-title>
+                  <v-card-title class="primary"
+                    >Flight 4 of 4 - UA1942</v-card-title
+                  >
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">Sunday, August 17, 2025</h3>
-                    <p><strong>Departure:</strong> 05:40 PM - Denver, CO (DEN)</p>
+                    <h3 class="text-h6 secondary--text mb-2">
+                      Sunday, August 17, 2025
+                    </h3>
+                    <p>
+                      <strong>Departure:</strong> 05:40 PM - Denver, CO (DEN)
+                    </p>
                     <p><strong>Arrival:</strong> 08:55 PM - Austin, TX (AUS)</p>
                     <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
@@ -121,26 +153,41 @@
                   <v-card-title class="primary">Traveler Details</v-card-title>
                   <v-card-text>
                     <div class="mb-3">
-                      <h3 class="text-h6 secondary--text mb-2">SMITH/JOHNFLINT</h3>
+                      <h3 class="text-h6 secondary--text mb-2">
+                        SMITH/JOHNFLINT
+                      </h3>
                       <p><strong>eTicket:</strong> 0162314808646</p>
                       <p><strong>Frequent Flyer:</strong> UA-XXXXX327 Member</p>
-                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                      <p>
+                        <strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- |
+                        YYC-DEN ----- | DEN-AUS -----
+                      </p>
                     </div>
-                    
+
                     <v-divider class="my-3"></v-divider>
-                    
+
                     <div class="mb-3">
-                      <h3 class="text-h6 secondary--text mb-2">SMITH/OCEANCLAIRE</h3>
+                      <h3 class="text-h6 secondary--text mb-2">
+                        SMITH/OCEANCLAIRE
+                      </h3>
                       <p><strong>eTicket:</strong> 0162314808645</p>
-                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                      <p>
+                        <strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- |
+                        YYC-DEN ----- | DEN-AUS -----
+                      </p>
                     </div>
-                    
+
                     <v-divider class="my-3"></v-divider>
-                    
+
                     <div>
-                      <h3 class="text-h6 secondary--text mb-2">MILLER/JESSICACHRISTINE</h3>
+                      <h3 class="text-h6 secondary--text mb-2">
+                        MILLER/JESSICACHRISTINE
+                      </h3>
                       <p><strong>eTicket:</strong> 0162314808647</p>
-                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                      <p>
+                        <strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- |
+                        YYC-DEN ----- | DEN-AUS -----
+                      </p>
                     </div>
                   </v-card-text>
                 </v-card>
