@@ -40,140 +40,108 @@
 
             <h2 class="text-h4 text-center secondary--text mb-6">Itinerary</h2>
 
-            <!-- June 27 -->
+            <!-- Flight Confirmation Card -->
             <v-row>
-              <v-col cols="12" md="6">
+              <v-col cols="12">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">June 27, 2025</v-card-title>
+                  <v-card-title class="primary">Flight Confirmation</v-card-title>
                   <v-card-text>
-                    <p>AUS to MCO Southwest WN 1994 arriving @ 19:30</p>
+                    <h3 class="text-h6 secondary--text mb-2">United Airlines</h3>
+                    <p><strong>Confirmation Number:</strong> NBB5EJ</p>
+                    <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
               </v-col>
             </v-row>
 
-            <!-- June 28 -->
+            <!-- Flight 1 - AUS to IAH -->
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">June 28, 2025</v-card-title>
+                  <v-card-title class="primary">Flight 1 of 4 - UA283</v-card-title>
                   <v-card-text>
-                    <p>
-                      <strong>Staying at:</strong> 1731 Rutledge Rd, Longwood FL
-                      32779
-                    </p>
+                    <h3 class="text-h6 secondary--text mb-2">Tuesday, August 12, 2025</h3>
+                    <p><strong>Departure:</strong> 04:28 PM - Austin, TX (AUS)</p>
+                    <p><strong>Arrival:</strong> 05:31 PM - Houston, TX (IAH)</p>
+                    <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
               </v-col>
             </v-row>
 
-            <!-- June 29 - July 6 -->
+            <!-- Flight 2 - IAH to YYC -->
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary"
-                    >June 29 - July 6, 2025</v-card-title
-                  >
+                  <v-card-title class="primary">Flight 2 of 4 - UA2198</v-card-title>
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">
-                      Royal Caribbean Cruise
-                    </h3>
-                    <p><strong>Port:</strong> Port Canaveral, Florida</p>
-                    <p><strong>Ship:</strong> Wonder of the Seas</p>
-                    <p><strong>Reservation:</strong> 538289</p>
-                    <p><strong>Stateroom:</strong> 9584</p>
+                    <h3 class="text-h6 secondary--text mb-2">Tuesday, August 12, 2025</h3>
+                    <p><strong>Departure:</strong> 06:31 PM - Houston, TX (IAH)</p>
+                    <p><strong>Arrival:</strong> 09:55 PM - Calgary, AB (YYC)</p>
+                    <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
               </v-col>
             </v-row>
 
-            <!-- July 2 -->
+            <!-- Flight 3 - YYC to DEN -->
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary"
-                    >July 2, 2025 at 10:00 AM</v-card-title
-                  >
+                  <v-card-title class="primary">Flight 3 of 4 - UA1953</v-card-title>
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">
-                      Chacchoben Archaeological Site Private Tour
-                    </h3>
-                    <p>
-                      Discover these amazing Mayan Ruins on a half day guided
-                      tour
-                    </p>
-                    <p><strong>Duration:</strong> 4 hours</p>
-                    <p><strong>People:</strong> 4 people</p>
-                    <p>
-                      <strong>Location:</strong> Mahahual, Quintana Roo, 77976,
-                      Mexico
-                    </p>
-                    <v-divider class="my-2"></v-divider>
-                    <p><strong>Booking Reference:</strong> #CLRCYJ</p>
-                    <p><strong>ToursByLocals:</strong> #684517</p>
-                    <p><strong>Tour Guide:</strong> Juan Carlos A.</p>
-                    <p><strong>Guide Phone:</strong> 529831078052</p>
+                    <h3 class="text-h6 secondary--text mb-2">Sunday, August 17, 2025</h3>
+                    <p><strong>Departure:</strong> 01:30 PM - Calgary, AB (YYC)</p>
+                    <p><strong>Arrival:</strong> 04:04 PM - Denver, CO (DEN)</p>
+                    <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
               </v-col>
             </v-row>
 
-            <!-- July 7 -->
+            <!-- Flight 4 - DEN to AUS -->
             <v-row>
               <v-col cols="12" md="6">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">July 7, 2025</v-card-title>
+                  <v-card-title class="primary">Flight 4 of 4 - UA1942</v-card-title>
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">
-                      Car Rental - Thrifty
-                    </h3>
-                    <p><strong>Car Type:</strong> Fullsize car</p>
-                    <p><strong>Confirmation:</strong> L25443770C0</p>
-                    <p><strong>Route:</strong> MCO to JAX</p>
+                    <h3 class="text-h6 secondary--text mb-2">Sunday, August 17, 2025</h3>
+                    <p><strong>Departure:</strong> 05:40 PM - Denver, CO (DEN)</p>
+                    <p><strong>Arrival:</strong> 08:55 PM - Austin, TX (AUS)</p>
+                    <p><strong>Class:</strong> United Economy (N)</p>
                   </v-card-text>
                 </v-card>
               </v-col>
             </v-row>
 
-            <!-- July 8 -->
+            <!-- Traveler Details -->
             <v-row>
-              <v-col cols="12" md="6">
+              <v-col cols="12">
                 <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">July 8, 2025</v-card-title>
+                  <v-card-title class="primary">Traveler Details</v-card-title>
                   <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">Airbnb</h3>
-                    <p><strong>Confirmation:</strong> HMSR3DJ5HB</p>
-                    <p>
-                      <strong>Address:</strong> 11218 Hendon Dr, Jacksonville,
-                      FL 32246
-                    </p>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
-
-            <!-- July 9 -->
-            <v-row>
-              <v-col cols="12" md="6">
-                <v-card hover elevation="2" class="mb-4">
-                  <v-card-title class="primary">July 9, 2025</v-card-title>
-                  <v-card-text>
-                    <h3 class="text-h6 secondary--text mb-2">
-                      Jessica & Flint Departure
-                    </h3>
-                    <p><strong>Confirmation:</strong> A8OW64</p>
-                    <p>
-                      <strong>Tickets:</strong> 5262356004722, 5262356004721
-                    </p>
-                    <v-divider class="my-2"></v-divider>
-                    <p>
-                      <strong>Flight #1303:</strong> JAX 11:50AM → BNA 12:25PM
-                      (Nashville)
-                    </p>
-                    <p>
-                      <strong>Flight #0623:</strong> BNA 02:40PM → AUS 04:55PM
-                      (Austin)
-                    </p>
+                    <div class="mb-3">
+                      <h3 class="text-h6 secondary--text mb-2">SMITH/JOHNFLINT</h3>
+                      <p><strong>eTicket:</strong> 0162314808646</p>
+                      <p><strong>Frequent Flyer:</strong> UA-XXXXX327 Member</p>
+                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                    </div>
+                    
+                    <v-divider class="my-3"></v-divider>
+                    
+                    <div class="mb-3">
+                      <h3 class="text-h6 secondary--text mb-2">SMITH/OCEANCLAIRE</h3>
+                      <p><strong>eTicket:</strong> 0162314808645</p>
+                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                    </div>
+                    
+                    <v-divider class="my-3"></v-divider>
+                    
+                    <div>
+                      <h3 class="text-h6 secondary--text mb-2">MILLER/JESSICACHRISTINE</h3>
+                      <p><strong>eTicket:</strong> 0162314808647</p>
+                      <p><strong>Seats:</strong> AUS-IAH ----- | IAH-YYC ----- | YYC-DEN ----- | DEN-AUS -----</p>
+                    </div>
                   </v-card-text>
                 </v-card>
               </v-col>
