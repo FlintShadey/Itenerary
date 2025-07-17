@@ -2,9 +2,9 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  base: "",
+  base: "/Itenerary/",
   plugins: [vue()],
   build: {
-    outDir: "docs", // Changed from "../docs" to "docs"
+    outDir: "docs",
   },
 });
