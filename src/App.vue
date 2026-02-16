@@ -1,4 +1,22 @@
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue'
+import JsBarcode from 'jsbarcode'
+
+onMounted(() => {
+  document.querySelectorAll('.disney-ticket-barcode').forEach(el => {
+    JsBarcode(el, 'VRGJ91333333', {
+      format: 'CODE128',
+      width: 2,
+      height: 80,
+      displayValue: true,
+      fontSize: 16,
+      font: 'Nunito',
+      margin: 10,
+      background: '#ffffff',
+    })
+  })
+})
+</script>
 
 <template>
   <v-app class="disney-app">
@@ -21,8 +39,10 @@
             <v-card class="text-center pa-5 mb-6 header-card" elevation="6">
               <div class="castle-icon mb-2">&#127984;</div>
               <v-card-title class="text-h4 header-names">
-                Flint Smith &amp; Jessica (Maryam) Heathcock<br />
-                Ocean Smith &amp; Sienna Smith
+                Flint Smith<br />
+                Jessica (Maryam) Heathcock<br />
+                Ocean Smith<br />
+                Sienna Smith
               </v-card-title>
               <v-card-subtitle class="text-h5 mb-4 subtitle-text">
                 &#9733; Walt Disney World Travel Itinerary &#9733;
@@ -129,6 +149,14 @@
                   </v-card-title>
                   <v-card-text>
                     <div class="day-content">
+                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
+                        <h4 class="accent--text mb-1">&#127915; Disney Ticket</h4>
+                        <p><strong>Confirmation Number:</strong> VRGJ91333333</p>
+                        <div class="barcode-wrapper">
+                          <svg class="disney-ticket-barcode"></svg>
+                        </div>
+                      </v-card>
+
                       <v-chip class="mb-3 hopper-chip" color="#1B5E20" variant="elevated">
                         &#127915; Hopper Pass &mdash; Early Access!
                       </v-chip>
@@ -191,6 +219,7 @@
                       <h4 class="accent--text">&#127860; Dinner at Disney Springs</h4>
                       <p>
                         <strong>Summer House on the Lake</strong><br />
+                        <strong>Dinner at 9:00 PM</strong><br />
                         <a href="https://www.summerhouserestaurants.com/disney-springs/menus/" target="_blank" rel="noopener" class="disney-link">View Menu</a>
                       </p>
 
@@ -212,6 +241,14 @@
                   </v-card-title>
                   <v-card-text>
                     <div class="day-content">
+                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
+                        <h4 class="accent--text mb-1">&#127915; Disney Ticket</h4>
+                        <p><strong>Confirmation Number:</strong> VRGJ91333333</p>
+                        <div class="barcode-wrapper">
+                          <svg class="disney-ticket-barcode"></svg>
+                        </div>
+                      </v-card>
+
                       <v-alert type="success" variant="tonal" class="mb-3" density="compact">
                         <strong>&#9889; LIGHTNING LANE</strong> &mdash; TRON Lightcycle / Run
                       </v-alert>
@@ -250,6 +287,19 @@
                   <v-card-text>
                     <div class="day-content">
                       <p>&#127968; Checkout of Copper Creek Villas</p>
+
+                      <v-divider class="my-4"></v-divider>
+
+                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
+                        <h4 class="accent--text mb-1">&#127860; Boma &mdash; Flavors of Africa Dinner</h4>
+                        <p><strong>Guests:</strong> 6</p>
+                        <p><strong>Dinner at 5:05 PM</strong></p>
+                        <p><strong>Location:</strong> Disney's Animal Kingdom Lodge</p>
+                        <p><strong>Confirmation Number:</strong> 356047818354</p>
+                      </v-card>
+
+                      <v-divider class="my-4"></v-divider>
+
                       <p>&#128104;&#8205;&#128104;&#8205;&#128102; Go to Uncle Pete's</p>
                     </div>
                   </v-card-text>
@@ -503,6 +553,19 @@
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Barcode */
+.barcode-wrapper {
+  text-align: center;
+  margin-top: 8px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 0;
+}
+.barcode-wrapper svg {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Logo */
