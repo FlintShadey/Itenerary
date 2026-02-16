@@ -162,7 +162,7 @@ onMounted(() => {
                         &#127915; Hopper Pass &mdash; Early Access!
                       </v-chip>
 
-                      <h4 class="park-name mt-2">&#127757; Animal Kingdom (Morning)</h4>
+                      <h4 class="park-name mt-2">&#127757; Animal Kingdom (Morning) &mdash; 8:30 AM (early theme park entry)</h4>
                       <ul class="ride-list">
                         <li>&#128757; <strong>Avatar: Flight of Passage</strong> &mdash; normal standby line</li>
                         <li>&#129427; <strong>Kilimanjaro Safaris</strong></li>
