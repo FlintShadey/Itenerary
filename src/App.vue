@@ -264,6 +264,9 @@ onMounted(() => {
                       <h4 class="accent--text">&#127860; Dinner</h4>
                       <p>
                         <strong>Be Our Guest</strong> at The Beast's Magical Castle &#127984;<br />
+                        <strong>Dinner at 7:30 PM</strong><br />
+                        Magic Kingdom Park - Fantasyland<br />
+                        <strong>Confirmation Number:</strong> 356047816559<br />
                         An enchanted dining experience!
                       </p>
 
