@@ -84,6 +84,7 @@ onMounted(() => {
                       <p class="mt-3">
                         <strong>&#9992; Sienna Flying to Dallas</strong><br />
                         American Airlines 2805<br />
+                        <strong>Departure:</strong> 7:47 PM<br />
                         <strong>Confirmation:</strong> YIAWKF
                       </p>
                       <v-alert type="info" variant="tonal" class="mt-3" density="compact">
