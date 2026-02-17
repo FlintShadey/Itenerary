@@ -88,7 +88,8 @@ onMounted(() => {
                         <strong>Confirmation:</strong> YIAWKF
                       </p>
                       <v-alert type="info" variant="tonal" class="mt-3" density="compact">
-                        &#127769; We all sleep in Airbnb
+                        &#127769; We all sleep in Airbnb<br />
+                        <strong>Address:</strong> 850 Lake Carolyn Parkway, Irving, TX 75039
                       </v-alert>
                     </div>
                   </v-card-text>
@@ -135,6 +136,15 @@ onMounted(() => {
                         <p>901 Timberline Drive, Lake Buena Vista, FL 32830</p>
                         <p><strong>Confirmation:</strong> 612664967850</p>
                       </v-card>
+
+                      <v-divider class="my-4"></v-divider>
+
+                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
+                        <h4 class="accent--text mb-1">&#127860; Story Book Dining at Artist Point with Snow White</h4>
+                        <p><strong>Dinner at 8:45 PM</strong></p>
+                        <p><strong>Location:</strong> Disney's Wilderness Lodge</p>
+                        <p><strong>Confirmation Number:</strong> 356047833288</p>
+                      </v-card>
                     </div>
                   </v-card-text>
                 </v-card>
@@ -177,22 +187,11 @@ onMounted(() => {
                       <v-alert type="success" variant="tonal" class="my-3" density="compact">
                         <strong>&#9889; LIGHTNING LANE</strong> &mdash; Star Wars: Rise of the Resistance
                       </v-alert>
-                      <p>&#128721; No big thrill rides for the littles</p>
 
                       <v-divider class="my-4"></v-divider>
 
-                      <h4 class="accent--text">&#127860; Dinner Options</h4>
-                      <div class="ml-3 mt-2">
-                        <p>
-                          <strong>Hollywood &amp; Vine</strong> (Buffet)<br />
-                          <a href="https://disneyworld.disney.go.com/dining/hollywood-studios/hollywood-and-vine/" target="_blank" rel="noopener" class="disney-link">View Menu &amp; Info</a>
-                        </p>
-                        <p class="mt-2"><em>or</em></p>
-                        <p class="mt-2">
-                          <strong>The Hollywood Brown Derby</strong><br />
-                          <a href="https://disneyworld.disney.go.com/dining/hollywood-studios/hollywood-brown-derby/" target="_blank" rel="noopener" class="disney-link">View Menu &amp; Info</a>
-                        </p>
-                      </div>
+                      <h4 class="accent--text">&#127860; Dinner</h4>
+                      <p>Probably just eat Star Wars food &#127775;</p>
                     </div>
                   </v-card-text>
                 </v-card>
