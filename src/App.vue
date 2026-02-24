@@ -172,7 +172,12 @@ onMounted(() => {
                         &#127915; Hopper Pass &mdash; Early Access!
                       </v-chip>
 
-                      <h4 class="park-name mt-2">&#127757; Animal Kingdom (Morning) &mdash; 8:30 AM (early theme park entry)</h4>
+                      <v-alert type="info" variant="tonal" class="mb-3" density="compact">
+                        &#128652; <strong>Take the bus to Animal Kingdom</strong><br />
+                        Aim to be at the park tapstiles at least 45–60 minutes before the 7:30 AM start (around 6:30 AM–6:45 AM)
+                      </v-alert>
+
+                      <h4 class="park-name mt-2">&#127757; Animal Kingdom (Morning) &mdash; 7:30 AM (early theme park entry)</h4>
                       <ul class="ride-list">
                         <li>&#128757; <strong>Avatar: Flight of Passage</strong> &mdash; normal standby line</li>
                         <li>&#129427; <strong>Kilimanjaro Safaris</strong></li>
@@ -213,10 +218,12 @@ onMounted(() => {
                           Copper Creek Villas &amp; Cabins Info
                         </a>
                       </p>
+                      <p>&#127946; Morning swim at the resort pool</p>
 
                       <v-divider class="my-4"></v-divider>
 
                       <h4 class="accent--text">&#127860; Dinner at Disney Springs</h4>
+                      <p>&#128664; May need to take Lyft (Minnie Van?) to Disney Springs</p>
                       <p>
                         <strong>Summer House on the Lake</strong><br />
                         <strong>Dinner at 9:00 PM</strong><br />
@@ -249,8 +256,14 @@ onMounted(() => {
                         </div>
                       </v-card>
 
+                      <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
+                        <strong>&#128663; Transportation Note:</strong><br />
+                        Can't take the boat &mdash; they don't start until 7:30 AM and the boat ride is about 30 minutes long, so we won't be able to take advantage of early access. Take bus or Lyft instead!
+                      </v-alert>
+
                       <v-alert type="success" variant="tonal" class="mb-3" density="compact">
-                        <strong>&#9889; LIGHTNING LANE</strong> &mdash; TRON Lightcycle / Run
+                        <strong>&#9889; LIGHTNING LANE</strong> &mdash; TRON Lightcycle / Run<br />
+                        Schedule for mid-morning in case we don't make it on time
                       </v-alert>
 
                       <ul class="ride-list">
