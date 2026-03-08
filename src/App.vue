@@ -177,20 +177,37 @@ onMounted(() => {
                         Aim to be at the park tapstiles at least 45–60 minutes before the 7:30 AM start (around 6:30 AM–6:45 AM)
                       </v-alert>
 
-                      <h4 class="park-name mt-2">&#127757; Animal Kingdom (Morning) &mdash; 7:30 AM (early theme park entry)</h4>
-                      <ul class="ride-list">
-                        <li>&#128757; <strong>Avatar: Flight of Passage</strong> &mdash; normal standby line</li>
-                        <li>&#129427; <strong>Kilimanjaro Safaris</strong></li>
-                        <li>&#127956; <strong>Expedition Everest</strong> (maybe!)</li>
-                      </ul>
+                      <h4 class="park-name mt-2">&#127757; Disney's Animal Kingdom</h4>
+                      <p><strong>Theme Park Hours:</strong> 8:00 AM to 7:00 PM</p>
+                      
+                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
+                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
+                        <strong>Kilimanjaro Safaris</strong><br />
+                        Redeem Between: 11:05 AM - 12:05 PM
+                      </v-alert>
+
+                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
+                        <strong>&#9889; Booked &bull; Lightning Lane Single Pass</strong><br />
+                        <strong>Avatar Flight of Passage</strong><br />
+                        Redeem Between: 12:40 PM - 1:40 PM
+                      </v-alert>
+
+                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
+                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
+                        <strong>Na'vi River Journey</strong><br />
+                        Redeem Between: 2:40 PM - 3:40 PM
+                      </v-alert>
 
                       <v-divider class="my-4"></v-divider>
 
-                      <h4 class="park-name">&#127908; Hollywood Studios (Afternoon)</h4>
+                      <h4 class="park-name">&#127908; Disney's Hollywood Studios</h4>
+                      <p><strong>Theme Park Hours:</strong> 9:00 AM to 9:30 PM</p>
                       <p>&#128664; Uber from Animal Kingdom</p>
 
                       <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; LIGHTNING LANE</strong> &mdash; Star Wars: Rise of the Resistance
+                        <strong>&#9889; Booked &bull; Lightning Lane Single Pass</strong><br />
+                        <strong>Star Wars: Rise of the Resistance</strong><br />
+                        Redeem Between: 7:55 PM - 8:55 PM
                       </v-alert>
 
                       <v-divider class="my-4"></v-divider>
