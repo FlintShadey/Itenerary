@@ -194,6 +194,12 @@ onMounted(() => {
 
                       <v-alert type="success" variant="tonal" class="my-3" density="compact">
                         <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
+                        <strong>Expedition Everest &mdash; Legend of the Forbidden Mountain</strong><br />
+                        Redeem Between: 1:40 PM - 2:40 PM
+                      </v-alert>
+
+                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
+                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
                         <strong>Na'vi River Journey</strong><br />
                         Redeem Between: 2:40 PM - 3:40 PM
                       </v-alert>
@@ -275,12 +281,13 @@ onMounted(() => {
 
                       <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
                         <strong>&#128663; Transportation Note:</strong><br />
-                        Can't take the boat &mdash; they don't start until 7:30 AM and the boat ride is about 30 minutes long, so we won't be able to take advantage of early access. Take bus or Lyft instead!
+                        Can't take the boat &mdash; they don't start until 7:30 AM and the boat ride is about 30 minutes long, so we won't be able to take advantage of early access. Take bus instead!
                       </v-alert>
 
                       <v-alert type="success" variant="tonal" class="mb-3" density="compact">
-                        <strong>&#9889; LIGHTNING LANE</strong> &mdash; TRON Lightcycle / Run<br />
-                        Schedule for mid-morning in case we don't make it on time
+                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
+                        <strong>TRON Lightcycle / Run</strong><br />
+                        Redeem Between: 5:15 PM - 6:15 PM
                       </v-alert>
 
                       <ul class="ride-list">
