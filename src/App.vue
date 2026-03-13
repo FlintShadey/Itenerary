@@ -140,6 +140,28 @@ onMounted(() => {
                       <v-divider class="my-4"></v-divider>
 
                       <v-card variant="outlined" class="mb-3 pa-3 info-card">
+                        <h4 class="accent--text mb-1">&#127837; Garden Grocer Delivery</h4>
+                        <p><strong>Delivery:</strong> Sun Mar 15 @ 4:00 PM – 10:00 PM</p>
+                        <p><strong>Deliver To:</strong> Disney's Wilderness Lodge Copper Creek</p>
+                        <p><strong>Order Number:</strong> 714124</p>
+                        <p><strong>Order Placed:</strong> Thu Mar 12, 2026 9:37 PM</p>
+                        <v-divider class="my-2"></v-divider>
+                        <p>
+                          <strong>Order Status:</strong> Text <code>714124 Smith</code> to <strong>(407) 915-3534</strong>
+                        </p>
+                        <p>
+                          <strong>Order Info:</strong>
+                          <a href="https://gardengrocer.com/myorder/714124" target="_blank" rel="noopener" class="disney-link">gardengrocer.com/myorder/714124</a>
+                        </p>
+                        <p>
+                          <strong>Toll Free:</strong> 866-855-4350 &nbsp;&bull;&nbsp;
+                          <strong>Email:</strong> info@gardengrocer.com
+                        </p>
+                      </v-card>
+
+                      <v-divider class="my-4"></v-divider>
+
+                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
                         <h4 class="accent--text mb-1">&#127860; Story Book Dining at Artist Point with Snow White</h4>
                         <p><strong>Dinner at 8:45 PM</strong></p>
                         <p><strong>Location:</strong> Disney's Wilderness Lodge</p>
