@@ -81,12 +81,14 @@ onMounted(() => {
                     <div class="day-content">
                       <p>&#128205; Dad and Maryam are driving to Dallas</p>
                       <p>&#128588; We will pick up Ocean and force her to hang out with us</p>
+                      <p>&#128267; Need to charge the Tesla</p>
                       <p class="mt-3">
                         <strong>&#9992; Sienna Flying to Dallas</strong><br />
                         American Airlines 2805<br />
                         <strong>Departure:</strong> 7:47 PM<br />
                         <strong>Confirmation:</strong> YIAWKF
                       </p>
+                      <p>&#9992; Sienna lands 9:40 PM</p>
                       <v-alert type="info" variant="tonal" class="mt-3" density="compact">
                         &#127769; We all sleep in Airbnb<br />
                         <strong>Address:</strong> 850 Lake Carolyn Parkway, Irving, TX 75039
