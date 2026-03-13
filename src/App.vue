@@ -81,7 +81,7 @@ onMounted(() => {
                     <div class="day-content">
                       <p>&#128205; Dad and Maryam are driving to Dallas</p>
                       <p>&#128588; We will pick up Ocean and force her to hang out with us</p>
-                      <p>&#128267; Need to charge the Tesla</p>
+                      <p>&#128267; Need to charge the Tesla and put into Low Power mode</p>
                       <p class="mt-3">
                         <strong>&#9992; Sienna Flying to Dallas</strong><br />
                         American Airlines 2805<br />
