@@ -1,449 +1,164 @@
 <script setup>
-import { onMounted } from 'vue'
-import JsBarcode from 'jsbarcode'
-
-onMounted(() => {
-  document.querySelectorAll('.disney-ticket-barcode').forEach(el => {
-    JsBarcode(el, 'VRGJ91333333', {
-      format: 'CODE128',
-      width: 2,
-      height: 80,
-      displayValue: true,
-      fontSize: 16,
-      font: 'Nunito',
-      margin: 10,
-      background: '#ffffff',
-    })
-  })
-})
+// Greece Sailing & Italy Vacation — June 2026
 </script>
 
 <template>
-  <v-app class="disney-app">
-    <v-main>
-      <!-- Floating sparkles decoration -->
-      <div class="sparkle sparkle-1">&#10022;</div>
-      <div class="sparkle sparkle-2">&#10022;</div>
-      <div class="sparkle sparkle-3">&#9733;</div>
-      <div class="sparkle sparkle-4">&#10022;</div>
+  <v-app class="med-app">
+    <!-- Floating Mediterranean decorations -->
+    <div class="deco deco-1">&#9875;</div>
+    <div class="deco deco-2">&#9728;</div>
+    <div class="deco deco-3">&#9973;</div>
+    <div class="deco deco-4">&#9875;</div>
 
+    <v-main>
       <v-container>
         <v-row justify="center">
-          <v-col cols="12" md="10">
-            <!-- Logo Section -->
-            <div class="text-center mb-4">
-              <img src="./LOGO.png" alt="Logo" class="logo-image" />
-            </div>
+          <v-col cols="12" md="10" lg="8">
 
             <!-- Header Card -->
-            <v-card class="text-center pa-5 mb-6 header-card" elevation="6">
-              <div class="castle-icon mb-2">&#127984;</div>
-              <v-card-title class="text-h4 header-names">
-                Flint Smith<br />
-                Jessica (Maryam) Heathcock<br />
-                Ocean Smith<br />
-                Sienna Smith
+            <v-card class="text-center pa-6 mb-6 header-card" elevation="8">
+              <div class="trip-icon mb-3">&#9973;</div>
+              <v-card-title class="header-names">
+                Jessica Miller &amp; John Smith
               </v-card-title>
-              <v-card-subtitle class="text-h5 mb-4 subtitle-text">
-                &#9733; Walt Disney World Travel Itinerary &#9733;
+              <v-card-subtitle class="subtitle-text mt-1 mb-2">
+                &#9875; Greece Sailing &amp; Italy Vacation &nbsp;&middot;&nbsp; June 2026 &#9875;
               </v-card-subtitle>
 
-              <v-card-text>
-                <div class="text-body-1">
-                  <p>
-                    <strong class="accent--text">Primary:</strong> +1 210
-                    385-9809 <br />(Whatsapp available)
-                  </p>
-                  <p>
-                    <strong class="accent--text">Secondary:</strong> +1 415
-                    860-2970
-                  </p>
-                  <p>
-                    <strong class="accent--text">Email:</strong>
-                    flintsmith@gmail.com
-                  </p>
-                </div>
+              <v-card-text class="contact-text">
+                <p><strong>Primary:</strong> +1 210 385-9809 &nbsp;<span class="contact-note">(WhatsApp available)</span></p>
+                <p><strong>Secondary:</strong> +1 415 860-2970</p>
+                <p><strong>Email:</strong> flintsmith@gmail.com</p>
               </v-card-text>
             </v-card>
 
             <h2 class="text-h4 text-center section-title mb-6">
-              &#127775; Itinerary &#127775;
+              &#9992; Itinerary &#9992;
             </h2>
 
-            <!-- MAR 14 - Saturday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#128663; MAR 14 &mdash; Saturday
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <p>&#128205; Dad and Maryam are driving to Dallas</p>
-                      <p>&#128588; We will pick up Ocean and force her to hang out with us</p>
-                      <p>&#128267; Need to charge the Tesla and put into Low Power mode</p>
-                      <p class="mt-3">
-                        <strong>&#9992; Sienna Flying to Dallas</strong><br />
-                        American Airlines 2805<br />
-                        <strong>Departure:</strong> 7:47 PM<br />
-                        <strong>Confirmation:</strong> YIAWKF
-                      </p>
-                      <p>&#9992; Sienna lands 9:40 PM</p>
-                      <v-alert type="info" variant="tonal" class="mt-3" density="compact">
-                        &#127769; We all sleep in Airbnb<br />
-                        <strong>Address:</strong> 850 Lake Carolyn Parkway, Irving, TX 75039
-                      </v-alert>
+            <!-- Outbound Flights -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header">
+                <span class="card-header-icon">&#9992;</span>
+                Outbound Flights &mdash; Mon, Jun 01, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Flight 1 of 2 -->
+                <div class="flight-segment mb-1">
+                  <div class="flight-label">
+                    <span class="flight-num">Flight 1 of 2 &nbsp;&middot;&nbsp; UA1449</span>
+                    <span class="flight-class">United Economy (YN)</span>
+                  </div>
+                  <div class="flight-route mt-3">
+                    <div class="route-endpoint">
+                      <div class="route-time">07:05 AM</div>
+                      <div class="route-iata">AUS</div>
+                      <div class="route-city">Austin, TX, US</div>
+                      <div class="route-date">Mon, Jun 01</div>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
-
-            <!-- MAR 15 - Sunday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#9992; MAR 15 &mdash; Sunday &mdash; Fly to Orlando!
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#128663; Parking Spot South</h4>
-                        <p><strong>Confirmation:</strong> 125153756</p>
-                        <p>1945 Valley View Lane, Irving, TX 75061</p>
-                      </v-card>
-
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#9992; Frontier Flight 4018 &mdash; DFW to MCO</h4>
-                        <p><strong>Departure:</strong> 1:25 PM</p>
-                        <p><strong>Passengers:</strong> All 4</p>
-                        <div class="ml-3 mt-2">
-                          <p><strong>Dad &amp; Maryam:</strong> CMM49B</p>
-                          <p><strong>Ocean:</strong> TLI7XK</p>
-                          <p><strong>Sienna:</strong> RJZZ4A</p>
-                        </div>
-                      </v-card>
-
-                      <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                        <strong>&#9888; LUGGAGE RULES &mdash; 40 LBS ONLY</strong><br />
-                        Each person: 1 checked bag (clothing ONLY, minimal toiletries)<br />
-                        No laptops, no toys<br />
-                        No carryon &mdash; 1 small personal item only
-                      </v-alert>
-
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#128664; Uber to Resort</h4>
-                        <p><strong>Copper Creek Villas &amp; Cabins</strong></p>
-                        <p>901 Timberline Drive, Lake Buena Vista, FL 32830</p>
-                        <p><strong>Confirmation:</strong> 612664967850</p>
-                      </v-card>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#127837; Garden Grocer Delivery</h4>
-                        <p><strong>Delivery:</strong> Sun Mar 15 @ 4:00 PM – 10:00 PM</p>
-                        <p><strong>Deliver To:</strong> Disney's Wilderness Lodge Copper Creek</p>
-                        <p><strong>Order Number:</strong> 714124</p>
-                        <p><strong>Order Placed:</strong> Thu Mar 12, 2026 9:37 PM</p>
-                        <v-divider class="my-2"></v-divider>
-                        <p>
-                          <strong>Order Status:</strong> Text <code>714124 Smith</code> to <strong>(407) 915-3534</strong>
-                        </p>
-                        <p>
-                          <strong>Order Info:</strong>
-                          <a href="https://gardengrocer.com/myorder/714124" target="_blank" rel="noopener" class="disney-link">gardengrocer.com/myorder/714124</a>
-                        </p>
-                        <p>
-                          <strong>Toll Free:</strong> 866-855-4350 &nbsp;&bull;&nbsp;
-                          <strong>Email:</strong> info@gardengrocer.com
-                        </p>
-                      </v-card>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#127860; Story Book Dining at Artist Point with Snow White</h4>
-                        <p><strong>Dinner at 8:45 PM</strong></p>
-                        <p><strong>Location:</strong> Disney's Wilderness Lodge</p>
-                        <p><strong>Confirmation Number:</strong> 356047833288</p>
-                      </v-card>
+                    <div class="route-middle">
+                      <span class="route-arrow-plane">&#9992;</span>
+                      <div class="route-arrow-line"></div>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
+                    <div class="route-endpoint text-right">
+                      <div class="route-time">11:50 AM</div>
+                      <div class="route-iata">EWR</div>
+                      <div class="route-city">Newark, NJ / New York, NY, US</div>
+                      <div class="route-date">Mon, Jun 01</div>
+                    </div>
+                  </div>
+                </div>
 
-            <!-- MAR 16 - Monday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card park-day">
-                  <v-card-title class="day-header day-header-park">
-                    &#127981; MAR 16 &mdash; Monday &mdash; Animal Kingdom + Hollywood Studios
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#127915; Disney Ticket</h4>
-                        <p><strong>Confirmation Number:</strong> VRGJ91333333</p>
-                        <div class="barcode-wrapper">
-                          <svg class="disney-ticket-barcode"></svg>
-                        </div>
-                      </v-card>
+                <v-divider class="my-4"></v-divider>
 
-                      <v-chip class="mb-3 hopper-chip" color="#1B5E20" variant="elevated">
-                        &#127915; Hopper Pass &mdash; Early Access!
+                <!-- Flight 2 of 2 -->
+                <div class="flight-segment mb-1">
+                  <div class="flight-label">
+                    <span class="flight-num">Flight 2 of 2 &nbsp;&middot;&nbsp; UA124</span>
+                    <span class="flight-class premium">United Premium Plus (ON)</span>
+                  </div>
+                  <div class="flight-route mt-3">
+                    <div class="route-endpoint">
+                      <div class="route-time">03:55 PM</div>
+                      <div class="route-iata">EWR</div>
+                      <div class="route-city">Newark, NJ / New York, NY, US</div>
+                      <div class="route-date">Mon, Jun 01</div>
+                    </div>
+                    <div class="route-middle">
+                      <span class="route-arrow-plane">&#9992;</span>
+                      <div class="route-arrow-line"></div>
+                    </div>
+                    <div class="route-endpoint text-right">
+                      <div class="route-time">08:10 AM</div>
+                      <div class="route-iata">ATH</div>
+                      <div class="route-city">Athens, GR</div>
+                      <div class="route-date">Tue, Jun 02</div>
+                    </div>
+                  </div>
+                </div>
+
+                <v-divider class="my-4"></v-divider>
+
+                <!-- Traveler Details -->
+                <div class="traveler-section">
+                  <h4 class="traveler-heading mb-3">Traveler Details</h4>
+
+                  <!-- MILLER/JESSICA -->
+                  <v-card variant="outlined" class="traveler-card mb-3 pa-3">
+                    <div class="traveler-name mb-2">MILLER / JESSICA</div>
+                    <div class="traveler-detail">
+                      <span class="detail-label">eTicket:</span>
+                      <span class="detail-value">0162390534026</span>
+                    </div>
+                    <div class="seat-row mt-2">
+                      <span class="detail-label">Seats:</span>
+                      <span class="seat-badge">AUS&ndash;EWR&nbsp;20E</span>
+                      <span class="seat-badge">EWR&ndash;ATH&nbsp;20C</span>
+                    </div>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#C1440E" variant="elevated" class="upgrade-chip">
+                        Economy Plus Seat
                       </v-chip>
-
-                      <v-alert type="info" variant="tonal" class="mb-3" density="compact">
-                        &#128652; <strong>Take the bus to Animal Kingdom</strong><br />
-                        Aim to be at the park tapstiles at least 45–60 minutes before the 7:30 AM start (around 6:30 AM–6:45 AM)
-                      </v-alert>
-
-                      <h4 class="park-name mt-2">&#127757; Disney's Animal Kingdom</h4>
-                      <p><strong>Theme Park Hours:</strong> 8:00 AM to 7:00 PM</p>
-                      
-                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
-                        <strong>Kilimanjaro Safaris</strong><br />
-                        Redeem Between: 11:05 AM - 12:05 PM
-                      </v-alert>
-
-                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Single Pass</strong><br />
-                        <strong>Avatar Flight of Passage</strong><br />
-                        Redeem Between: 12:40 PM - 1:40 PM
-                      </v-alert>
-
-                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
-                        <strong>Expedition Everest &mdash; Legend of the Forbidden Mountain</strong><br />
-                        Redeem Between: 1:40 PM - 2:40 PM
-                      </v-alert>
-
-                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
-                        <strong>Na'vi River Journey</strong><br />
-                        Redeem Between: 2:40 PM - 3:40 PM
-                      </v-alert>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <h4 class="park-name">&#127908; Disney's Hollywood Studios</h4>
-                      <p><strong>Theme Park Hours:</strong> 9:00 AM to 9:30 PM</p>
-                      <p>&#128664; Uber from Animal Kingdom</p>
-
-                      <v-alert type="success" variant="tonal" class="my-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Single Pass</strong><br />
-                        <strong>Star Wars: Rise of the Resistance</strong><br />
-                        Redeem Between: 7:55 PM - 8:55 PM
-                      </v-alert>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <h4 class="accent--text">&#127860; Dinner</h4>
-                      <p>Probably just eat Star Wars food &#127775;</p>
+                      <span class="upgrade-segment">AUS&ndash;EWR</span>
+                      <span class="upgrade-ticket">(0164384719526)</span>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
+                  </v-card>
 
-            <!-- MAR 17 - Tuesday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#127780; MAR 17 &mdash; Tuesday &mdash; Rest Day
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <p>&#128524; Mostly a day off &mdash; enjoy the resort!</p>
-                      <p>
-                        <a href="https://disneyworld.disney.go.com/resorts/copper-creek-villas-and-cabins/rates-rooms/" target="_blank" rel="noopener" class="disney-link">
-                          Copper Creek Villas &amp; Cabins Info
-                        </a>
-                      </p>
-                      <p>&#127946; Morning swim at the resort pool</p>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <h4 class="accent--text">&#127860; Dinner at Disney Springs</h4>
-                      <p>&#128664; May need to take Lyft (Minnie Van?) to Disney Springs</p>
-                      <p>
-                        <strong>Summer House on the Lake</strong><br />
-                        <strong>Dinner at 9:00 PM</strong><br />
-                        <a href="https://www.summerhouserestaurants.com/disney-springs/menus/" target="_blank" rel="noopener" class="disney-link">View Menu</a>
-                      </p>
-
-                      <v-alert type="info" variant="tonal" class="mt-3" density="compact">
-                        &#128564; Go to bed early &mdash; Magic Kingdom tomorrow!
-                      </v-alert>
+                  <!-- SMITH/JOHN -->
+                  <v-card variant="outlined" class="traveler-card pa-3">
+                    <div class="traveler-name mb-2">SMITH / JOHN</div>
+                    <div class="traveler-detail">
+                      <span class="detail-label">eTicket:</span>
+                      <span class="detail-value">0162390534025</span>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
-
-            <!-- MAR 18 - Wednesday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card park-day">
-                  <v-card-title class="day-header day-header-park">
-                    &#127984; MAR 18 &mdash; Wednesday &mdash; Magic Kingdom!
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#127915; Disney Ticket</h4>
-                        <p><strong>Confirmation Number:</strong> VRGJ91333333</p>
-                        <div class="barcode-wrapper">
-                          <svg class="disney-ticket-barcode"></svg>
-                        </div>
-                      </v-card>
-
-                      <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                        <strong>&#128663; Transportation Note:</strong><br />
-                        Can't take the boat &mdash; they don't start until 7:30 AM and the boat ride is about 30 minutes long, so we won't be able to take advantage of early access. Take bus instead!
-                      </v-alert>
-
-                      <v-alert type="success" variant="tonal" class="mb-3" density="compact">
-                        <strong>&#9889; Booked &bull; Lightning Lane Multi Pass</strong><br />
-                        <strong>TRON Lightcycle / Run</strong><br />
-                        Redeem Between: 5:15 PM - 6:15 PM
-                      </v-alert>
-
-                      <ul class="ride-list">
-                        <li>&#128126; <strong>TRON Lightcycle / Run</strong></li>
-                        <li>&#128120; Maryam wants some princess time! &#128081;</li>
-                      </ul>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <h4 class="accent--text">&#127860; Dinner</h4>
-                      <p>
-                        <strong>Be Our Guest</strong> at The Beast's Magical Castle &#127984;<br />
-                        <strong>Dinner at 7:30 PM</strong><br />
-                        Magic Kingdom Park - Fantasyland<br />
-                        <strong>Confirmation Number:</strong> 356047816559<br />
-                        An enchanted dining experience!
-                      </p>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <v-alert type="info" variant="tonal" density="compact">
-                        &#127878; <strong>Stay for the Fireworks!</strong> &#10024;&#127877;
-                      </v-alert>
+                    <div class="traveler-detail mt-1">
+                      <span class="detail-label">Frequent Flyer:</span>
+                      <span class="ff-badge">UA&#8209;XXXXX327 Member</span>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
-
-            <!-- MAR 19 - Thursday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#128230; MAR 19 &mdash; Thursday
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <p>&#127968; Checkout of Copper Creek Villas</p>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#127860; Boma &mdash; Flavors of Africa Dinner</h4>
-                        <p><strong>Guests:</strong> 6</p>
-                        <p><strong>Dinner at 5:05 PM</strong></p>
-                        <p><strong>Location:</strong> Disney's Animal Kingdom Lodge</p>
-                        <p><strong>Confirmation Number:</strong> 356047818354</p>
-                      </v-card>
-
-                      <v-divider class="my-4"></v-divider>
-
-                      <p>&#128104;&#8205;&#128104;&#8205;&#128102; Go to Uncle Pete's</p>
+                    <div class="seat-row mt-2">
+                      <span class="detail-label">Seats:</span>
+                      <span class="seat-badge">AUS&ndash;EWR&nbsp;20F</span>
+                      <span class="seat-badge">EWR&ndash;ATH&nbsp;20A</span>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
-
-            <!-- MAR 20 - Friday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#9992; MAR 20 &mdash; Friday
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <v-card variant="outlined" class="pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#9992; Ocean Flies Home</h4>
-                        <p><strong>Frontier Flight 4191</strong> &mdash; MCO to DFW</p>
-                        <p><strong>Departure:</strong> 1:16 PM</p>
-                        <p><strong>Confirmation:</strong> TLI7XK</p>
-                      </v-card>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#C1440E" variant="elevated" class="upgrade-chip">
+                        Economy Plus Seat
+                      </v-chip>
+                      <span class="upgrade-segment">AUS&ndash;EWR</span>
+                      <span class="upgrade-ticket">(0164384719527)</span>
                     </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
+                  </v-card>
 
-            <!-- MAR 21 - Saturday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#127774; MAR 21 &mdash; Saturday
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <p>&#128524; Free day at Uncle Pete's</p>
-                    </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
+                </div>
 
-            <!-- MAR 22 - Sunday -->
-            <v-row>
-              <v-col cols="12">
-                <v-card hover elevation="3" class="mb-4 day-card">
-                  <v-card-title class="day-header">
-                    &#9992; MAR 22 &mdash; Sunday &mdash; Heading Home!
-                  </v-card-title>
-                  <v-card-text>
-                    <div class="day-content">
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#9992; Dad &amp; Maryam</h4>
-                        <p><strong>Frontier Flight 2885</strong> &mdash; MCO to DFW</p>
-                        <p><strong>Departure:</strong> 10:03 AM</p>
-                        <p><strong>Confirmation:</strong> CMM49B</p>
-                      </v-card>
+              </v-card-text>
+            </v-card>
 
-                      <v-card variant="outlined" class="mb-3 pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#9992; Sienna</h4>
-                        <p><strong>Southwest Flight 4782</strong></p>
-                        <p><strong>Departure:</strong> 12:50 PM</p>
-                        <p><strong>Confirmation:</strong> CMIYI2</p>
-                      </v-card>
-
-                      <v-card variant="outlined" class="pa-3 info-card">
-                        <h4 class="accent--text mb-1">&#128663; Parking Spot South</h4>
-                        <p><strong>Confirmation:</strong> 125153756</p>
-                      </v-card>
-                    </div>
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
 
             <!-- Footer -->
-            <div class="text-center mt-6 mb-8 footer-text">
-              <p>&#10024; Have a magical trip! &#10024;</p>
+            <div class="text-center mt-4 mb-8 footer-text">
+              <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
             </div>
 
           </v-col>
@@ -454,203 +169,337 @@ onMounted(() => {
 </template>
 
 <style>
-/* Disney-inspired theme */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
 
-.disney-app {
-  background: linear-gradient(180deg, #0d1b3e 0%, #1a237e 30%, #283593 60%, #1a1a4e 100%) !important;
+/* ─── App background ─────────────────────────────────────── */
+.med-app {
+  background: linear-gradient(180deg, #0B2545 0%, #134B7E 40%, #1A6BAA 70%, #0B2545 100%) !important;
   min-height: 100vh;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   position: relative;
   overflow-x: hidden;
 }
 
-/* Floating sparkles */
-.sparkle {
+/* ─── Floating decorations ──────────────────────────────── */
+.deco {
   position: fixed;
-  color: rgba(255, 215, 0, 0.5);
-  font-size: 24px;
-  animation: sparkle-float 6s ease-in-out infinite;
+  opacity: 0.18;
   pointer-events: none;
   z-index: 0;
+  animation: deco-float 8s ease-in-out infinite;
+  color: #90E0EF;
 }
-.sparkle-1 { top: 10%; left: 5%; animation-delay: 0s; }
-.sparkle-2 { top: 30%; right: 8%; animation-delay: 1.5s; }
-.sparkle-3 { top: 60%; left: 3%; animation-delay: 3s; }
-.sparkle-4 { top: 80%; right: 5%; animation-delay: 4.5s; }
+.deco-1 { top: 8%;  left: 4%;  font-size: 26px; animation-delay: 0s;   }
+.deco-2 { top: 25%; right: 5%; font-size: 32px; animation-delay: 2s;   }
+.deco-3 { top: 58%; left: 3%;  font-size: 28px; animation-delay: 4s;   }
+.deco-4 { top: 78%; right: 4%; font-size: 24px; animation-delay: 6s;   }
 
-@keyframes sparkle-float {
-  0%, 100% { opacity: 0.3; transform: translateY(0) scale(1); }
-  50% { opacity: 1; transform: translateY(-20px) scale(1.3); }
+@keyframes deco-float {
+  0%, 100% { transform: translateY(0)    scale(1);   opacity: 0.18; }
+  50%       { transform: translateY(-14px) scale(1.1); opacity: 0.32; }
 }
 
-/* Header card */
+/* ─── Header card ────────────────────────────────────────── */
 .header-card {
-  background: linear-gradient(135deg, #1a237e 0%, #311b92 50%, #4a148c 100%) !important;
+  background: linear-gradient(135deg, #0B2545 0%, #134B7E 55%, #1A6BAA 100%) !important;
   color: #fff !important;
-  border: 2px solid rgba(255, 215, 0, 0.4);
-  border-radius: 16px !important;
+  border: 2px solid rgba(144, 224, 239, 0.35);
+  border-radius: 18px !important;
   position: relative;
   z-index: 1;
 }
 
-.castle-icon {
-  font-size: 56px;
+.trip-icon {
+  font-size: 52px;
   line-height: 1;
 }
 
 .header-names {
-  color: #ffd54f !important;
+  color: #90E0EF !important;
   font-family: 'Playfair Display', serif !important;
   font-weight: 700 !important;
   white-space: normal !important;
   line-height: 1.4 !important;
+  font-size: 1.6rem !important;
+  justify-content: center !important;
 }
 
 .subtitle-text {
-  color: #e0e0e0 !important;
-  font-weight: 600 !important;
+  color: rgba(255, 255, 255, 0.82) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
 }
 
-.header-card .text-body-1 {
-  color: #e0e0e0;
+.contact-text {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.9rem;
+  line-height: 1.9;
 }
 
-/* Section title */
+.contact-text strong {
+  color: #90E0EF;
+}
+
+.contact-note {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.82rem;
+}
+
+/* ─── Section title ─────────────────────────────────────── */
 .section-title {
-  color: #ffd54f !important;
+  color: #90E0EF !important;
   font-family: 'Playfair Display', serif !important;
   font-weight: 700 !important;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-}
-
-/* Day cards */
-.day-card {
-  background: rgba(255, 255, 255, 0.95) !important;
-  border-radius: 14px !important;
-  border-left: 5px solid #ffd54f;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 1;
 }
 
-.park-day {
-  border-left: 5px solid #e040fb !important;
-  box-shadow: 0 4px 20px rgba(224, 64, 251, 0.15) !important;
+/* ─── Itinerary card ─────────────────────────────────────── */
+.itinerary-card {
+  background: rgba(255, 255, 255, 0.97) !important;
+  border-radius: 16px !important;
+  border-left: 5px solid #1565C0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
-.day-header {
-  background: linear-gradient(135deg, #1565c0, #0d47a1) !important;
+.card-header {
+  background: linear-gradient(135deg, #1565C0, #0D47A1) !important;
   color: white !important;
-  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Playfair Display', serif !important;
   font-weight: 700 !important;
-  font-size: 1.1rem !important;
+  font-size: 1.05rem !important;
   line-height: 1.5 !important;
   white-space: normal !important;
-  padding: 12px 16px !important;
+  padding: 14px 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
 }
 
-.day-header-park {
-  background: linear-gradient(135deg, #7b1fa2, #4a148c) !important;
+.card-header-icon {
+  font-size: 1.2rem;
 }
 
-.day-content {
-  padding: 8px 0;
-  color: #333;
+/* ─── Flight segment ─────────────────────────────────────── */
+.flight-segment {
+  background: #F0F7FF;
+  border-radius: 12px;
+  padding: 14px 16px;
+  border: 1px solid #BBDEFB;
 }
 
-.day-content p {
-  margin-bottom: 6px;
+.flight-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-/* Info sub-cards */
-.info-card {
-  border-color: rgba(21, 101, 192, 0.3) !important;
-  background: rgba(227, 242, 253, 0.5) !important;
+.flight-num {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: #0D47A1;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.flight-class {
+  font-size: 0.82rem;
+  color: #555;
+  background: #E3F2FD;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 1px solid #90CAF9;
+}
+
+.flight-class.premium {
+  background: #EDE7F6;
+  border-color: #B39DDB;
+  color: #4527A0;
+  font-weight: 600;
+}
+
+/* ─── Route display ──────────────────────────────────────── */
+.flight-route {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.route-endpoint {
+  flex: 1;
+}
+
+.route-endpoint.text-right {
+  text-align: right;
+}
+
+.route-time {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0B2545;
+  line-height: 1.2;
+}
+
+.route-iata {
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: #1565C0;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
+.route-city {
+  font-size: 0.76rem;
+  color: #555;
+  line-height: 1.35;
+}
+
+.route-date {
+  font-size: 0.76rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.route-middle {
+  flex: 0 0 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.route-arrow-plane {
+  font-size: 1.05rem;
+  color: #1565C0;
+}
+
+.route-arrow-line {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #BBDEFB, #1565C0, #BBDEFB);
+  border-radius: 2px;
+}
+
+/* ─── Traveler section ───────────────────────────────────── */
+.traveler-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0D47A1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #BBDEFB;
+  padding-bottom: 6px;
+}
+
+.traveler-card {
+  border-color: #BBDEFB !important;
+  background: #FAFCFF !important;
   border-radius: 10px !important;
 }
 
-/* Ride list */
-.ride-list {
-  list-style: none;
-  padding-left: 8px;
-}
-.ride-list li {
-  padding: 4px 0;
+.traveler-name {
   font-size: 1rem;
-}
-
-/* Park subheading */
-.park-name {
-  color: #1565c0;
   font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
+  color: #0B2545;
+  letter-spacing: 0.5px;
 }
 
-/* Accent text */
-.accent--text {
-  color: #7b1fa2 !important;
+.traveler-detail {
+  font-size: 0.87rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
-/* Links */
-.disney-link {
-  color: #1565c0;
-  text-decoration: none;
+.detail-label {
+  font-weight: 700;
+  color: #1565C0;
+}
+
+.detail-value {
+  font-family: 'Courier New', monospace;
+  font-size: 0.87rem;
+  color: #333;
+}
+
+.ff-badge {
+  background: #E8F5E9;
+  color: #2E7D32;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
   font-weight: 600;
-  border-bottom: 1px dashed #1565c0;
-  transition: color 0.2s;
-}
-.disney-link:hover {
-  color: #7b1fa2;
-  border-bottom-color: #7b1fa2;
+  border: 1px solid #A5D6A7;
 }
 
-/* Hopper chip */
-.hopper-chip {
+.seat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.87rem;
+}
+
+.seat-badge {
+  background: #E3F2FD;
+  color: #0D47A1;
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+  border: 1px solid #90CAF9;
+  white-space: nowrap;
+}
+
+.upgrade-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.upgrade-chip {
   color: white !important;
-  font-weight: 700 !important;
+  font-size: 0.76rem !important;
 }
 
-/* Footer */
+.upgrade-segment {
+  font-weight: 700;
+  color: #C1440E;
+  font-size: 0.82rem;
+}
+
+.upgrade-ticket {
+  color: #888;
+  font-size: 0.77rem;
+  font-family: 'Courier New', monospace;
+}
+
+/* ─── Footer ─────────────────────────────────────────────── */
 .footer-text {
-  color: #ffd54f;
+  color: #90E0EF;
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  font-size: 1.05rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
 }
 
-/* Barcode */
-.barcode-wrapper {
-  text-align: center;
-  margin-top: 8px;
-  background: #fff;
-  border-radius: 8px;
-  padding: 8px 0;
-}
-.barcode-wrapper svg {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Logo */
-.logo-image {
-  max-width: 200px;
-  max-height: 120px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-/* Responsive tweaks */
+/* ─── Responsive ──────────────────────────────────────────── */
 @media (max-width: 600px) {
-  .header-names {
-    font-size: 1.3rem !important;
-  }
-  .castle-icon {
-    font-size: 40px;
-  }
-  .day-header {
-    font-size: 0.95rem !important;
-  }
+  .header-names { font-size: 1.2rem !important; }
+  .trip-icon    { font-size: 38px; }
+  .route-iata   { font-size: 1.4rem; }
+  .route-time   { font-size: 1.05rem; }
+  .route-middle { width: 44px; }
+  .card-header  { font-size: 0.9rem !important; }
 }
 </style>

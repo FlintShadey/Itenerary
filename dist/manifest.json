@@ -1,7 +1,7 @@
 {
-  "name": "Travel Itinerary",
+  "name": "Greece & Italy Itinerary",
   "short_name": "Itinerary",
-  "description": "Walt Disney World Trip - March 2026",
+  "description": "Greece Sailing & Italy Vacation — June 2026",
   "icons": [
     {
       "src": "/Itenerary/favicon.png",
@@ -19,8 +19,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#3a86ff",
-  "background_color": "#ffffff",
+  "theme_color": "#134B7E",
+  "background_color": "#0B2545",
   "display": "standalone",
   "start_url": "/Itenerary/",
   "scope": "/Itenerary/"
