@@ -155,6 +155,80 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 05 — Ferry: Rafina → Mykonos -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#9973;</span>
+                Ferry &mdash; Rafina &rarr; Mykonos &nbsp;&middot;&nbsp; Fri, Jun 05, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Route -->
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">2:20 PM</div>
+                    <div class="route-iata ferry-iata">RAF</div>
+                    <div class="route-city">Rafina, GR</div>
+                    <div class="route-date">Fri, Jun 05</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">5:00 PM</div>
+                    <div class="route-iata ferry-iata">MYK</div>
+                    <div class="route-city">Mykonos, GR</div>
+                    <div class="route-date">Fri, Jun 05</div>
+                  </div>
+                </div>
+
+                <div class="ferry-vessel mb-4">
+                  <span class="vessel-icon">&#128674;</span>
+                  <span class="vessel-name">SUPERRUNNER JET</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Booking details -->
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">1112QCMBH</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Order ID:</span>
+                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1112QCMBH</span>
+                  <span class="trip-id">&middot; Reserved 03/04/2026</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Passengers -->
+                <div class="benefits-heading mb-2">&#128100; Passengers</div>
+                <div class="passenger-table">
+                  <div class="passenger-row passenger-header">
+                    <span>Name</span>
+                    <span>Nationality</span>
+                    <span>Type</span>
+                    <span>Cabin</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">SMITH JOHN FLINT</span>
+                    <span>United States</span>
+                    <span>Adult &middot; Male</span>
+                    <span class="seat-badge">SLV</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">MILLER JESSICA</span>
+                    <span>United States</span>
+                    <span>Adult &middot; Female</span>
+                    <span class="seat-badge">SLV</span>
+                  </div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 05 — Kouros Hotel & Suites, Mykonos -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-hotel">
@@ -549,6 +623,79 @@
   color: #888;
   font-size: 0.77rem;
   font-family: 'Courier New', monospace;
+}
+
+/* ─── Ferry card ──────────────────────────────────────────── */
+.card-header-ferry {
+  background: linear-gradient(135deg, #1565C0, #283593) !important;
+}
+
+.ferry-iata {
+  color: #283593 !important;
+}
+
+.ferry-line {
+  background: linear-gradient(90deg, #C5CAE9, #283593, #C5CAE9) !important;
+}
+
+.ferry-vessel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #EDE7F6;
+  border: 1px solid #B39DDB;
+  border-radius: 10px;
+  padding: 9px 14px;
+}
+
+.vessel-icon {
+  font-size: 1.2rem;
+}
+
+.vessel-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #283593;
+  letter-spacing: 0.5px;
+}
+
+.ferry-code {
+  background: #EDE7F6 !important;
+  border-color: #B39DDB !important;
+  color: #283593 !important;
+}
+
+.passenger-table {
+  font-size: 0.84rem;
+  color: #333;
+  width: 100%;
+}
+
+.passenger-row {
+  display: grid;
+  grid-template-columns: 2fr 1.4fr 1.4fr 0.5fr;
+  gap: 6px;
+  padding: 5px 4px;
+  align-items: center;
+  border-bottom: 1px solid #EEE;
+}
+
+.passenger-row:last-child {
+  border-bottom: none;
+}
+
+.passenger-header {
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  font-weight: 700;
+  border-bottom: 2px solid #BBDEFB !important;
+}
+
+.pax-name {
+  font-weight: 700;
+  color: #0B2545;
 }
 
 /* ─── Hotel card ──────────────────────────────────────────── */
