@@ -294,6 +294,80 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 08 — Ferry: Mykonos → Santorini -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#9973;</span>
+                Ferry &mdash; Mykonos &rarr; Santorini &nbsp;&middot;&nbsp; Mon, Jun 08, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Route -->
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">9:40 AM</div>
+                    <div class="route-iata ferry-iata">MYK</div>
+                    <div class="route-city">Mykonos, GR</div>
+                    <div class="route-date">Mon, Jun 08</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">12:05 PM</div>
+                    <div class="route-iata ferry-iata">JTR</div>
+                    <div class="route-city">Santorini (Thira), GR</div>
+                    <div class="route-date">Mon, Jun 08</div>
+                  </div>
+                </div>
+
+                <div class="ferry-vessel mb-4">
+                  <span class="vessel-icon">&#128674;</span>
+                  <span class="vessel-name">SUPERJET</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Booking details -->
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">1112QCMXX</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Order ID:</span>
+                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1112QCMXX</span>
+                  <span class="trip-id">&middot; Reserved 03/04/2026</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Passengers -->
+                <div class="benefits-heading mb-2">&#128100; Passengers</div>
+                <div class="passenger-table">
+                  <div class="passenger-row passenger-header">
+                    <span>Name</span>
+                    <span>Nationality</span>
+                    <span>Type</span>
+                    <span>Cabin</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">SMITH JOHN FLINT</span>
+                    <span>United States</span>
+                    <span>Adult &middot; Male</span>
+                    <span class="seat-badge">SLV</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">MILLER JESSICA</span>
+                    <span>United States</span>
+                    <span>Adult &middot; Female</span>
+                    <span class="seat-badge">SLV</span>
+                  </div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Footer -->
             <div class="text-center mt-4 mb-8 footer-text">
               <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
