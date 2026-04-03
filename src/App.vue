@@ -455,6 +455,171 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 13–20 — Sailing Charter: Dodecanese Islands -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card charter-card">
+              <v-card-title class="card-header card-header-charter">
+                <span class="card-header-icon">&#9973;</span>
+                Sailing Charter &mdash; Dodecanese Islands &nbsp;&middot;&nbsp; Jun 13&ndash;20
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Boat Info -->
+                <div class="charter-boat mb-4">
+                  <div class="boat-name">&#9973; Fountaine Pajot Lucia 40</div>
+                  <div class="boat-specs">
+                    <span class="boat-spec">4 cabin / 4 head</span>
+                    <span class="boat-spec">A/C + Generator</span>
+                    <span class="boat-spec warn">No water maker</span>
+                  </div>
+                </div>
+
+                <!-- Flotilla -->
+                <v-alert type="info" variant="tonal" class="mb-4" density="compact">
+                  <strong>&#9973; Flotilla:</strong> 3 boats total &mdash; also skippered by <strong>Luke Eubanks</strong> and <strong>Chris Redmond</strong>
+                </v-alert>
+
+                <!-- Key Dates -->
+                <div class="charter-dates mb-4">
+                  <div class="charter-date-item">
+                    <span class="charter-date-label">Board</span>
+                    <span class="charter-date-value">Sat, Jun 13 (anytime)</span>
+                  </div>
+                  <div class="charter-date-item">
+                    <span class="charter-date-label">Return to marina</span>
+                    <span class="charter-date-value">Thu, Jun 19 evening</span>
+                  </div>
+                  <div class="charter-date-item">
+                    <span class="charter-date-label">Turn in boat</span>
+                    <span class="charter-date-value">Fri, Jun 20 early AM</span>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Charter Company -->
+                <div class="charter-company mb-4">
+                  <div class="detail-label mb-1">&#127970; Charter Company &mdash; Istion Yachting</div>
+                  <div class="company-details">
+                    <div>1 Poseidonos Ave., 174 55, Alimos, Athens, Greece</div>
+                    <div>&#128222; <a href="tel:+302109811515" class="med-link">+30 210 9811 515</a></div>
+                    <div>&#128231; <a href="mailto:CHARTER@istion.com" class="med-link">CHARTER@istion.com</a></div>
+                    <div>&#127758; <a href="http://WWW.ISTION.COM" target="_blank" rel="noopener" class="med-link">istion.com</a></div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Daily sailing legs -->
+                <div class="benefits-heading mb-3">&#128205; Daily Sailing Route</div>
+
+                <!-- Day 1: Jun 13 — Rhodes -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 13 &middot; Sat</span>
+                    <span class="sail-day-island">&#127964; Rhodes</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Board the boat at Rhodes marina. Settle in, provision, and explore the harbor.</div>
+                    <div class="sail-fact island-fact">&#128218; Home to the Colossus of Rhodes, one of the Seven Wonders of the Ancient World, and a UNESCO-listed medieval Old Town.</div>
+                  </div>
+                </div>
+
+                <!-- Day 2: Jun 14 — Symi -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 14 &middot; Sun</span>
+                    <span class="sail-day-island">&#127964; Symi</span>
+                    <span class="sail-nm">~23 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Sail northwest from Rhodes to Symi&rsquo;s famously photogenic harbor.</div>
+                    <div class="sail-fact island-fact">&#128218; Known for its stunning neoclassical pastel houses stacked up the hillside and a centuries-old sponge diving tradition.</div>
+                  </div>
+                </div>
+
+                <!-- Day 3: Jun 15 — Nisyros -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 15 &middot; Mon</span>
+                    <span class="sail-day-island">&#127964; Nisyros</span>
+                    <span class="sail-nm">~30 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Sail west past Tilos to reach the volcanic island of Nisyros.</div>
+                    <div class="sail-fact island-fact">&#128218; One of Greece&rsquo;s few active volcanic islands &mdash; you can walk down into the Stefanos crater and smell the sulfur vents.</div>
+                  </div>
+                </div>
+
+                <!-- Day 4: Jun 16 — Tilos -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 16 &middot; Tue</span>
+                    <span class="sail-day-island">&#127964; Tilos</span>
+                    <span class="sail-nm">~15 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">A short sail southeast to tranquil Tilos.</div>
+                    <div class="sail-fact island-fact">&#128218; The first Greek island to ban hunting entirely. Fossils of the last European dwarf elephants were discovered in a cave here.</div>
+                  </div>
+                </div>
+
+                <!-- Day 5: Jun 17 — Chalki -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 17 &middot; Wed</span>
+                    <span class="sail-day-island">&#127964; Chalki</span>
+                    <span class="sail-nm">~20 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Sail east to one of the smallest inhabited Dodecanese islands.</div>
+                    <div class="sail-fact island-fact">&#128218; Chalki has just a few hundred residents. Don&rsquo;t miss the Agios Nikolaos clock tower overlooking the tiny harbor of Nimporio.</div>
+                  </div>
+                </div>
+
+                <!-- Day 6: Jun 18 — Seskli -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 18 &middot; Thu</span>
+                    <span class="sail-day-island">&#127964; Seskli</span>
+                    <span class="sail-nm">~14 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">A short hop northeast toward Rhodes, anchoring off the tiny islet of Seskli.</div>
+                    <div class="sail-fact island-fact">&#128218; Seskli is an uninhabited rocky islet just south of Rhodes &mdash; crystal-clear anchorage and a peaceful final night at anchor.</div>
+                  </div>
+                </div>
+
+                <!-- Day 7: Jun 19 — Return to Rhodes -->
+                <div class="sail-day">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 19 &middot; Fri</span>
+                    <span class="sail-day-island">&#127964; Rhodes (return)</span>
+                    <span class="sail-nm">~8 NM</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Short morning sail back to Rhodes marina. Arrive by evening for boat return.</div>
+                  </div>
+                </div>
+
+                <!-- Day 8: Jun 20 — Turn in boat -->
+                <div class="sail-day sail-day-last">
+                  <div class="sail-day-header">
+                    <span class="sail-day-date">Jun 20 &middot; Sat</span>
+                    <span class="sail-day-island">&#128274; Turn in boat</span>
+                  </div>
+                  <div class="sail-day-body">
+                    <div class="sail-fact">Early morning checkout with the charter company.</div>
+                  </div>
+                </div>
+
+                <!-- Total distance -->
+                <div class="sail-total mt-3">
+                  &#9875; Approximate total sailing distance: ~110 NM
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Footer -->
             <div class="text-center mt-4 mb-8 footer-text">
               <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
@@ -1006,6 +1171,188 @@
 
 .med-link:hover {
   color: #004D40;
+}
+
+/* ─── Charter card ────────────────────────────────────────── */
+.charter-card {
+  border-left-color: #E65100 !important;
+}
+
+.card-header-charter {
+  background: linear-gradient(135deg, #BF360C, #E65100) !important;
+}
+
+.charter-boat {
+  background: linear-gradient(120deg, #FFF3E0, #FBE9E7);
+  border: 1px solid #FFAB91;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.boat-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #BF360C;
+  margin-bottom: 8px;
+}
+
+.boat-specs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.boat-spec {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #4E342E;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFCCBC;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.boat-spec.warn {
+  background: #FFF9C4;
+  border-color: #FFF176;
+  color: #F57F17;
+}
+
+.charter-dates {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.charter-date-item {
+  flex: 1;
+  min-width: 150px;
+  background: #FBE9E7;
+  border: 1px solid #FFAB91;
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.charter-date-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+  font-weight: 700;
+}
+
+.charter-date-value {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #BF360C;
+  margin-top: 2px;
+}
+
+.charter-company {
+  font-size: 0.87rem;
+  color: #333;
+}
+
+.company-details {
+  font-size: 0.84rem;
+  line-height: 1.9;
+  color: #444;
+  padding-left: 4px;
+}
+
+/* ─── Sail day blocks ─────────────────────────────────────── */
+.sail-day {
+  border-left: 3px solid #FFAB91;
+  padding: 8px 0 8px 14px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.sail-day::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 14px;
+  width: 9px;
+  height: 9px;
+  background: #E65100;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+}
+
+.sail-day-last {
+  border-left-color: #BDBDBD;
+}
+
+.sail-day-last::before {
+  background: #9E9E9E;
+}
+
+.sail-day-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.sail-day-date {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #BF360C;
+  min-width: 85px;
+}
+
+.sail-day-island {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0B2545;
+}
+
+.sail-nm {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1565C0;
+  background: #E3F2FD;
+  border: 1px solid #90CAF9;
+  padding: 1px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.sail-day-body {
+  padding-left: 0;
+}
+
+.sail-fact {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.island-fact {
+  font-size: 0.8rem;
+  color: #666;
+  background: #FAFAFA;
+  border-left: 2px solid #FFE0B2;
+  padding: 4px 10px;
+  margin-top: 4px;
+  border-radius: 0 6px 6px 0;
+}
+
+.sail-total {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #BF360C;
+  text-align: center;
+  background: #FFF3E0;
+  border: 1px solid #FFAB91;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 /* ─── Fare table ──────────────────────────────────────────── */
