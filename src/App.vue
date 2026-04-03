@@ -368,6 +368,61 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 08 — Aigialos Luxury Traditional Settlement, Santorini -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-hotel">
+                <span class="card-header-icon">&#127968;</span>
+                Santorini &mdash; Aigialos Luxury Traditional Settlement
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="hotel-meta mb-3">
+                  <span class="hotel-dates">Mon, Jun 08 &ndash; Wed, Jun 10, 2026</span>
+                  <span class="hotel-nights">2 nights &middot; 2 guests</span>
+                  <span class="hotel-nights" style="background:#FFF3E0;border-color:#FFAB91;color:#BF360C;">Non-refundable</span>
+                </div>
+
+                <div class="hotel-room mb-4">
+                  <span class="room-type-icon">&#127953;</span>
+                  <span class="room-type-text">Authentic Santorinia Residences &mdash; 1 Queen and 1 Twin Sofa bed</span>
+                </div>
+
+                <!-- Check-in / Check-out -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Check-in</div>
+                    <div class="checkin-time">3:00 PM</div>
+                    <div class="checkin-date">Mon, Jun 08</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Check-out</div>
+                    <div class="checkin-time">11:00 AM</div>
+                    <div class="checkin-date">Wed, Jun 10</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Confirmation:</span>
+                  <span class="confirm-code">2430138709</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Trip ID:</span>
+                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1015731655</span>
+                  <span class="trip-id">&middot; $978.90 total</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Fira, Santorini 84700, GR</div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 10 — Ferry: Santorini → Rhodes (ANEK Lines) -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
@@ -502,8 +557,19 @@
                   <div class="company-details">
                     <div>1 Poseidonos Ave., 174 55, Alimos, Athens, Greece</div>
                     <div>&#128222; <a href="tel:+302109811515" class="med-link">+30 210 9811 515</a></div>
-                    <div>&#128231; <a href="mailto:CHARTER@istion.com" class="med-link">CHARTER@istion.com</a></div>
-                    <div>&#127758; <a href="http://WWW.ISTION.COM" target="_blank" rel="noopener" class="med-link">istion.com</a></div>
+                    <div>&#128231; <a href="mailto:charter@istion.com" class="med-link">charter@istion.com</a></div>
+                    <div>&#127758; <a href="https://www.istion.com" target="_blank" rel="noopener" class="med-link">istion.com</a></div>
+                  </div>
+                </div>
+
+                <!-- Base Marina -->
+                <div class="charter-company mb-4">
+                  <div class="detail-label mb-1">&#9875; Base Marina &mdash; Rhodes</div>
+                  <div class="company-details">
+                    <div>&#128205; Rhodes Marinas, 124 Afstralia Street, Rhodes 85100, Dodecanese Islands, Greece</div>
+                    <div><strong>Base Manager:</strong> Manolis Lampidonis</div>
+                    <div>&#128222; <a href="tel:+306972290871" class="med-link">+30 6972 290 871</a></div>
+                    <div>&#128231; <a href="mailto:charter@istion.com" class="med-link">charter@istion.com</a></div>
                   </div>
                 </div>
 
