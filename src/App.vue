@@ -510,6 +510,60 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 11 — 10GR Boutique Hotel and Wine Bar, Rhodes -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-hotel">
+                <span class="card-header-icon">&#127968;</span>
+                Rhodes &mdash; 10GR Boutique Hotel and Wine Bar
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="hotel-meta mb-3">
+                  <span class="hotel-dates">Thu, Jun 11 &ndash; Sat, Jun 13, 2026</span>
+                  <span class="hotel-nights">2 nights &middot; 2 guests</span>
+                  <span class="hotel-nights" style="background:#FFF3E0;border-color:#FFAB91;color:#BF360C;">Non-refundable</span>
+                </div>
+
+                <div class="hotel-room mb-4">
+                  <span class="room-type-icon">&#127953;</span>
+                  <span class="room-type-text">Deluxe Stone Room &mdash; 1 Queen bed</span>
+                </div>
+
+                <!-- Check-in / Check-out -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Check-in</div>
+                    <div class="checkin-time">2:00 PM</div>
+                    <div class="checkin-date">Thu, Jun 11</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Check-out</div>
+                    <div class="checkin-time">12:00 PM</div>
+                    <div class="checkin-date">Sat, Jun 13</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Confirmation:</span>
+                  <span class="confirm-code">2430151623</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Trip ID:</span>
+                  <span style="font-family:'Courier New',monospace;color:#333;">1015732590</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> 16 Polidorou, Rhodes 851 00, GR</div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 13–20 — Sailing Charter: Dodecanese Islands -->
             <v-card hover elevation="4" class="mb-6 itinerary-card charter-card">
               <v-card-title class="card-header card-header-charter">
