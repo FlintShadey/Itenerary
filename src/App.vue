@@ -155,6 +155,59 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 02 — MiraMe Athens Boutique Hotel -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-hotel">
+                <span class="card-header-icon">&#127968;</span>
+                Athens &mdash; MiraMe Athens Boutique Hotel &mdash; House of Gastronomy
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="hotel-meta mb-3">
+                  <span class="hotel-dates">Tue, Jun 02 &ndash; Fri, Jun 05, 2026</span>
+                  <span class="hotel-nights">3 nights &middot; 2 guests</span>
+                </div>
+
+                <div class="hotel-room mb-4">
+                  <span class="room-type-icon">&#127953;</span>
+                  <span class="room-type-text">Superior Double Room, Balcony, City View &mdash; 1 King bed</span>
+                </div>
+
+                <!-- Check-in / Check-out -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Check-in</div>
+                    <div class="checkin-time">3:00 PM</div>
+                    <div class="checkin-date">Tue, Jun 02</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Check-out</div>
+                    <div class="checkin-time">11:00 AM</div>
+                    <div class="checkin-date">Fri, Jun 05</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Confirmation:</span>
+                  <span class="confirm-code">2430161022</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Trip ID:</span>
+                  <span style="font-family:'Courier New',monospace;color:#333;">1015733282</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Ermou 118, Athens 10554, GR</div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 05 — Ferry: Rafina → Mykonos -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
