@@ -368,6 +368,93 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 10 — Ferry: Santorini → Rhodes (ANEK Lines) -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#9973;</span>
+                Ferry &mdash; Santorini &rarr; Rhodes &nbsp;&middot;&nbsp; Wed, Jun 10, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Route -->
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">10:55 PM</div>
+                    <div class="route-iata ferry-iata">JTR</div>
+                    <div class="route-city">Santorini, GR</div>
+                    <div class="route-date">Wed, Jun 10</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">4:20 PM</div>
+                    <div class="route-iata ferry-iata">RHO</div>
+                    <div class="route-city">Rhodes, GR</div>
+                    <div class="route-date">Thu, Jun 11</div>
+                  </div>
+                </div>
+
+                <div class="ferry-vessel mb-4">
+                  <span class="vessel-icon">&#128674;</span>
+                  <span class="vessel-name">Diagoras</span>
+                  <span class="vessel-company">ANEK Lines</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Booking details -->
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Reservation No:</span>
+                  <span class="confirm-code ferry-code">100792986</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Access Code:</span>
+                  <span class="confirm-code ferry-code">726155</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Bank Transaction ID:</span>
+                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">289649670</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Bank Approval Code:</span>
+                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">03735I</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Passengers & Fare -->
+                <div class="benefits-heading mb-2">&#128100; Passengers &amp; Fare</div>
+                <div class="fare-table">
+                  <div class="fare-row fare-header">
+                    <span>Passenger</span>
+                    <span>Accommodation</span>
+                    <span class="text-right">Fare</span>
+                  </div>
+                  <div class="fare-row">
+                    <span class="pax-name">JOHN FLINT SMITH</span>
+                    <span class="fare-cabin">Seat &middot; Economy &middot; Full Fare</span>
+                    <span class="fare-amount text-right">&euro;25.50</span>
+                  </div>
+                  <div class="fare-row">
+                    <span class="pax-name">JESSICA MILLER</span>
+                    <span class="fare-cabin">1 bed cabin Deluxe (double bed) &middot; Cabin with Window &middot; Full Fare</span>
+                    <span class="fare-amount text-right">&euro;130.00</span>
+                  </div>
+                  <div class="fare-subtotal">
+                    <span>Taxes &amp; Fees</span>
+                    <span class="text-right">&euro;21.25</span>
+                  </div>
+                  <div class="fare-total">
+                    <span>Total</span>
+                    <span class="text-right">&euro;155.50</span>
+                  </div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Footer -->
             <div class="text-center mt-4 mb-8 footer-text">
               <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
@@ -919,6 +1006,76 @@
 
 .med-link:hover {
   color: #004D40;
+}
+
+/* ─── Fare table ──────────────────────────────────────────── */
+.vessel-company {
+  font-size: 0.78rem;
+  color: #555;
+  background: #E8EAF6;
+  border: 1px solid #C5CAE9;
+  padding: 2px 9px;
+  border-radius: 20px;
+  margin-left: 4px;
+}
+
+.fare-table {
+  font-size: 0.84rem;
+  color: #333;
+  width: 100%;
+}
+
+.fare-row {
+  display: grid;
+  grid-template-columns: 1.8fr 2.2fr 0.6fr;
+  gap: 6px;
+  padding: 5px 4px;
+  align-items: start;
+  border-bottom: 1px solid #EEE;
+}
+
+.fare-row:last-child {
+  border-bottom: none;
+}
+
+.fare-header {
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  font-weight: 700;
+  border-bottom: 2px solid #BBDEFB !important;
+  align-items: center;
+}
+
+.fare-cabin {
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.fare-amount {
+  font-weight: 700;
+  color: #283593;
+  white-space: nowrap;
+}
+
+.fare-subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 4px;
+  font-size: 0.82rem;
+  color: #555;
+  border-top: 1px solid #EEE;
+}
+
+.fare-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 4px 3px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0B2545;
+  border-top: 2px solid #BBDEFB;
 }
 
 /* ─── Footer ─────────────────────────────────────────────── */
