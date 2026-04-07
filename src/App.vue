@@ -778,16 +778,91 @@
                 <div class="sail-day sail-day-last">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 20 &middot; Sat</span>
-                    <span class="sail-day-island">&#128274; Turn in boat</span>
+                    <span class="sail-day-island">&#128274; Check off boat</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Early morning checkout with the charter company.</div>
+                    <div class="sail-fact"><strong>09:00</strong> &mdash; Check off boat with the charter company.</div>
                   </div>
                 </div>
 
                 <!-- Total distance -->
                 <div class="sail-total mt-3">
                   &#9875; Approximate total sailing distance: ~110 NM
+                </div>
+
+              </v-card-text>
+            </v-card>
+
+            <!-- Jun 20 — Ryanair FR3483: Rhodes → Naples -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header">
+                <span class="card-header-icon">&#9992;</span>
+                Ryanair FR3483 &mdash; Rhodes &rarr; Naples &nbsp;&middot;&nbsp; Sat, Jun 20, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="flight-segment mb-1">
+                  <div class="flight-label">
+                    <span class="flight-num">FR3483 &nbsp;&middot;&nbsp; Ryanair</span>
+                    <span class="flight-class">Plus &middot; Checked Bag (20 kg)</span>
+                  </div>
+                  <div class="flight-route mt-3">
+                    <div class="route-endpoint">
+                      <div class="route-time">12:45</div>
+                      <div class="route-iata">RHO</div>
+                      <div class="route-city">Rhodes, GR</div>
+                      <div class="route-date">Sat, Jun 20</div>
+                    </div>
+                    <div class="route-middle">
+                      <span class="route-arrow-plane">&#9992;</span>
+                      <div class="route-arrow-line"></div>
+                    </div>
+                    <div class="route-endpoint text-right">
+                      <div class="route-time">14:05</div>
+                      <div class="route-iata">NAP</div>
+                      <div class="route-city">Naples, IT</div>
+                      <div class="route-date">Sat, Jun 20</div>
+                    </div>
+                  </div>
+                </div>
+
+                <v-divider class="my-4"></v-divider>
+
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Reservation:</span>
+                  <span class="confirm-code">IT7T3F</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Traveler Details -->
+                <div class="traveler-section">
+                  <h4 class="traveler-heading mb-3">Traveler Details</h4>
+
+                  <v-card variant="outlined" class="traveler-card mb-3 pa-3">
+                    <div class="traveler-name mb-2">MILLER / JESSICA</div>
+                    <div class="seat-row mt-1">
+                      <span class="detail-label">Seat:</span>
+                      <span class="seat-badge">16E</span>
+                    </div>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#1565C0" variant="elevated" class="upgrade-chip">Plus</v-chip>
+                      <v-chip size="small" color="#455A64" variant="elevated" class="upgrade-chip ml-1">Checked Bag 20 kg</v-chip>
+                    </div>
+                  </v-card>
+
+                  <v-card variant="outlined" class="traveler-card pa-3">
+                    <div class="traveler-name mb-2">SMITH / JOHN FLINT</div>
+                    <div class="seat-row mt-1">
+                      <span class="detail-label">Seat:</span>
+                      <span class="seat-badge">16F</span>
+                    </div>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#1565C0" variant="elevated" class="upgrade-chip">Plus</v-chip>
+                      <v-chip size="small" color="#455A64" variant="elevated" class="upgrade-chip ml-1">Checked Bag 20 kg</v-chip>
+                    </div>
+                  </v-card>
+
                 </div>
 
               </v-card-text>
