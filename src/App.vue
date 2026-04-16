@@ -693,6 +693,111 @@
 
                 <v-divider class="my-3"></v-divider>
 
+                <!-- Crew List -->
+                <div class="benefits-heading mb-3">&#128101; Crew List &mdash; The Dodecanese, Greece &nbsp;&middot;&nbsp; Jun 13&ndash;20, 2026</div>
+
+                <!-- Lucia 40 -->
+                <div class="crew-boat-label mb-2">&#9973; Lucia 40 &mdash; Fountaine Pajot</div>
+                <div class="crew-table mb-4">
+                  <div class="crew-row crew-header">
+                    <span>Name</span>
+                    <span>Cell</span>
+                    <span>Email</span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Jason Burns</span>
+                    <span><a href="tel:+15129631287" class="med-link">512-963-1287</a></span>
+                    <span><a href="mailto:jason@outboundsailing.com" class="med-link">jason@outboundsailing.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Dawn Price</span>
+                    <span><a href="tel:+15128507843" class="med-link">512-850-7843</a></span>
+                    <span><a href="mailto:dmprice612@gmail.com" class="med-link">dmprice612@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Joe Price</span>
+                    <span><a href="tel:+17039551906" class="med-link">703-955-1906</a></span>
+                    <span><a href="mailto:rprice@vt.edu" class="med-link">rprice@vt.edu</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">John Biehn</span>
+                    <span><a href="tel:+18302216476" class="med-link">830-221-6476</a></span>
+                    <span><a href="mailto:jhbiehn@yahoo.com" class="med-link">jhbiehn@yahoo.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Becky Biehn</span>
+                    <span><a href="tel:+12106874056" class="med-link">210-687-4056</a></span>
+                    <span><a href="mailto:amor_y_paz1962@yahoo.com" class="med-link">amor_y_paz1962@yahoo.com</a></span>
+                  </div>
+                  <div class="crew-row crew-row-self">
+                    <span class="crew-name">Flint Smith</span>
+                    <span><a href="tel:+12103859809" class="med-link">210-385-9809</a></span>
+                    <span><a href="mailto:flintsmith@gmail.com" class="med-link">flintsmith@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row crew-row-self">
+                    <span class="crew-name">Jessica Miller</span>
+                    <span><a href="tel:+14158602970" class="med-link">415-860-2970</a></span>
+                    <span><a href="mailto:jcmill210@gmail.com" class="med-link">jcmill210@gmail.com</a></span>
+                  </div>
+                </div>
+
+                <!-- Lagoon 42 -->
+                <div class="crew-boat-label mb-2">&#9973; Lagoon 42</div>
+                <div class="crew-table mb-4">
+                  <div class="crew-row crew-header">
+                    <span>Name</span>
+                    <span>Cell</span>
+                    <span>Email</span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Chris Redmond</span>
+                    <span><a href="tel:+18325150818" class="med-link">832-515-0818</a></span>
+                    <span><a href="mailto:crredmond@gmail.com" class="med-link">crredmond@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Dave Cosen</span>
+                    <span><a href="tel:+12149144051" class="med-link">214-914-4051</a></span>
+                    <span><a href="mailto:dave_coSen@yahoo.com" class="med-link">dave_coSen@yahoo.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Christa Jones</span>
+                    <span><a href="tel:+18173749863" class="med-link">817-374-9863</a></span>
+                    <span><a href="mailto:christafish79@gmail.com" class="med-link">christafish79@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Patrick Dolan</span>
+                    <span><a href="tel:+19402069735" class="med-link">940-206-9735</a></span>
+                    <span><a href="mailto:dolanp@gmail.com" class="med-link">dolanp@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Diana Dolan</span>
+                    <span><a href="tel:+19402069703" class="med-link">940-206-9703</a></span>
+                    <span><a href="mailto:dianacdolan@gmail.com" class="med-link">dianacdolan@gmail.com</a></span>
+                  </div>
+                </div>
+
+                <!-- Lagoon 45 -->
+                <div class="crew-boat-label mb-2">&#9973; Lagoon 45</div>
+                <div class="crew-table mb-4">
+                  <div class="crew-row crew-header">
+                    <span>Name</span>
+                    <span>Cell</span>
+                    <span>Email</span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Luke Eubanks</span>
+                    <span><a href="tel:+15123480579" class="med-link">512-348-0579</a></span>
+                    <span><a href="mailto:eubanks.joshua@gmail.com" class="med-link">eubanks.joshua@gmail.com</a></span>
+                  </div>
+                  <div class="crew-row">
+                    <span class="crew-name">Eliza Eubanks</span>
+                    <span><a href="tel:+15126630738" class="med-link">512-663-0738</a></span>
+                    <span><a href="mailto:eliza.eubanks8@gmail.com" class="med-link">eliza.eubanks8@gmail.com</a></span>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
                 <!-- Plan notice -->
                 <v-alert type="warning" variant="tonal" class="mb-4" density="compact">
                   <strong>&#9888; Plan Notice:</strong> This is a planned itinerary &mdash; reality may change. As sailors we remain adaptable.
@@ -1659,6 +1764,58 @@
   padding: 3px 10px;
   margin-top: 3px;
   border-radius: 0 6px 6px 0;
+}
+
+/* ─── Crew list ───────────────────────────────────────────── */
+.crew-boat-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0B2545;
+  background: #E3F2FD;
+  border-left: 3px solid #1565C0;
+  padding: 4px 12px;
+  border-radius: 0 6px 6px 0;
+}
+
+.crew-table {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.crew-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.6fr;
+  gap: 8px;
+  padding: 7px 12px;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #F0F0F0;
+  align-items: center;
+}
+
+.crew-row:last-child {
+  border-bottom: none;
+}
+
+.crew-header {
+  background: #0B2545;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.crew-row-self {
+  background: #E8F5E9;
+  border-left: 3px solid #2E7D32;
+}
+
+.crew-name {
+  font-weight: 600;
+  color: #1A237E;
 }
 
 /* ─── Fare table ──────────────────────────────────────────── */
