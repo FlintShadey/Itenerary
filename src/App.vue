@@ -640,19 +640,29 @@
                   <strong>&#9973; Flotilla:</strong> 3 boats total &mdash; also skippered by <strong>Luke Eubanks</strong> and <strong>Chris Redmond</strong>
                 </v-alert>
 
+                <!-- Meeting Info -->
+                <v-alert type="success" variant="tonal" class="mb-4" density="compact">
+                  <strong>&#128205; Meet:</strong> Istion Yachting base station &mdash; Rhodes New Marina &mdash; <strong>11:00 AM local time, Sat Jun 13</strong>.<br>
+                  Get organized &amp; determine if early check-in at 2:30 PM is available.
+                </v-alert>
+
                 <!-- Key Dates -->
                 <div class="charter-dates mb-4">
                   <div class="charter-date-item">
-                    <span class="charter-date-label">Board</span>
-                    <span class="charter-date-value">Sat, Jun 13 (anytime)</span>
+                    <span class="charter-date-label">Meet at base</span>
+                    <span class="charter-date-value">Sat, Jun 13 &middot; 11:00 AM</span>
+                  </div>
+                  <div class="charter-date-item">
+                    <span class="charter-date-label">Possible check-in</span>
+                    <span class="charter-date-value">Sat, Jun 13 &middot; 2:30 PM</span>
                   </div>
                   <div class="charter-date-item">
                     <span class="charter-date-label">Return to marina</span>
-                    <span class="charter-date-value">Thu, Jun 19 evening</span>
+                    <span class="charter-date-value">Fri, Jun 19 evening</span>
                   </div>
                   <div class="charter-date-item">
-                    <span class="charter-date-label">Turn in boat</span>
-                    <span class="charter-date-value">Fri, Jun 20 early AM</span>
+                    <span class="charter-date-label">Depart / turn in</span>
+                    <span class="charter-date-value">Sat, Jun 20 &middot; ~9:00 AM</span>
                   </div>
                 </div>
 
@@ -671,123 +681,139 @@
 
                 <!-- Base Marina -->
                 <div class="charter-company mb-4">
-                  <div class="detail-label mb-1">&#9875; Base Marina &mdash; Rhodes</div>
+                  <div class="detail-label mb-1">&#9875; Base Marina &mdash; Rhodes New Marina</div>
                   <div class="company-details">
                     <div>&#128205; Rhodes Marinas, 124 Afstralia Street, Rhodes 85100, Dodecanese Islands, Greece</div>
                     <div><strong>Base Manager:</strong> Manolis Lampidonis</div>
                     <div>&#128222; <a href="tel:+306972290871" class="med-link">+30 6972 290 871</a></div>
                     <div>&#128231; <a href="mailto:charter@istion.com" class="med-link">charter@istion.com</a></div>
+                    <div>&#127758; <a href="https://www.istion.com/bases/rhodes-charter-base" target="_blank" rel="noopener" class="med-link">istion.com/bases/rhodes-charter-base</a></div>
                   </div>
                 </div>
 
                 <v-divider class="my-3"></v-divider>
 
-                <!-- Daily sailing legs -->
-                <div class="benefits-heading mb-3">&#128205; Daily Sailing Route</div>
+                <!-- Plan notice -->
+                <v-alert type="warning" variant="tonal" class="mb-4" density="compact">
+                  <strong>&#9888; Plan Notice:</strong> This is a planned itinerary &mdash; reality may change. As sailors we remain adaptable.
+                  One stop (<strong>West Symi &mdash; Emilianos</strong>) is a <strong>REMOTE anchorage</strong> with <strong>zero facilities ashore</strong>.
+                </v-alert>
 
-                <!-- Day 1: Jun 13 — Rhodes -->
+                <!-- Daily sailing legs -->
+                <div class="benefits-heading mb-3">&#128205; Daily Anchorage Route</div>
+
+                <!-- Day 1: Jun 13 — Rhodes New Marina -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 13 &middot; Sat</span>
-                    <span class="sail-day-island">&#127964; Rhodes</span>
+                    <span class="sail-day-island">&#127960; Rhodes New Marina</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Board the boat at Rhodes marina. Settle in, provision, and explore the harbor.</div>
+                    <div class="sail-fact">Meet at Istion Yachting base station at <strong>11:00 AM</strong>. Board, get organized, provision &amp; settle in.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;25&prime;58&Prime;N &nbsp; 28&deg;14&prime;21&Prime;E</div>
                     <div class="sail-fact island-fact">&#128218; Home to the Colossus of Rhodes, one of the Seven Wonders of the Ancient World, and a UNESCO-listed medieval Old Town.</div>
                   </div>
                 </div>
 
-                <!-- Day 2: Jun 14 — Symi -->
+                <!-- Day 2: Jun 14 — East Symi -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 14 &middot; Sun</span>
-                    <span class="sail-day-island">&#127964; Symi</span>
-                    <span class="sail-nm">~23 NM</span>
+                    <span class="sail-day-island">&#127964; East Symi</span>
+                    <span class="sail-nm">28&ndash;33 NM</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Sail northwest from Rhodes to Symi&rsquo;s famously photogenic harbor.</div>
+                    <div class="sail-fact">Sail northwest from Rhodes to Symi&rsquo;s east side.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;36&prime;54&Prime;N &nbsp; 27&deg;51&prime;30&Prime;E</div>
                     <div class="sail-fact island-fact">&#128218; Known for its stunning neoclassical pastel houses stacked up the hillside and a centuries-old sponge diving tradition.</div>
                   </div>
                 </div>
 
-                <!-- Day 3: Jun 15 — Nisyros -->
-                <div class="sail-day">
+                <!-- Day 3: Jun 15 — West Symi, Emilianos (REMOTE) -->
+                <div class="sail-day sail-day-remote">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 15 &middot; Mon</span>
-                    <span class="sail-day-island">&#127964; Nisyros</span>
-                    <span class="sail-nm">~30 NM</span>
+                    <span class="sail-day-island">&#127964; West Symi &mdash; Emilianos</span>
+                    <span class="sail-nm">12 NM</span>
+                    <span class="sail-remote-badge">REMOTE</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Sail west past Tilos to reach the volcanic island of Nisyros.</div>
-                    <div class="sail-fact island-fact">&#128218; One of Greece&rsquo;s few active volcanic islands &mdash; you can walk down into the Stefanos crater and smell the sulfur vents.</div>
+                    <div class="sail-fact">Short sail to the remote western anchorage at Emilianos. <strong>Zero facilities ashore &mdash; be fully self-sufficient.</strong></div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;36&prime;27&Prime;N &nbsp; 27&deg;46&prime;35&Prime;E</div>
+                    <div class="sail-fact island-fact">&#128218; A secluded bay on Symi&rsquo;s wild western coast &mdash; crystal water, dramatic cliffs, complete solitude.</div>
                   </div>
                 </div>
 
-                <!-- Day 4: Jun 16 — Tilos -->
+                <!-- Day 4: Jun 16 — Nisyros Pali -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 16 &middot; Tue</span>
-                    <span class="sail-day-island">&#127964; Tilos</span>
-                    <span class="sail-nm">~15 NM</span>
+                    <span class="sail-day-island">&#127755; Nisyros &mdash; Pali</span>
+                    <span class="sail-nm">38 NM</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">A short sail southeast to tranquil Tilos.</div>
-                    <div class="sail-fact island-fact">&#128218; The first Greek island to ban hunting entirely. Fossils of the last European dwarf elephants were discovered in a cave here.</div>
+                    <div class="sail-fact">Longer day sail west to the volcanic island of Nisyros, anchoring at Pali.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;37&prime;10&Prime;N &nbsp; 27&deg;10&prime;16&Prime;E</div>
+                    <div class="sail-fact island-fact">&#128218; One of Greece&rsquo;s few active volcanic islands &mdash; you can walk down into the Stefanos crater and smell the sulfur vents. Pali is the fishing village on the north coast.</div>
                   </div>
                 </div>
 
-                <!-- Day 5: Jun 17 — Chalki -->
+                <!-- Day 5: Jun 17 — Tilos, Lividia -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 17 &middot; Wed</span>
-                    <span class="sail-day-island">&#127964; Chalki</span>
-                    <span class="sail-nm">~20 NM</span>
+                    <span class="sail-day-island">&#127964; Tilos &mdash; Lividia</span>
+                    <span class="sail-nm">18 NM</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Sail east to one of the smallest inhabited Dodecanese islands.</div>
-                    <div class="sail-fact island-fact">&#128218; Chalki has just a few hundred residents. Don&rsquo;t miss the Agios Nikolaos clock tower overlooking the tiny harbor of Nimporio.</div>
+                    <div class="sail-fact">Sail southeast to tranquil Tilos, anchoring in the bay of Lividia.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;24&prime;54&Prime;N &nbsp; 27&deg;23&prime;15&Prime;E</div>
+                    <div class="sail-fact island-fact">&#128218; The first Greek island to ban hunting entirely. Lividia is the main bay &mdash; calm, clear water with easy access to the village.</div>
                   </div>
                 </div>
 
-                <!-- Day 6: Jun 18 — Seskli -->
+                <!-- Day 6: Jun 18 — East Khalki -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 18 &middot; Thu</span>
-                    <span class="sail-day-island">&#127964; Seskli</span>
-                    <span class="sail-nm">~14 NM</span>
+                    <span class="sail-day-island">&#127964; East Khalki</span>
+                    <span class="sail-nm">19 NM</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">A short hop northeast toward Rhodes, anchoring off the tiny islet of Seskli.</div>
-                    <div class="sail-fact island-fact">&#128218; Seskli is an uninhabited rocky islet just south of Rhodes &mdash; crystal-clear anchorage and a peaceful final night at anchor.</div>
+                    <div class="sail-fact">Sail east to Khalki, anchoring on the island&rsquo;s eastern side.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;13&prime;15&Prime;N &nbsp; 27&deg;36&prime;50&Prime;E</div>
+                    <div class="sail-fact island-fact">&#128218; Khalki (Halki) is one of the smallest inhabited Dodecanese islands with just a few hundred residents &mdash; unspoiled, car-free, and wonderfully quiet.</div>
                   </div>
                 </div>
 
-                <!-- Day 7: Jun 19 — Return to Rhodes -->
+                <!-- Day 7: Jun 19 — Return to Rhodes New Marina -->
                 <div class="sail-day">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 19 &middot; Fri</span>
-                    <span class="sail-day-island">&#127964; Rhodes (return)</span>
-                    <span class="sail-nm">~8 NM</span>
+                    <span class="sail-day-island">&#127960; Rhodes New Marina (return)</span>
+                    <span class="sail-nm">35 NM</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact">Short morning sail back to Rhodes marina. Arrive by evening for boat return.</div>
+                    <div class="sail-fact">Longer sail back to Rhodes New Marina. Arrive by evening.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;25&prime;58&Prime;N &nbsp; 28&deg;14&prime;21&Prime;E</div>
                   </div>
                 </div>
 
-                <!-- Day 8: Jun 20 — Turn in boat -->
+                <!-- Day 8: Jun 20 — Depart -->
                 <div class="sail-day sail-day-last">
                   <div class="sail-day-header">
                     <span class="sail-day-date">Jun 20 &middot; Sat</span>
-                    <span class="sail-day-island">&#128274; Check off boat</span>
+                    <span class="sail-day-island">&#128274; Depart &amp; check off boat</span>
                   </div>
                   <div class="sail-day-body">
-                    <div class="sail-fact"><strong>09:00</strong> &mdash; Check off boat with the charter company.</div>
+                    <div class="sail-fact"><strong>~9:00 AM</strong> &mdash; Depart and check off boat with Istion Yachting.</div>
+                    <div class="sail-fact sail-coords">&#127759; 36&deg;25&prime;58&Prime;N &nbsp; 28&deg;14&prime;21&Prime;E</div>
                   </div>
                 </div>
 
                 <!-- Total distance -->
                 <div class="sail-total mt-3">
-                  &#9875; Approximate total sailing distance: ~110 NM
+                  &#9875; Approximate total sailing distance: ~155 NM
                 </div>
 
               </v-card-text>
@@ -1601,6 +1627,38 @@
   border: 1px solid #FFAB91;
   border-radius: 8px;
   padding: 8px;
+}
+
+.sail-day-remote {
+  border-left-color: #E65100;
+}
+
+.sail-day-remote::before {
+  background: #E65100;
+  border-color: #FF8A65;
+}
+
+.sail-remote-badge {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #FFF;
+  background: #E65100;
+  border: 1px solid #BF360C;
+  padding: 1px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.sail-coords {
+  font-size: 0.78rem;
+  color: #1565C0;
+  font-family: 'Courier New', monospace;
+  background: #E3F2FD;
+  border-left: 2px solid #90CAF9;
+  padding: 3px 10px;
+  margin-top: 3px;
+  border-radius: 0 6px 6px 0;
 }
 
 /* ─── Fare table ──────────────────────────────────────────── */
