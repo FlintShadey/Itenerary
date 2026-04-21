@@ -1072,6 +1072,41 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 27 — Dinner: Il Flauto di Pan, Ravello -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#3E2723 0%,#6D4C41 60%,#8D6E63 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127869;</span>
+                Dinner &mdash; Il Flauto di Pan &nbsp;&middot;&nbsp; Sat, Jun 27, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Date</div>
+                    <div class="checkin-time">Sat, Jun 27</div>
+                  </div>
+                  <div class="checkin-divider">&#127860;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Time</div>
+                    <div class="checkin-time">7:30 PM</div>
+                  </div>
+                  <div class="checkin-divider">&#128101;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Guests</div>
+                    <div class="checkin-time">2 people</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Via Santa Chiara, 26 &mdash; 84010 Ravello</div>
+                  <div><span class="detail-label">&#128222; Phone:</span> <a href="tel:+39089857459" class="med-link">+39 089 857459</a></div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Footer -->
             <div class="text-center mt-4 mb-8 footer-text">
               <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
