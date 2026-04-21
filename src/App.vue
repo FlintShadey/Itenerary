@@ -1072,6 +1072,44 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 23–29 — Airbnb: Vacation home in Minori -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-hotel">
+                <span class="card-header-icon">&#127968;</span>
+                Minori &mdash; Vacation Home &nbsp;&middot;&nbsp; Airbnb &middot; Hosted by Ugo
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="hotel-meta mb-3">
+                  <span class="hotel-dates">Tue, Jun 23 &ndash; Mon, Jun 29, 2026</span>
+                  <span class="hotel-nights">6 nights</span>
+                </div>
+
+                <!-- Check-in / Check-out -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Check-in</div>
+                    <div class="checkin-time">3:00 PM</div>
+                    <div class="checkin-date">Tue, Jun 23</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Check-out</div>
+                    <div class="checkin-time">10:00 AM</div>
+                    <div class="checkin-date">Mon, Jun 29</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Via San Pietro 16, scala unica, 3&deg; piano <span class="benefit-note">(senza ascensore &mdash; no elevator)</span></div>
+                  <div style="margin-top:2px;">Minori, Campania 84010, Italy</div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 27 — Dinner: Il Flauto di Pan, Ravello -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#3E2723 0%,#6D4C41 60%,#8D6E63 100%)!important;color:#fff!important;">
