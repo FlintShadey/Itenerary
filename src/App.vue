@@ -999,6 +999,69 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 20 — Bus Transfer: Naples Airport → Sant'Agnello -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#128652;</span>
+                Bus Transfer &mdash; Naples Airport &rarr; Sant&rsquo;Agnello &nbsp;&middot;&nbsp; Sat, Jun 20, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">4:30 PM</div>
+                    <div class="route-iata ferry-iata" style="font-size:0.8rem;">NAP</div>
+                    <div class="route-city">Naples Airport</div>
+                    <div class="route-date" style="font-size:0.72rem;">Parcheggio Bus Turistici</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#128652;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-iata ferry-iata" style="font-size:0.8rem;">SAG</div>
+                    <div class="route-city">Sant&rsquo;Agnello</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Reservation Code:</span>
+                  <span class="confirm-code ferry-code">196440-MW7OAQ-I</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Seats:</span>
+                  <span style="font-weight:600;">2</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="benefits-heading mb-2">&#128100; Passengers</div>
+                <div class="passenger-table">
+                  <div class="passenger-row">
+                    <span class="pax-name">John Flint Smith</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">Jessica Miller</span>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div>
+                    <span class="detail-label">&#128205; Bus Stop:</span>
+                    Naples Airport &mdash; Parcheggio Bus Turistici
+                  </div>
+                  <div class="mt-1">
+                    <a href="https://www.google.com/maps/search/?api=1&query=40.875493,14.283609" target="_blank" rel="noopener" class="med-link">&#128506; View on Google Maps (40.875493, 14.283609)</a>
+                  </div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 20–23 — Hotel Corallo Sorrento -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-hotel">
@@ -1104,7 +1167,7 @@
 
                 <div class="hotel-contact">
                   <div><span class="detail-label">&#128205; Address:</span> Via San Pietro 16, scala unica, 3&deg; piano <span class="benefit-note">(senza ascensore &mdash; no elevator)</span></div>
-                  <div style="margin-top:2px;">Minori, Campania 84010, Italy</div>
+                  <div style="margin-top:2px;">Minori, Campania 84010, Italy. Irene Whatsapp: +39 3283044671</div>
                 </div>
 
               </v-card-text>
