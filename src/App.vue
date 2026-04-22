@@ -1135,6 +1135,95 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 21 — Day Trip: Capri -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#127754;</span>
+                Day Trip &mdash; Capri &nbsp;&middot;&nbsp; Sun, Jun 21, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Ferry there -->
+                <div class="benefits-heading mb-2">&#9973; Ferry &mdash; Sorrento &rarr; Capri</div>
+                <div class="flight-route mb-3">
+                  <div class="route-endpoint">
+                    <div class="route-time">8:29 AM</div>
+                    <div class="route-city">Sorrento</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-city">Capri</div>
+                  </div>
+                </div>
+                <div class="confirm-row mb-4">
+                  <span class="detail-label">Operator:</span>
+                  <span>Alilauro Gruson</span>
+                  <span class="trip-id">&middot; via FerryHopper</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Blue Grotto Tour -->
+                <div class="benefits-heading mb-2">&#128366; Blue Grotto Tour &nbsp;&middot;&nbsp; 10:00 AM &ndash; 12:00 PM</div>
+                <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
+                  <strong>&#9201; Arrive 15 minutes early.</strong> Cancel by <strong>Jun 18</strong> if needed.
+                </v-alert>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Code:</span>
+                  <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
+                </div>
+                <div class="confirm-row mb-4">
+                  <span class="detail-label">Provider:</span>
+                  <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" class="med-link">GetYourGuide</a>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Lunch -->
+                <div class="benefits-heading mb-2">&#127869; Lunch &mdash; Da Paolino &nbsp;&middot;&nbsp; 1:00 PM</div>
+                <div class="confirm-row mb-1">Famous lemon-tree canopy restaurant in Capri.</div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">&#127758; Reserve:</span>
+                  <a href="https://www.paolinocapri.com" target="_blank" rel="noopener" class="med-link">paolinocapri.com</a>
+                </div>
+                <div class="confirm-row mb-4">
+                  <span class="detail-label">&#128231; Email (remind in May):</span>
+                  <a href="mailto:booking@paolinocapri.com" class="med-link">booking@paolinocapri.com</a>
+                </div>
+                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
+                  &#128395; <strong>Action:</strong> Email Da Paolino again around <strong>May 21</strong> to confirm the lunch reservation.
+                </v-alert>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Return ferry -->
+                <div class="benefits-heading mb-2">&#9973; Return Ferry &mdash; Capri &rarr; Sorrento</div>
+                <div class="flight-route mb-3">
+                  <div class="route-endpoint">
+                    <div class="route-time">6:35 PM</div>
+                    <div class="route-city">Capri</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">7:07 PM</div>
+                    <div class="route-city">Sorrento</div>
+                  </div>
+                </div>
+                <div class="confirm-row mb-0">
+                  <span class="detail-label">Operator:</span>
+                  <span>Laser Capri</span>
+                  <span class="trip-id">&middot; via FerryHopper</span>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 23 — Transfer: Hotel Corallo Sorrento → Minori -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
