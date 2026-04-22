@@ -1346,6 +1346,41 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 23 — Dinner: Agriturismo Villa Maria, Minori -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#3E2723 0%,#6D4C41 60%,#8D6E63 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127869;</span>
+                Welcome Dinner &mdash; Agriturismo Villa Maria &nbsp;&middot;&nbsp; Tue, Jun 23, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Time</div>
+                    <div class="checkin-time">8:00 PM</div>
+                  </div>
+                  <div class="checkin-divider">&#127979;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Walk from Airbnb</div>
+                    <div class="checkin-time">~12 min</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Via Portatrici di Limoni, 53 &mdash; 84010 Minori (SA)</div>
+                  <div><span class="detail-label">&#128231; Email:</span> <a href="mailto:info@agriturismovillamaria.it" class="med-link">info@agriturismovillamaria.it</a></div>
+                  <div><span class="detail-label">&#127758; Website:</span> <a href="https://www.agriturismovillamaria.it/en/restaurant" target="_blank" rel="noopener" class="med-link">agriturismovillamaria.it</a></div>
+                </div>
+
+                <v-alert type="info" variant="tonal" density="compact" class="mt-3">
+                  &#128395; Reservation submitted by email &mdash; follow up if no confirmation received.
+                </v-alert>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 27 — Dinner: Il Flauto di Pan, Ravello -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#3E2723 0%,#6D4C41 60%,#8D6E63 100%)!important;color:#fff!important;">
