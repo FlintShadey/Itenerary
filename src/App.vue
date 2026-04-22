@@ -1224,6 +1224,39 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 22 — Cooking Class + Sea Pools Walk -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1B5E20 0%,#388E3C 60%,#66BB6A 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127819;</span>
+                Sorrento &mdash; Cooking Class &amp; Sea Pools &nbsp;&middot;&nbsp; Mon, Jun 22, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Cooking Class -->
+                <div class="benefits-heading mb-2">&#127819; Lemon Cooking Class &nbsp;&middot;&nbsp; 10:00 AM</div>
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
+                  <strong>&#9203; Pending confirmation</strong> &mdash; contacted Fattoria Terranova via website &amp; WhatsApp. Follow up if no reply.
+                </v-alert>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">&#127758; Host:</span>
+                  <a href="https://fattoriaterranova.it/contacts-confirmation/" target="_blank" rel="noopener" class="med-link">fattoriaterranova.it</a>
+                </div>
+                <div class="confirm-row mb-4">
+                  <span class="detail-label">&#128222; Also contacted via WhatsApp</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Sea Pools Walk -->
+                <div class="benefits-heading mb-2">&#127946; Sorrento Old Town &rarr; Bagni della Regina Giovanna</div>
+                <div class="confirm-row mb-1">~5 km stroll through the old town down to the sea pools &mdash; <strong>approx. 1.5 hours walk</strong>.</div>
+                <v-alert type="info" variant="tonal" density="compact" class="mt-3">
+                  &#128241; <strong>Pack:</strong> bathing suit &amp; water shoes &mdash; natural sea-rock pools perfect for swimming.
+                </v-alert>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 23 — Transfer: Hotel Corallo Sorrento → Minori -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
