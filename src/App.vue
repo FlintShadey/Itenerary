@@ -1135,6 +1135,57 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 23 — Transfer: Hotel Corallo Sorrento → Minori -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#128652;</span>
+                Transfer &mdash; Hotel Corallo &rarr; Minori &nbsp;&middot;&nbsp; Tue, Jun 23, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">1:45 PM</div>
+                    <div class="route-city">Hotel Corallo Sorrento</div>
+                    <div class="route-date" style="font-size:0.72rem;">Sant&rsquo;Agnello</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#128652;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-city">Via San Pietro, 16</div>
+                    <div class="route-date" style="font-size:0.72rem;">Minori, SA, Italy</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking #:</span>
+                  <span class="confirm-code ferry-code">78509119</span>
+                  <span class="trip-id">&nbsp;&middot;&nbsp; Transfeero</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Vehicle:</span>
+                  <span>Economy</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Passengers:</span>
+                  <span>2</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Guest:</span>
+                  <span>John Smith &nbsp;&middot;&nbsp; <a href="tel:+12103859809" class="med-link">+1 210 385-9809</a></span>
+                </div>
+                <div class="confirm-row mb-0">
+                  <span class="detail-label">Price:</span>
+                  <span style="font-weight:600;color:#2E7D32;">&euro;138.35</span>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 23–29 — Airbnb: Vacation home in Minori -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-hotel">
