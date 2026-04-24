@@ -1461,9 +1461,11 @@
 
 /* ─── Header card ────────────────────────────────────────── */
 .header-card {
-  background: linear-gradient(135deg, #0B2545 0%, #134B7E 55%, #1A6BAA 100%) !important;
+  background:
+    linear-gradient(135deg, rgba(11,37,69,0.72) 0%, rgba(19,75,126,0.60) 50%, rgba(11,37,69,0.72) 100%),
+    url('/GreeceItaly Background.png') center center / cover no-repeat !important;
   color: #fff !important;
-  border: 2px solid rgba(144, 224, 239, 0.35);
+  border: 2px solid rgba(144, 224, 239, 0.45);
   border-radius: 18px !important;
   position: relative;
   z-index: 1;
