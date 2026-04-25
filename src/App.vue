@@ -1380,6 +1380,20 @@
                   <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
                 </div>
 
+                <v-divider class="my-3"></v-divider>
+
+                <div class="benefits-heading mb-3">&#128247; Boarding QR Codes</div>
+                <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;">
+                  <div style="text-align:center;">
+                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Flint &mdash; T141266</div>
+                    <img src="/Flint Sorrento → Maiori ferry QR.png" alt="Flint boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
+                  </div>
+                  <div style="text-align:center;">
+                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Jessica &mdash; T141267</div>
+                    <img src="/Jessica Sorrento → Maiori ferry QR.png" alt="Jessica boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
+                  </div>
+                </div>
+
               </v-card-text>
             </v-card>
 
