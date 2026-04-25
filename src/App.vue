@@ -1470,9 +1470,20 @@
 
                 <v-divider class="my-3"></v-divider>
 
-                <a href="/Insurance Benefits list.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#1565C0;color:#fff;padding:10px 18px;border-radius:8px;font-weight:600;font-size:0.9rem;text-decoration:none;">
-                  &#128196; View Full Insurance Benefits PDF
-                </a>
+                <div style="display:flex;flex-wrap:wrap;gap:10px;">
+                  <a href="/Insurance Benefits list.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#1565C0;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
+                    &#128196; Benefits Summary
+                  </a>
+                  <a href="/Flint Insurance Card.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#0D47A1;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
+                    &#128106; Flint &mdash; Insurance Card
+                  </a>
+                  <a href="/Jessica Insurance Card.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#0D47A1;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
+                    &#128106; Jessica &mdash; Insurance Card
+                  </a>
+                  <a href="/Jessica Insurance Benefits.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#1565C0;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
+                    &#128196; Jessica &mdash; Benefits
+                  </a>
+                </div>
 
               </v-card-text>
             </v-card>
