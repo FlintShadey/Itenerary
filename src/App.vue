@@ -1149,19 +1149,56 @@
                   <div class="route-endpoint">
                     <div class="route-time">8:29 AM</div>
                     <div class="route-city">Sorrento</div>
+                    <div class="route-sub">Deck 1</div>
                   </div>
                   <div class="route-middle">
                     <span class="route-arrow-plane">&#9973;</span>
                     <div class="route-arrow-line ferry-line"></div>
+                    <div class="route-duration">25 min</div>
                   </div>
                   <div class="route-endpoint text-right">
+                    <div class="route-time">8:54 AM</div>
                     <div class="route-city">Capri</div>
                   </div>
                 </div>
-                <div class="confirm-row mb-4">
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Operator:</span>
-                  <span>Alilauro Gruson</span>
-                  <span class="trip-id">&middot; via FerryHopper</span>
+                  <span>General Gruson &nbsp;&middot;&nbsp; Alilauro Gruson</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">50008TVUBI</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Class:</span>
+                  <span>Full Fare &nbsp;&middot;&nbsp; Deck-Lounge</span>
+                </div>
+                <div style="margin:8px 0 4px;">
+                  <table class="passenger-table">
+                    <tr class="passenger-row">
+                      <td class="pax-name">John Smith</td>
+                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414469</span></td>
+                    </tr>
+                    <tr class="passenger-row">
+                      <td class="pax-name">Jessica Miller</td>
+                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414470</span></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="hotel-contact mb-3">
+                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
+                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
+                </div>
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128247; Boarding QR Codes</div>
+                <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;margin-bottom:8px;">
+                  <div style="text-align:center;">
+                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">John &mdash; R1414469</div>
+                    <img src="/John Sorrento to Capri QR.png" alt="John boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
+                  </div>
+                  <div style="text-align:center;">
+                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Jessica &mdash; R1414470</div>
+                    <img src="/Jessica Sorrento to Capri QR.png" alt="Jessica boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
+                  </div>
                 </div>
 
                 <v-divider class="my-3"></v-divider>
@@ -1244,20 +1281,45 @@
                   <div class="route-endpoint">
                     <div class="route-time">6:35 PM</div>
                     <div class="route-city">Capri</div>
+                    <div class="route-sub">Deck-Lounge</div>
                   </div>
                   <div class="route-middle">
                     <span class="route-arrow-plane">&#9973;</span>
                     <div class="route-arrow-line ferry-line"></div>
+                    <div class="route-duration">32 min</div>
                   </div>
                   <div class="route-endpoint text-right">
                     <div class="route-time">7:07 PM</div>
                     <div class="route-city">Sorrento</div>
                   </div>
                 </div>
-                <div class="confirm-row mb-0">
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Operator:</span>
                   <span>Laser Capri</span>
-                  <span class="trip-id">&middot; via FerryHopper</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">50008TVUBI</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Class:</span>
+                  <span>Full Fare &nbsp;&middot;&nbsp; Deck-Lounge</span>
+                </div>
+                <div style="margin:8px 0 4px;">
+                  <table class="passenger-table">
+                    <tr class="passenger-row">
+                      <td class="pax-name">John Smith</td>
+                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414469</span></td>
+                    </tr>
+                    <tr class="passenger-row">
+                      <td class="pax-name">Jessica Miller</td>
+                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414470</span></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="hotel-contact mb-0">
+                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
+                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
                 </div>
 
               </v-card-text>
