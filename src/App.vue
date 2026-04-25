@@ -1167,18 +1167,57 @@
                 <v-divider class="my-3"></v-divider>
 
                 <!-- Blue Grotto Tour -->
-                <div class="benefits-heading mb-2">&#128366; Blue Grotto Tour &nbsp;&middot;&nbsp; 10:00 AM &ndash; 12:00 PM</div>
+                <div class="benefits-heading mb-2">&#127700; Capri Island Boat Tour with Blue Grotto Stop &nbsp;&middot;&nbsp; 10:00 AM</div>
                 <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                  <strong>&#9201; Arrive 15 minutes early.</strong> Cancel by <strong>Jun 18</strong> if needed.
+                  <strong>&#9201; Arrive by 9:55 AM</strong> — 5 minutes before your slot. Payment auto-charged <strong>Jun 18</strong>.
                 </v-alert>
+
                 <div class="confirm-row mb-1">
                   <span class="detail-label">Booking Code:</span>
                   <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
                 </div>
-                <div class="confirm-row mb-4">
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">PIN:</span>
+                  <span class="confirm-code">AqqxPS=w</span>
+                </div>
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Provider:</span>
                   <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" class="med-link">GetYourGuide</a>
                 </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Operator:</span>
+                  <span>Motoscafisti Capri</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Traveler:</span>
+                  <span>Jessica Miller &amp; Flint &nbsp;&middot;&nbsp; 2 Adults</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Duration:</span>
+                  <span>Approx. 2 hours &nbsp;&middot;&nbsp; English</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Price:</span>
+                  <span>$58.72</span>
+                </div>
+
+                <div class="hotel-contact mb-3">
+                  <div><span class="detail-label">&#128205; Meeting Point:</span> Molo Numero 0, Porto di Capri, Marina Grande, Capri</div>
+                  <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock 0, Port of Capri. Show your ticket and board the first island tour available.</div>
+                  <div style="font-size:0.82rem;color:#555;margin-top:2px;">Departures approx. every 30 min from 9:45 AM to 2:00 PM daily.</div>
+                </div>
+
+                <img src="/Capri Boat Tour meeting spot .webp" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;" />
+
+                <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#9989; Included</div>
+                <ul class="benefits-list mb-2">
+                  <li>Capri island boat tour</li>
+                  <li>Crew &amp; Captain</li>
+                </ul>
+                <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#10060; Not Included</div>
+                <ul class="benefits-list mb-4">
+                  <li>Blue Grotto entry by rowboat — purchase on the spot (~&euro;18)</li>
+                </ul>
 
                 <v-divider class="my-3"></v-divider>
 
