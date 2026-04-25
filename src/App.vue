@@ -1468,6 +1468,12 @@
                   <li>Sports Equipment Rental</li>
                 </ul>
 
+                <v-divider class="my-3"></v-divider>
+
+                <a href="/Insurance Benefits list.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#1565C0;color:#fff;padding:10px 18px;border-radius:8px;font-weight:600;font-size:0.9rem;text-decoration:none;">
+                  &#128196; View Full Insurance Benefits PDF
+                </a>
+
               </v-card-text>
             </v-card>
 
