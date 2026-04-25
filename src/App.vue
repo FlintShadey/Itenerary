@@ -1996,6 +1996,87 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 30 — Ryanair FR6841: Naples → Dublin -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header">
+                <span class="card-header-icon">&#9992;</span>
+                Ryanair FR6841 &mdash; Naples &rarr; Dublin &nbsp;&middot;&nbsp; Tue, Jun 30, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="flight-segment mb-1">
+                  <div class="flight-label">
+                    <span class="flight-num">FR6841 &nbsp;&middot;&nbsp; Ryanair</span>
+                    <span class="flight-class">Plus &middot; Checked Bag (20 kg)</span>
+                  </div>
+                  <div class="flight-route mt-3">
+                    <div class="route-endpoint">
+                      <div class="route-time">11:40</div>
+                      <div class="route-iata">NAP</div>
+                      <div class="route-city">Naples, IT</div>
+                      <div class="route-date">Tue, Jun 30</div>
+                    </div>
+                    <div class="route-middle">
+                      <span class="route-arrow-plane">&#9992;</span>
+                      <div class="route-arrow-line"></div>
+                    </div>
+                    <div class="route-endpoint text-right">
+                      <div class="route-time">14:05</div>
+                      <div class="route-iata">DUB</div>
+                      <div class="route-city">Dublin, IE</div>
+                      <div class="route-date">Tue, Jun 30</div>
+                    </div>
+                  </div>
+                </div>
+
+                <v-divider class="my-4"></v-divider>
+
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Reservation:</span>
+                  <span class="confirm-code">L29IWJ</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Traveler Details -->
+                <div class="traveler-section">
+                  <h4 class="traveler-heading mb-3">Traveler Details</h4>
+
+                  <v-card variant="outlined" class="traveler-card mb-3 pa-3">
+                    <div class="traveler-name mb-2">SMITH / JOHN</div>
+                    <div class="seat-row mt-1">
+                      <span class="detail-label">Seat:</span>
+                      <span class="seat-badge">03E</span>
+                    </div>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#1565C0" variant="elevated" class="upgrade-chip">Plus</v-chip>
+                      <v-chip size="small" color="#455A64" variant="elevated" class="upgrade-chip ml-1">Checked Bag 20 kg</v-chip>
+                    </div>
+                  </v-card>
+
+                  <v-card variant="outlined" class="traveler-card pa-3">
+                    <div class="traveler-name mb-2">MILLER / JESSICA</div>
+                    <div class="seat-row mt-1">
+                      <span class="detail-label">Seat:</span>
+                      <span class="seat-badge">03F</span>
+                    </div>
+                    <div class="upgrade-row mt-2">
+                      <v-chip size="small" color="#1565C0" variant="elevated" class="upgrade-chip">Plus</v-chip>
+                      <v-chip size="small" color="#455A64" variant="elevated" class="upgrade-chip ml-1">Checked Bag 20 kg</v-chip>
+                    </div>
+                  </v-card>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-0">
+                  <span class="detail-label">Total:</span>
+                  <span style="font-weight:600;color:#2E7D32;">$497.14</span>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 30–Jul 03 — The Westbury Dublin -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-hotel">
