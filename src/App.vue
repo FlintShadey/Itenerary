@@ -1425,8 +1425,12 @@
               <v-card-text class="pa-4">
 
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Policy Number:</span>
+                  <span class="detail-label">Flint Policy Number:</span>
                   <span class="confirm-code">5399093</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Jessica Policy Number:</span>
+                  <span class="confirm-code">5401201</span>
                 </div>
                 <div class="confirm-row mb-1">
                   <span class="detail-label">Plan:</span>
