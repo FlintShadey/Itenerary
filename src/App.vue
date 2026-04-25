@@ -1308,6 +1308,81 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 23 — Ferry: Sorrento → Maiori (Coastlines) -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-ferry">
+                <span class="card-header-icon">&#9973;</span>
+                Ferry &mdash; Sorrento &rarr; Maiori &nbsp;&middot;&nbsp; Tue, Jun 23, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="flight-route mb-4">
+                  <div class="route-endpoint">
+                    <div class="route-time">5:10 PM</div>
+                    <div class="route-iata ferry-iata">SOR</div>
+                    <div class="route-city">Sorrento</div>
+                    <div class="route-date">Tue, Jun 23</div>
+                  </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9973;</span>
+                    <div class="route-arrow-line ferry-line"></div>
+                    <div style="font-size:0.75rem;color:#666;text-align:center;margin-top:2px;">1h 30m</div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">6:40 PM</div>
+                    <div class="route-iata ferry-iata">MAI</div>
+                    <div class="route-city">Maiori</div>
+                    <div class="route-date">Tue, Jun 23</div>
+                  </div>
+                </div>
+
+                <div class="ferry-vessel mb-4">
+                  <span class="vessel-icon">&#128674;</span>
+                  <span class="vessel-name">Coastlines</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">50008TVKJI</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booked:</span>
+                  <span>25/04/2026 &middot; Agency 50008</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="benefits-heading mb-2">&#128100; Passengers</div>
+                <div class="passenger-table">
+                  <div class="passenger-row passenger-header">
+                    <span>Name</span>
+                    <span>Ticket</span>
+                    <span>Class</span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">John Smith</span>
+                    <span class="seat-badge">T141266</span>
+                    <span>Full Fare &middot; Deck-lounge <span class="benefit-note">(1 small bag)</span></span>
+                  </div>
+                  <div class="passenger-row">
+                    <span class="pax-name">Jessica Miller</span>
+                    <span class="seat-badge">T141267</span>
+                    <span>Full Fare &middot; Deck-lounge <span class="benefit-note">(1 small bag)</span></span>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
+                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 23–29 — Airbnb: Vacation home in Minori -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-hotel">
@@ -1476,7 +1551,7 @@
 
                 <div style="display:flex;flex-wrap:wrap;gap:10px;">
                   <a href="/Insurance Benefits list.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#1565C0;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
-                    &#128196; Benefits Summary
+                    &#128196; Flint Benefits 
                   </a>
                   <a href="/Flint Insurance Card.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#0D47A1;color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;font-size:0.85rem;text-decoration:none;">
                     &#128106; Flint &mdash; Insurance Card
