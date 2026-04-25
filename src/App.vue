@@ -1528,9 +1528,22 @@
 
                 <v-divider class="my-3"></v-divider>
 
-                <div class="hotel-contact">
+                <div class="hotel-contact mb-3">
                   <div><span class="detail-label">&#128205; Address:</span> Via San Pietro 16, scala unica, 3&deg; piano <span class="benefit-note">(senza ascensore &mdash; no elevator)</span></div>
-                  <div style="margin-top:2px;">Minori, Campania 84010, Italy. Irene Whatsapp: +39 3283044671</div>
+                  <div style="margin-top:2px;">Minori, Campania 84010, Italy</div>
+                  <div style="margin-top:2px;"><span class="detail-label">&#128242; Irene (host contact):</span> <a href="https://wa.me/393283044671" target="_blank" rel="noopener" class="med-link">+39 328 3044671</a></div>
+                  <div style="margin-top:6px;">
+                    <span class="detail-label">&#127759; GPS:</span> 40&deg;39&prime;05.1&Prime;N &nbsp; 14&deg;37&prime;37.7&Prime;E
+                  </div>
+                  <div style="margin-top:6px;">
+                    <a href="https://maps.app.goo.gl/y9AskqsFHAvgdDPm9" target="_blank" rel="noopener" class="med-link">&#128506; Open in Google Maps</a>
+                  </div>
+                </div>
+
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128247; Property &amp; Location</div>
+                <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:8px;">
+                  <img src="/hotel minori palace.png" alt="Hotel Minori Palace area" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;" />
+                  <img src="/map to airbnb .png" alt="Map to Airbnb" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;" />
                 </div>
 
               </v-card-text>
