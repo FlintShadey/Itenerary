@@ -1584,16 +1584,16 @@
               </v-card-text>
             </v-card>
 
-            <!-- Jun 25 — Path of the Gods -->
+            <!-- Jun 24 — Path of the Gods -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#3949AB 100%)!important;color:#fff!important;">
                 <span class="card-header-icon">&#127956;</span>
-                Path of the Gods &mdash; Bomerano &rarr; Positano &nbsp;&middot;&nbsp; Thu, Jun 25, 2026
+                Path of the Gods &mdash; Bomerano &rarr; Positano &nbsp;&middot;&nbsp; Thu, Jun 24, 2026
               </v-card-title>
               <v-card-text class="pa-4">
 
                 <v-alert type="warning" variant="tonal" density="compact" class="mb-4">
-                  <strong>&#9888; Start early.</strong> The trail is exposed &amp; rocky &mdash; much less pleasant if started late in the day.
+                  <strong>&#9888; Start early.</strong> The trail is exposed &amp; rocky &mdash; much less pleasant if started late in the day. Due biglietti Orario AC 2 per Bomerano, per favore.
                 </v-alert>
 
                 <!-- Timeline overview -->
@@ -1699,6 +1699,54 @@
                   <li>&#127913; Hat &amp; sunscreen — trail is exposed</li>
                   <li>&#127822; Light snack</li>
                 </ul>
+
+              </v-card-text>
+            </v-card>
+
+            <!-- Jun 25 — Tramonti: Wineries + Dinner -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A148C 0%,#6A1B9A 55%,#8E24AA 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127863;</span>
+                Tramonti &mdash; Wineries &amp; Dinner &nbsp;&middot;&nbsp; Thu, Jun 25, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Lunch -->
+                <div class="benefits-heading mb-2">&#127869; Lunch &mdash; Agriturismo da Regina</div>
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
+                  <strong>&#9203; TBD</strong> &mdash; reservation not yet confirmed.
+                </v-alert>
+                <div class="hotel-contact mb-4">
+                  <div><span class="detail-label">&#127758; Location:</span> Tramonti, Amalfi Coast</div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Wineries -->
+                <div class="benefits-heading mb-2">&#127862; Winery Stops &mdash; Tramonti</div>
+                <div class="hotel-contact mb-3">
+                  <div><a href="https://www.google.com/maps/search/wineries+Tramonti+Amalfi" target="_blank" rel="noopener" class="med-link">&#128506; View Tramonti wineries on Google Maps</a></div>
+                </div>
+                <ul class="benefits-list mb-4">
+                  <li>&#127863; <strong>Cantine Apicella</strong></li>
+                  <li>&#127863; <strong>Tenuta San Francesco</strong></li>
+                  <li>&#127863; <strong>Tagliafierro</strong></li>
+                  <li>&#127863; <strong>Basileo</strong></li>
+                </ul>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Dinner -->
+                <div class="benefits-heading mb-2">&#127869; Dinner &mdash; Ristorante Torre Normanna &nbsp;&middot;&nbsp; 7:00 PM</div>
+                <div class="confirm-row mb-2">
+                  <span style="font-size:0.85rem;color:#555;font-style:italic;">Medieval Norman tower jutting into the sea &mdash; one of the most spectacular settings on the Amalfi Coast.</span>
+                </div>
+                <div class="hotel-contact mb-0">
+                  <div><span class="detail-label">&#128205; Location:</span> Maiori, SA, Italy</div>
+                  <div style="margin-top:6px;">
+                    <a href="https://www.google.com/maps/search/Ristorante+Torre+Normanna+Maiori" target="_blank" rel="noopener" class="med-link">&#128506; View on Google Maps</a>
+                  </div>
+                </div>
 
               </v-card-text>
             </v-card>
