@@ -1416,6 +1416,61 @@
               </v-card-text>
             </v-card>
 
+            <!-- Travel Insurance -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#0D47A1 0%,#1565C0 55%,#1976D2 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#128737;</span>
+                Travel Insurance &mdash; AXA Assistance USA
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Policy Number:</span>
+                  <span class="confirm-code">5399093</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Plan:</span>
+                  <span style="font-weight:600;">Platinum</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Name:</span>
+                  <span>John Smith</span>
+                </div>
+                <div class="confirm-row mb-4">
+                  <span class="detail-label">Effective Date:</span>
+                  <span>April 24, 2026</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="benefits-heading mb-2">&#128222; 24/7 Claims &amp; Assistance</div>
+                <div class="hotel-contact mb-3">
+                  <div><span class="detail-label">Within the U.S.:</span> <a href="tel:+18668426202" class="med-link">1-866-842-6202</a></div>
+                  <div><span class="detail-label">Outside the U.S. (collect):</span> <a href="tel:+13129353532" class="med-link">1-312-935-3532</a></div>
+                  <div><span class="detail-label">&#128231; Email:</span> <a href="mailto:ustravel@axa-assistance.us" class="med-link">ustravel@axa-assistance.us</a></div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="benefits-heading mb-2">&#9989; Coverages</div>
+                <ul class="benefits-list">
+                  <li>Trip Cancellation</li>
+                  <li>Optional Trip Cancellation for Any Reason</li>
+                  <li>Trip Interruption</li>
+                  <li>Trip Delay</li>
+                  <li>Missed Connection</li>
+                  <li>Lost Golf Rounds</li>
+                  <li>Lost Skier Days</li>
+                  <li>Repatriation of Remains</li>
+                  <li>Non-Medical Emergency Transportation</li>
+                  <li>Baggage / Personal Effects</li>
+                  <li>Baggage Delay</li>
+                  <li>Sports Equipment Rental</li>
+                </ul>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Footer -->
             <div class="text-center mt-4 mb-8 footer-text">
               <p>&#9875; Buon Viaggio &middot; &#922;&#945;&#955;&#972; &#932;&#945;&#958;&#943;&#948;&#953; &#9875;</p>
