@@ -1738,6 +1738,86 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 29–30 — Artemisia Domus, Naples -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header card-header-hotel">
+                <span class="card-header-icon">&#127968;</span>
+                Naples &mdash; Artemisia Domus &ndash; Giardino
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="hotel-meta mb-3">
+                  <span class="hotel-dates">Mon, Jun 29 &ndash; Tue, Jun 30, 2026</span>
+                  <span class="hotel-nights">1 night &middot; 1 adult</span>
+                </div>
+
+                <div class="hotel-room mb-4">
+                  <span class="room-type-icon">&#127953;</span>
+                  <span class="room-type-text">Luxury Suite &nbsp;&middot;&nbsp; Non-smoking</span>
+                </div>
+
+                <!-- Check-in / Check-out -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Check-in</div>
+                    <div class="checkin-time">2:30 PM</div>
+                    <div class="checkin-date">Mon, Jun 29</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Check-out</div>
+                    <div class="checkin-time">10:30 AM</div>
+                    <div class="checkin-date">Tue, Jun 30</div>
+                  </div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Itinerary #:</span>
+                  <span class="confirm-code">73431064875613</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Reserved for:</span>
+                  <span>John Smith</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Total:</span>
+                  <span style="font-weight:600;color:#2E7D32;">$234.54 &nbsp;<span class="benefit-note">(+$6.45 city tax due at property)</span></span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Included -->
+                <div class="benefits-heading mb-2">&#9733; Included</div>
+                <ul class="benefits-list mb-3">
+                  <li>&#127864; 1 free beverage per person (once per stay)</li>
+                  <li>&#11088; Free VIP check-in</li>
+                </ul>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Special instructions -->
+                <v-alert type="info" variant="tonal" density="compact" class="mb-3">
+                  <strong>&#128338; Front desk hours:</strong> 7:30 AM – 9:00 PM. If arriving after 8:30 PM, contact property in advance — an access code will be sent within 24 hours of arrival.
+                </v-alert>
+                <v-alert type="info" variant="tonal" density="compact" class="mb-3">
+                  <strong>&#128652; Airport transfer</strong> available (surcharges may apply) — contact property at least 24 hours prior to arrival.
+                </v-alert>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Address & Contact -->
+                <div class="hotel-contact">
+                  <div><span class="detail-label">&#128205; Address:</span> Via Santa Lucia 62, Naples, NA, 80132, Italy</div>
+                  <div style="margin-top:6px;">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Via+Santa+Lucia+62+Naples+Italy" target="_blank" rel="noopener" class="med-link">&#128506; View on Google Maps</a>
+                  </div>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Travel Insurance -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#0D47A1 0%,#1565C0 55%,#1976D2 100%)!important;color:#fff!important;">
