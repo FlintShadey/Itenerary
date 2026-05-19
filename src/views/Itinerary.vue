@@ -141,6 +141,14 @@
 
                 </div>
 
+                <div class="mt-4" style="text-align:right;">
+                  <router-link to="/ewr-layover" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      &#9992; EWR Layover Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
