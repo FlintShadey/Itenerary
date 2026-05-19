@@ -380,6 +380,55 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 05 — Transfer: MiraMe Hotel → Rafina Port -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#37474F 0%,#455A64 55%,#546E7A 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#128652;</span>
+                Transfer &mdash; Hotel &rarr; Rafina Port &nbsp;&middot;&nbsp; Fri, Jun 05, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Pickup</div>
+                    <div class="checkin-time">11:00 AM</div>
+                    <div class="checkin-date">Fri, Jun 05</div>
+                  </div>
+                  <div class="checkin-divider">&#128652;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Drop-Off</div>
+                    <div class="checkin-time">Rafina Port</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Order:</span>
+                  <span class="confirm-code ferry-code">#w-6457607-1</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">From:</span>
+                  <span>MiraMe Athens Boutique Hotel, 118 Ermou, Athens 10554</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">To:</span>
+                  <span>Rafina Port</span>
+                </div>
+
+                <v-alert type="info" variant="tonal" density="compact" class="mb-3">
+                  &#128101; <strong>Meeting Point:</strong> Your driver will be waiting <strong>outside the hotel</strong> at the scheduled pickup time.
+                </v-alert>
+
+                <div class="mt-2" style="text-align:right;">
+                  <a href="/welcome_receipt_KMvgE4EW.pdf" target="_blank" rel="noopener" style="text-decoration:none;">
+                    <v-btn color="blue-grey-darken-2" variant="tonal" size="small">
+                      &#128196; View Receipt PDF &nbsp;&#8250;
+                    </v-btn>
+                  </a>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 05 — Ferry: Rafina → Mykonos -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
