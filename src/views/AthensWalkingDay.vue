@@ -117,6 +117,15 @@
                 <span style="font-weight:700;">&euro;70.00 &mdash; Paid in full</span>
               </div>
 
+              <div class="benefits-heading mb-2">&#129534; Payment Receipt</div>
+              <div style="border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,0.12);margin-bottom:16px;">
+                <img
+                  src="/viva-receipt-blade-runner.png"
+                  alt="Viva.com payment receipt — Blade Runner Live, 2 tickets, €70.00"
+                  style="width:100%;display:block;"
+                />
+              </div>
+
               <v-alert type="warning" variant="tonal" density="compact" class="mb-4">
                 <strong>&#128336; Arrive by 8:15 PM</strong> &mdash; Gates close promptly at 9:00 PM. Allow time to navigate the ancient stone stairs to your assigned tier.
               </v-alert>
