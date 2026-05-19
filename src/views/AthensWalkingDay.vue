@@ -120,7 +120,7 @@
               <div class="benefits-heading mb-2">&#129534; Payment Receipt</div>
               <div style="border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,0.12);margin-bottom:16px;">
                 <img
-                  src="/viva-receipt-blade-runner.png"
+                  :src="'/viva-receipt-blade-runner.png'"
                   alt="Viva.com payment receipt — Blade Runner Live, 2 tickets, €70.00"
                   style="width:100%;display:block;"
                 />
