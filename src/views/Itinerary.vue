@@ -194,6 +194,14 @@
                   <div><span class="detail-label">&#128205; Address:</span> Ermou 118, Athens 10554, GR</div>
                 </div>
 
+                <div class="mt-4" style="text-align:right;">
+                  <router-link to="/athens-hotel-transport" style="text-decoration:none;">
+                    <v-btn color="teal-darken-2" variant="tonal" size="small">
+                      &#128652; Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
