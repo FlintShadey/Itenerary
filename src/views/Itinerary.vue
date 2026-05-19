@@ -466,13 +466,25 @@
 
                 <!-- Booking details -->
                 <div class="confirm-row mb-1">
+                  <span class="detail-label">Operator:</span>
+                  <span style="font-weight:600;">SeaJets</span>
+                </div>
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Booking Ref:</span>
                   <span class="confirm-code ferry-code">1112QCMBH</span>
                 </div>
-                <div class="confirm-row mb-3">
+                <div class="confirm-row mb-2">
                   <span class="detail-label">Order ID:</span>
                   <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1112QCMBH</span>
                   <span class="trip-id">&middot; Reserved 03/04/2026</span>
+                </div>
+
+                <div class="mb-3" style="text-align:right;">
+                  <a href="https://www.seajets.com/en/my-bookings/" target="_blank" rel="noopener" style="text-decoration:none;">
+                    <v-btn color="cyan-darken-3" variant="tonal" size="small">
+                      &#9973; SeaJets Reservation &nbsp;&#8250;
+                    </v-btn>
+                  </a>
                 </div>
 
                 <v-divider class="my-3"></v-divider>
