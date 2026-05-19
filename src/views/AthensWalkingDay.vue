@@ -96,9 +96,25 @@
                 <span class="detail-label">Venue:</span>
                 <span>Odeon of Herodes Atticus (Herodion), Dionysiou Areopagitou, south slope of the Acropolis</span>
               </div>
-              <div class="confirm-row mb-3">
+              <div class="confirm-row mb-1">
                 <span class="detail-label">Tickets:</span>
-                <span>More.com (formerly Viva.gr) &mdash; book well in advance, opening week of festival</span>
+                <span style="font-weight:600;color:#388E3C;">&#10003; Confirmed &mdash; 2 tickets</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Order Code:</span>
+                <span class="confirm-code ferry-code">3883813065372609</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Transaction ID:</span>
+                <span class="ferry-code" style="font-size:0.78rem;">8d2f464f-36ba-412c-8a34-acdfdd03d517</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Card:</span>
+                <span>VISA 414720XXXXXX8872</span>
+              </div>
+              <div class="confirm-row mb-3">
+                <span class="detail-label">Amount Paid:</span>
+                <span style="font-weight:700;">&euro;70.00 &mdash; Paid in full</span>
               </div>
 
               <v-alert type="warning" variant="tonal" density="compact" class="mb-4">

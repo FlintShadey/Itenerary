@@ -348,9 +348,13 @@
                   <span class="detail-label">Walk Time:</span>
                   <span>~2 hr 28 min total &nbsp;&middot;&nbsp; 2 legs via Monastiraki &amp; Exarchia</span>
                 </div>
-                <div class="confirm-row mb-3">
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Evening:</span>
-                  <span style="font-weight:700;color:#C62828;">Blade Runner (The Final Cut) &mdash; Vangelis score performed live by The Avex Ensemble</span>
+                  <span style="font-weight:700;color:#C62828;">Blade Runner (The Final Cut) &mdash; Vangelis score live by The Avex Ensemble</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Tickets:</span>
+                  <span style="font-weight:600;color:#388E3C;">&#10003; Confirmed &mdash; 2 tickets &nbsp;&middot;&nbsp; &euro;70.00 paid &nbsp;&middot;&nbsp; Order #3883813065372609</span>
                 </div>
 
                 <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
