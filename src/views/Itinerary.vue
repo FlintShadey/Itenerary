@@ -272,6 +272,47 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 03 — Dinner at Aleria -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4E342E 0%,#6D4C41 55%,#8D6E63 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127869;</span>
+                Dinner &mdash; Aleria Restaurant &nbsp;&middot;&nbsp; Wed, Jun 03, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Time</div>
+                    <div class="checkin-time">9:00 PM</div>
+                    <div class="checkin-date">Wed, Jun 03</div>
+                  </div>
+                  <div class="checkin-divider">&#127869;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Guests</div>
+                    <div class="checkin-time">2 people</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Reservation:</span>
+                  <span>Smith Flint</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Address:</span>
+                  <span>57 Megalou Alexandrou str., 104 35, Metaxourgio &mdash; Athens</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Phone:</span>
+                  <span>210 522 2633</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Email:</span>
+                  <span>info@aleria.gr</span>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 04 — Athens Walking Day & Blade Runner Live -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#3949AB 100%)!important;color:#fff!important;">
