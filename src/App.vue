@@ -1205,56 +1205,98 @@
 
                 <!-- Blue Grotto Tour -->
                 <div class="benefits-heading mb-2">&#127700; Capri Island Boat Tour with Blue Grotto Stop &nbsp;&middot;&nbsp; 10:00 AM</div>
-                <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                  <strong>&#9201; Arrive by 9:55 AM</strong> — 5 minutes before your slot. Payment auto-charged <strong>Jun 18</strong>.
-                </v-alert>
 
+                <!-- Status -->
+                <div class="confirm-row mb-3" style="display:flex;align-items:center;gap:8px;">
+                  <span class="detail-label">Status:</span>
+                  <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Reserved &mdash; No payment made yet</v-chip>
+                </div>
+
+                <!-- Date & Time -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128197; Date &amp; Time</div>
+                <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
+                  <strong>&#9201; Arrive by 9:55 AM</strong> &mdash; 5 minutes before your 10:00 AM slot.
+                </v-alert>
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Code:</span>
-                  <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
+                  <span class="detail-label">Activity Date:</span>
+                  <span>June 21, 2026 &nbsp;&middot;&nbsp; 10:00 AM</span>
                 </div>
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">PIN:</span>
-                  <span class="confirm-code">AqqxPS=w</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Provider:</span>
-                  <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" class="med-link">GetYourGuide</a>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Operator:</span>
-                  <span>Motoscafisti Capri</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Traveler:</span>
-                  <span>Jessica Miller &amp; Flint &nbsp;&middot;&nbsp; 2 Adults</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Duration:</span>
-                  <span>Approx. 2 hours &nbsp;&middot;&nbsp; English</span>
+                  <span class="detail-label">Arrival Time:</span>
+                  <span>9:55 AM (5 minutes before your time slot)</span>
                 </div>
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">Price:</span>
-                  <span>$58.72</span>
+                  <span class="detail-label">Duration:</span>
+                  <span>2 hours</span>
                 </div>
 
-                <div class="hotel-contact mb-3">
-                  <div><span class="detail-label">&#128205; Meeting Point:</span> Molo Numero 0, Porto di Capri, Marina Grande, Capri</div>
-                  <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock 0, Port of Capri. Show your ticket and board the first island tour available.</div>
-                  <div style="font-size:0.82rem;color:#555;margin-top:2px;">Departures approx. every 30 min from 9:45 AM to 2:00 PM daily.</div>
+                <!-- Travelers & Cost -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128100; Travelers &amp; Cost</div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Guests:</span>
+                  <span>2 Adults (Age 0&ndash;99)</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Language:</span>
+                  <span>English</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Total Cost:</span>
+                  <span style="font-weight:700;color:#1B5E20;">$58.72</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Payment:</span>
+                  <span>Card auto-charged <strong>June 18, 2026</strong>. Mobile tickets available in app once processed; early payment optional.</span>
                 </div>
 
-                <img src="/Capri Boat Tour meeting spot .webp" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;" />
+                <!-- Logistics -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128205; Logistics (Where to Go)</div>
+                <div class="hotel-contact mb-1">
+                  <div><span class="detail-label">&#128205; Meeting Point:</span> Molo Numero 0, Porto di Capri, Marina Grande, 80073 Capri NA, Italia</div>
+                  <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock number 0, Port of Capri, Motoscafisti Capri. Show your ticket and board the first available island tour.</div>
+                  <div style="font-size:0.82rem;color:#555;margin-top:2px;">Departures every ~30 minutes from 9:45 AM to 2:00 PM daily.</div>
+                  <div style="margin-top:4px;"><span class="detail-label">End Point:</span> Returns to the starting location.</div>
+                </div>
 
+                <img src="/Capri Boat Tour meeting spot .webp" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;margin-top:8px;" />
+
+                <!-- Included / Not Included -->
                 <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#9989; Included</div>
                 <ul class="benefits-list mb-2">
                   <li>Capri island boat tour</li>
                   <li>Crew &amp; Captain</li>
                 </ul>
                 <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#10060; Not Included</div>
-                <ul class="benefits-list mb-4">
-                  <li>Blue Grotto entry by rowboat — purchase on the spot (~&euro;18)</li>
+                <ul class="benefits-list mb-3">
+                  <li>Blue Grotto entry by rowboat &mdash; purchase on the spot (~&euro;18)</li>
                 </ul>
+
+                <!-- Important Information -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Information</div>
+                <ul class="benefits-list mb-3">
+                  <li><strong>Weather:</strong> Full refund or replacement tour offered if weather is adverse.</li>
+                  <li><strong>Blue Grotto Limit:</strong> If wait time exceeds 60 minutes, crew may return to port for safety &mdash; you will receive a free ticket for the Blue Grotto only.</li>
+                  <li><strong>Boat Type:</strong> Subject to change based on availability.</li>
+                  <li><strong>Cancellation:</strong> Cancel before <strong>10:00 AM on June 20, 2026</strong> for a full refund.</li>
+                </ul>
+
+                <!-- Booking References -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128273; Booking References &amp; Support</div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Activity Provider:</span>
+                  <span>Motoscafisti Capri <span style="color:#666;">(contact via email for questions)</span></span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Reference:</span>
+                  <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">PIN:</span>
+                  <span class="confirm-code">AqqxPS=w</span>
+                </div>
+                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
+                  &#128241; <strong>Tip:</strong> Download the GetYourGuide app to manage your booking and access mobile tickets on the go.
+                </v-alert>
 
                 <v-divider class="my-3"></v-divider>
 
@@ -1333,8 +1375,17 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Cooking Class -->
-                <div class="benefits-heading mb-2">&#127819; Lemon Cooking Class &nbsp;&middot;&nbsp; 10:00 AM</div>
+                <!-- Sea Pools Walk — Morning -->
+                <div class="benefits-heading mb-2">&#127946; Morning &mdash; Sorrento Old Town &rarr; Bagni della Regina Giovanna</div>
+                <div class="confirm-row mb-1">~5 km stroll through the old town down to the sea pools &mdash; <strong>approx. 1.5 hours walk</strong>.</div>
+                <v-alert type="info" variant="tonal" density="compact" class="mt-3 mb-0">
+                  &#128241; <strong>Pack:</strong> bathing suit &amp; water shoes &mdash; natural sea-rock pools perfect for swimming.
+                </v-alert>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Cooking Class — 5:00 PM -->
+                <div class="benefits-heading mb-2">&#127819; Lemon Cooking Class &nbsp;&middot;&nbsp; 5:00 PM</div>
                 <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
                   <strong>&#9203; Pending confirmation</strong> &mdash; contacted Fattoria Terranova via website &amp; WhatsApp. Follow up if no reply.
                 </v-alert>
@@ -1342,18 +1393,9 @@
                   <span class="detail-label">&#127758; Host:</span>
                   <a href="https://fattoriaterranova.it/contacts-confirmation/" target="_blank" rel="noopener" class="med-link">fattoriaterranova.it</a>
                 </div>
-                <div class="confirm-row mb-4">
+                <div class="confirm-row mb-0">
                   <span class="detail-label">&#128222; Also contacted via WhatsApp</span>
                 </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Sea Pools Walk -->
-                <div class="benefits-heading mb-2">&#127946; Sorrento Old Town &rarr; Bagni della Regina Giovanna</div>
-                <div class="confirm-row mb-1">~5 km stroll through the old town down to the sea pools &mdash; <strong>approx. 1.5 hours walk</strong>.</div>
-                <v-alert type="info" variant="tonal" density="compact" class="mt-3">
-                  &#128241; <strong>Pack:</strong> bathing suit &amp; water shoes &mdash; natural sea-rock pools perfect for swimming.
-                </v-alert>
 
               </v-card-text>
             </v-card>
@@ -1912,6 +1954,79 @@
                   <div><span class="detail-label">&#128205; Address:</span> Via Santa Chiara, 26 &mdash; 84010 Ravello</div>
                   <div><span class="detail-label">&#128222; Phone:</span> <a href="tel:+39089857459" class="med-link">+39 089 857459</a></div>
                 </div>
+
+              </v-card-text>
+            </v-card>
+
+            <!-- Jun 28 — Dinner: La Sponda, Positano -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#880E4F 0%,#AD1457 55%,#E91E63 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127869;</span>
+                Dinner &mdash; La Sponda, Positano &nbsp;&middot;&nbsp; Sun, Jun 28, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Reservation summary -->
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Arrives</div>
+                    <div class="checkin-time">10:00 PM</div>
+                    <div class="checkin-date">Sun, Jun 28</div>
+                  </div>
+                  <div class="checkin-divider">&#127860;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Ends</div>
+                    <div class="checkin-time">12:30 AM</div>
+                    <div class="checkin-date">Mon, Jun 29</div>
+                  </div>
+                  <div class="checkin-divider">&#128101;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Party</div>
+                    <div class="checkin-time">2 guests</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Name on Reservation:</span>
+                  <span>Jessica Miller</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Reservation #:</span>
+                  <span class="confirm-code ferry-code">4XBXED3LUNNS</span>
+                </div>
+
+                <v-alert type="error" variant="tonal" density="compact" class="mb-4">
+                  <strong>&#9203; Table held 15 minutes only.</strong> If running late, call <a href="tel:+39089875066" class="med-link">+39 089 875066</a> immediately.
+                </v-alert>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Location & Contact -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128205; Location &amp; Contact</div>
+                <div class="hotel-contact mb-3">
+                  <div><span class="detail-label">&#128205; Address:</span> Via Cristoforo Colombo, 30, Positano, Campania 84017</div>
+                  <div><span class="detail-label">&#128222; Phone:</span> <a href="tel:+39089875066" class="med-link">+39 089 875066</a></div>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Policies for Non-Hotel Guests -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128176; Policies for Non-Hotel Guests</div>
+                <ul class="benefits-list mb-3">
+                  <li><strong>Minimum Spend:</strong> &euro;160 per person.</li>
+                  <li><strong>Service Charge:</strong> A discretionary 15% service charge will be added to the bill.</li>
+                  <li><strong>Seating:</strong> Preferences noted but a &ldquo;front row table&rdquo; is not guaranteed &mdash; priority given to hotel residents.</li>
+                </ul>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Important Rules & Cancellation -->
+                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Rules &amp; Cancellation</div>
+                <ul class="benefits-list mb-0">
+                  <li><strong>Cancellation Policy:</strong> Cancellations accepted up to <strong>24 hours before</strong> booking time.</li>
+                  <li><strong>No-Show / Late Cancellation Fee:</strong> <span style="color:#C62828;font-weight:700;">&euro;100.00 per person.</span></li>
+                  <li><strong>Photography:</strong> Professional photography is strictly prohibited in all public areas (bars, restaurants) to protect guest privacy.</li>
+                </ul>
 
               </v-card-text>
             </v-card>
