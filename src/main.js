@@ -4,10 +4,11 @@ import { createVuetify } from "vuetify";
 import "vuetify/styles";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
+import router from "./router.js";
 
 const vuetify = createVuetify({
   components,
   directives,
 });
 
-createApp(App).use(vuetify).mount("#app");
+createApp(App).use(vuetify).use(router).mount("#app");
