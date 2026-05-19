@@ -205,6 +205,73 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 03 — Athens Walking Tour (ToursByLocals) -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A148C 0%,#6A1B9A 55%,#9C27B0 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127981;</span>
+                Athens Walking Tour &mdash; Acropolis &amp; Museum &nbsp;&middot;&nbsp; Wed, Jun 03, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-2" style="display:flex;align-items:center;gap:8px;">
+                  <span class="detail-label">Status:</span>
+                  <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Booking Requested &mdash; Pending</v-chip>
+                </div>
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Time</div>
+                    <div class="checkin-time">4:00 PM</div>
+                    <div class="checkin-date">Wed, Jun 03</div>
+                  </div>
+                  <div class="checkin-divider">&#9201;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Duration</div>
+                    <div class="checkin-time">3 hours</div>
+                  </div>
+                  <div class="checkin-divider">&#128101;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Guests</div>
+                    <div class="checkin-time">2 people</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Tour:</span>
+                  <span>Acropolis, Acropolis Museum &amp; Theatre of Dionysos</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Guide:</span>
+                  <span>Maria S. &nbsp;&middot;&nbsp; ToursByLocals</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Booking Ref:</span>
+                  <span class="confirm-code ferry-code">#CQZDHZ</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Total:</span>
+                  <span style="font-weight:700;color:#C62828;">$491.91 USD &mdash; Balance due on acceptance</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Meeting Point:</span>
+                  <span>43 Rovertou Galli, Athina 117 42</span>
+                </div>
+
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-4">
+                  &#127981; <strong>Buy Acropolis tickets in advance</strong> &mdash; they sell out fast. Ask Maria S. for the official link. (&euro;30 Acropolis + &euro;20 Museum per person, not included.)
+                </v-alert>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/athens-walking-tour" style="text-decoration:none;">
+                    <v-btn color="purple-darken-3" variant="tonal" size="small">
+                      Full Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 05 — Ferry: Rafina → Mykonos -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
