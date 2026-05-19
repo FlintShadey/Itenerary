@@ -272,6 +272,61 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 04 — Athens Walking Day & Blade Runner Live -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#3949AB 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#128694;</span>
+                Athens Walking Day &amp; Blade Runner Live &mdash; Thu, Jun 04, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Walk Start</div>
+                    <div class="checkin-time">Morning</div>
+                    <div class="checkin-date">Thu, Jun 04</div>
+                  </div>
+                  <div class="checkin-divider">&#128694;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Distance</div>
+                    <div class="checkin-time">~10.1 km</div>
+                  </div>
+                  <div class="checkin-divider">&#127916;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Evening</div>
+                    <div class="checkin-time">9:00 PM</div>
+                    <div class="checkin-date">Blade Runner Live</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Route:</span>
+                  <span>Mira Me Hotel &rarr; Ama Lachei &rarr; Odeon of Herodes Atticus</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Walk Time:</span>
+                  <span>~2 hr 28 min total &nbsp;&middot;&nbsp; 2 legs via Monastiraki &amp; Exarchia</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Evening:</span>
+                  <span style="font-weight:700;color:#C62828;">Blade Runner (The Final Cut) &mdash; Vangelis score performed live by The Avex Ensemble</span>
+                </div>
+
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
+                  &#128336; <strong>Arrive at Odeon by 8:15 PM</strong> &mdash; gates close at 9:00 PM. No high heels. Bottled water only.
+                </v-alert>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/athens-walking-day" style="text-decoration:none;">
+                    <v-btn color="indigo-darken-2" variant="tonal" size="small">
+                      Full Details &amp; Directions &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 05 — Ferry: Rafina → Mykonos -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
