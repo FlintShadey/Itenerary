@@ -500,6 +500,27 @@
                   </div>
                 </div>
 
+                <v-divider class="my-4"></v-divider>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Online Check-in:</span>
+                  <span>Use Order ID &amp; phone to check in</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Order ID:</span>
+                  <span class="confirm-code ferry-code">1112QCMBH</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Phone:</span>
+                  <span class="ferry-code">0012103859809</span>
+                </div>
+
+                <a href="https://webcheckin.seajets.com" target="_blank" rel="noopener" style="text-decoration:none;display:block;text-align:right;">
+                  <v-btn color="blue-darken-3" variant="elevated" size="small">
+                    &#9989; Online Check-In &nbsp;&rarr;
+                  </v-btn>
+                </a>
+
               </v-card-text>
             </v-card>
 
