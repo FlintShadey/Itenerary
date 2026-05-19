@@ -22,6 +22,6 @@
   "theme_color": "#134B7E",
   "background_color": "#0B2545",
   "display": "standalone",
-  "start_url": "/Itenerary/",
-  "scope": "/Itenerary/"
+  "start_url": "./",
+  "scope": "."
 }
