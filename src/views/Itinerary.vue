@@ -265,8 +265,21 @@
                   <span>43 Rovertou Galli, Athina 117 42</span>
                 </div>
 
-                <v-alert type="warning" variant="tonal" density="compact" class="mb-4">
-                  &#127981; <strong>Buy Acropolis tickets in advance</strong> &mdash; they sell out fast. Ask Maria S. for the official link. (&euro;30 Acropolis + &euro;20 Museum per person, not included.)
+                <v-alert type="success" variant="tonal" density="compact" class="mb-4">
+                  &#10003; <strong>Acropolis &amp; Museum tickets confirmed</strong> &mdash; Booking ID <strong>31713020</strong> &nbsp;&middot;&nbsp; Jun 03 &nbsp;&middot;&nbsp; 10:00 AM &nbsp;&middot;&nbsp; 2 Adults
+                </v-alert>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Tickets:</span>
+                  <span>Combo: Acropolis Parthenon + Acropolis Museum &nbsp;&middot;&nbsp; via Headout</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Booking ID:</span>
+                  <span class="confirm-code ferry-code">31713020</span>
+                </div>
+
+                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
+                  &#128241; <strong>Use the Headout app</strong> for offline ticket access &amp; real-time updates. Bring earphones for the audio guide.
                 </v-alert>
 
                 <div class="mt-2" style="text-align:right;">

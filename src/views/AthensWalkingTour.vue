@@ -168,6 +168,75 @@
             </v-card-text>
           </v-card>
 
+          <!-- Acropolis Tickets — Headout -->
+          <v-card hover elevation="4" class="mb-6 itinerary-card">
+            <v-card-title class="card-header" style="background:linear-gradient(135deg,#B71C1C 0%,#C62828 55%,#D32F2F 100%)!important;color:#fff!important;">
+              <span class="card-header-icon">&#127981;</span>
+              Acropolis &amp; Museum Tickets &mdash; Confirmed
+            </v-card-title>
+            <v-card-text class="pa-4">
+
+              <v-alert type="success" variant="tonal" density="compact" class="mb-4">
+                &#10003; <strong>Reservation Confirmed</strong> &mdash; Booking ID <strong>31713020</strong>
+              </v-alert>
+
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Ticket:</span>
+                <span>Combo: Acropolis Parthenon + Acropolis Museum</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Name:</span>
+                <span>John Smith</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Guests:</span>
+                <span>2 Adults</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Date:</span>
+                <span>June 03, 2026</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Start Time:</span>
+                <span style="font-weight:700;">10:00 AM</span>
+              </div>
+              <div class="confirm-row mb-3">
+                <span class="detail-label">Booking ID:</span>
+                <span class="confirm-code ferry-code">31713020</span>
+              </div>
+
+              <v-alert type="info" variant="tonal" density="compact" class="mb-4">
+                &#128241; <strong>Use the Headout app</strong> for offline ticket access &amp; real-time updates. Open your tickets in the app &mdash; you&rsquo;ll be ready to go without signal.
+              </v-alert>
+
+              <v-divider class="my-4"></v-divider>
+
+              <div class="benefits-heading mb-3">&#128205; Redemption Points</div>
+              <div class="confirm-row mb-1" style="align-items:flex-start;">
+                <span class="detail-label">Acropolis:</span>
+                <span>Scan at ticket validating machines &mdash; Athens 105 58, Greece. Landmark: South Slope of the Acropolis.</span>
+              </div>
+              <div class="confirm-row mb-3" style="align-items:flex-start;">
+                <span class="detail-label">Museum:</span>
+                <span>Scan at Acropolis Museum entrance &mdash; Dionysiou Areopagitou 15, Athina 117 42. <em>Can be visited any day of your convenience.</em></span>
+              </div>
+
+              <v-divider class="my-4"></v-divider>
+
+              <div class="benefits-heading mb-3">&#9888; Important Rules</div>
+              <ul class="benefits-list mb-4">
+                <li>Bring a valid <strong>photo ID</strong> for verification.</li>
+                <li>Bring your own <strong>earphones</strong> for the audio guide experience.</li>
+                <li>You can visit the Acropolis <strong>only in your chosen time slot (&plusmn;15 min)</strong>; entry outside the slot is not allowed.</li>
+                <li><strong>Arrive 30 minutes early</strong> &mdash; security checks can take 30 minutes in high season.</li>
+                <li>Late arrivals or no-shows are <strong>not eligible for a refund</strong>.</li>
+                <li>Download the audio guide <strong>in advance</strong> &mdash; mobile signal around the monuments is weak.</li>
+                <li>Audio guide FAQ: <a href="https://cliomusetours.com/faq" target="_blank" rel="noopener" class="med-link">Clio Muse Tours FAQ</a></li>
+              </ul>
+
+            </v-card-text>
+          </v-card>
+
         </v-col>
       </v-row>
     </v-container>
