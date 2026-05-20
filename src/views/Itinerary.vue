@@ -221,10 +221,13 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Brunch -->
-                <div class="benefits-heading mb-2">&#9749; Brunch</div>
+                <!-- Lunch -->
+                <div class="benefits-heading mb-2">&#127860; Lunch</div>
+                <div class="confirm-row mb-1">
+                  <a href="https://www.karamanlidika.gr" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Karamanlidika tou Fani &#8599;</a>
+                </div>
                 <div class="confirm-row mb-3">
-                  <a href="https://www.google.com/maps/search/Picky+Brunch+Specialty+Coffee+Athens" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Picky Brunch &amp; Specialty Coffee &#8599;</a>
+                  <span style="font-size:0.82rem;opacity:0.75;">Best atmospheric old Greek food</span>
                 </div>
 
                 <!-- Dinner -->
@@ -422,13 +425,6 @@
                 <div class="confirm-row mb-3">
                   <span class="detail-label">Tickets:</span>
                   <span style="font-weight:600;color:#388E3C;">&#10003; Confirmed &mdash; 2 tickets &nbsp;&middot;&nbsp; &euro;70.00 paid &nbsp;&middot;&nbsp; Order #3883813065372609</span>
-                </div>
-
-                <!-- Lunch -->
-                <div class="benefits-heading mb-2">&#127860; Lunch</div>
-                <div class="confirm-row mb-3">
-                  <a href="https://www.karamanlidika.gr" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Karamanlidika tou Fani &#8599;</a>
-                  <span style="margin-left:8px;font-size:0.82rem;opacity:0.75;">Best atmospheric old Greek food</span>
                 </div>
 
                 <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
