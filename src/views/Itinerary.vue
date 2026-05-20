@@ -880,6 +880,14 @@
                   <div><span class="detail-label">&#128205; Address:</span> Fira, Santorini 84700, GR</div>
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/aigialos-transport" style="text-decoration:none;">
+                    <v-btn color="purple-darken-3" variant="tonal" size="small">
+                      Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
