@@ -663,6 +663,72 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 06 — Explore Mykonos Town -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#006064 0%,#00838F 55%,#00ACC1 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127958;</span>
+                Explore Mykonos Town (Chora) &nbsp;&middot;&nbsp; Sat, Jun 06, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Morning -->
+                <div class="benefits-heading mb-2">&#128694; 11:30 AM &mdash; Chora Walk</div>
+                <div class="confirm-row mb-1" style="align-items:flex-start;">
+                  <span class="detail-label" style="min-width:110px;">Highlights:</span>
+                  <span>Little Venice &nbsp;&middot;&nbsp; Matogianni Street &nbsp;&middot;&nbsp; The Windmills &nbsp;&middot;&nbsp; tiny white alleyways &nbsp;&middot;&nbsp; hidden churches &nbsp;&middot;&nbsp; luxury boutiques</span>
+                </div>
+
+                <div class="mb-3"></div>
+
+                <!-- Shopping -->
+                <div class="benefits-heading mb-2">&#128717; Best Shopping Streets</div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Matogianni</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Enoplon Dinameon</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Kalogera</span>
+                </div>
+
+                <!-- Lunch -->
+                <div class="benefits-heading mb-2">&#127860; Best Authentic Lunch</div>
+                <div class="confirm-row mb-3">
+                  <a href="https://www.google.com/maps/search/To+Maereio+Mykonos" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">To Maereio &#8599;</a>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Beach -->
+                <div class="benefits-heading mb-2">&#127774; 3:00 PM &mdash; Psarou Beach + Nammos</div>
+                <div class="confirm-row mb-3">
+                  <a href="https://www.nammos.gr" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Nammos Beach Club &#8599;</a>
+                </div>
+
+                <!-- Sunset -->
+                <div class="benefits-heading mb-2">&#127751; 6:45 PM &mdash; Sunset Cocktails</div>
+                <div class="confirm-row mb-3">
+                  <a href="https://www.google.com/maps/search/180+Sunset+Bar+Mykonos" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">180&ordm; Sunset Bar &#8599;</a>
+                  <span style="margin-left:8px;font-size:0.82rem;opacity:0.75;">Best choice</span>
+                </div>
+
+                <!-- Dinner -->
+                <div class="benefits-heading mb-2">&#127869; Dinner</div>
+                <div class="confirm-row mb-3">
+                  <span style="opacity:0.75;">TBD</span>
+                </div>
+
+                <v-divider class="my-3"></v-divider>
+
+                <!-- Pending -->
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-2">
+                  &#9203; <strong>Pending:</strong> Cavo Paradiso &mdash; emailed for table price
+                </v-alert>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 08 — Ferry: Mykonos → Santorini -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
