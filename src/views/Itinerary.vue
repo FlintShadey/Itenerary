@@ -729,6 +729,21 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 07 — Mykonos Day -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#004D40 0%,#00695C 55%,#00897B 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127958;</span>
+                Mykonos &nbsp;&middot;&nbsp; Sun, Jun 07, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <v-alert type="warning" variant="tonal" density="compact" class="mb-2">
+                  &#9203; <strong>Pending:</strong> Cavo Tagoo &mdash; Pool evening experience (floating beds) &mdash; €200 minimum
+                </v-alert>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 08 — Ferry: Mykonos → Santorini -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
