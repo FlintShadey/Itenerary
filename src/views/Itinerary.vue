@@ -213,6 +213,51 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 02 — Walking Distance: Local Picks -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 55%,#43A047 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#128694;</span>
+                Athens Walking Distance &mdash; Local Picks &nbsp;&middot;&nbsp; Tue, Jun 02, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <!-- Brunch -->
+                <div class="benefits-heading mb-2">&#9749; Brunch</div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Picky Brunch &amp; Specialty Coffee</span>
+                </div>
+
+                <!-- Dinner -->
+                <div class="benefits-heading mb-2">&#127869; Dinner</div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Nissos Seafood Tavern</span>
+                  <span style="margin-left:8px;font-size:0.82rem;opacity:0.75;">Opens 5:00 PM</span>
+                </div>
+                <div class="mb-3"></div>
+
+                <!-- Art -->
+                <div class="benefits-heading mb-2">&#127912; Art Gallery</div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Mon Coin Studio</span>
+                </div>
+
+                <!-- Cocktails -->
+                <div class="benefits-heading mb-2">&#127864; Cocktails &nbsp;<span style="font-weight:400;font-size:0.82rem;opacity:0.75;">5 min walk from hotel</span></div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">A for Athens</span>
+                </div>
+
+                <!-- Optional -->
+                <v-divider class="my-3"></v-divider>
+                <div class="benefits-heading mb-2">&#127981; Optional &nbsp;<span style="font-weight:400;font-size:0.82rem;opacity:0.75;">~30 min walk from hotel</span></div>
+                <div class="confirm-row mb-1" style="align-items:flex-start;">
+                  <span class="detail-label" style="min-width:90px;">Museum:</span>
+                  <span>National Museum of Contemporary Art Athens (ΕΜΣΤ) &mdash; Leof. Andrea Siggrou 51–53, Athina 117 43</span>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 03 — Athens Walking Tour (ToursByLocals) -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A148C 0%,#6A1B9A 55%,#9C27B0 100%)!important;color:#fff!important;">
