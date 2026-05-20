@@ -15,12 +15,6 @@
             </v-card-title>
             <v-card-text class="pa-4">
 
-              <!-- Status -->
-              <div class="confirm-row mb-3" style="display:flex;align-items:center;gap:8px;">
-                <span class="detail-label">Status:</span>
-                <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Booking Requested &mdash; Pending Guide Acceptance</v-chip>
-              </div>
-
               <!-- Booking refs -->
               <div class="confirm-row mb-1">
                 <span class="detail-label">Booking Reference:</span>
