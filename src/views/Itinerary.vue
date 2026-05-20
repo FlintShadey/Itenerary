@@ -815,6 +815,16 @@
                   </div>
                 </div>
 
+                <v-divider class="my-3"></v-divider>
+
+                <div class="mt-2" style="text-align:right;">
+                  <a href="https://webcheckin.seajets.com" target="_blank" rel="noopener" style="text-decoration:none;">
+                    <v-btn color="teal-darken-2" variant="tonal" size="small">
+                      &#10003; Online Check-In &rarr;
+                    </v-btn>
+                  </a>
+                </div>
+
               </v-card-text>
             </v-card>
 
