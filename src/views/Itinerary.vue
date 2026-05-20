@@ -224,13 +224,13 @@
                 <!-- Brunch -->
                 <div class="benefits-heading mb-2">&#9749; Brunch</div>
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">Picky Brunch &amp; Specialty Coffee</span>
+                  <a href="https://www.google.com/maps/search/Picky+Brunch+Specialty+Coffee+Athens" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Picky Brunch &amp; Specialty Coffee &#8599;</a>
                 </div>
 
                 <!-- Dinner -->
                 <div class="benefits-heading mb-2">&#127869; Dinner</div>
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Nissos Seafood Tavern</span>
+                  <a href="https://www.google.com/maps/search/Nissos+Seafood+Tavern+Athens" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Nissos Seafood Tavern &#8599;</a>
                   <span style="margin-left:8px;font-size:0.82rem;opacity:0.75;">Opens 5:00 PM</span>
                 </div>
                 <div class="mb-3"></div>
@@ -238,13 +238,13 @@
                 <!-- Art -->
                 <div class="benefits-heading mb-2">&#127912; Art Gallery</div>
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">Mon Coin Studio</span>
+                  <a href="https://www.google.com/maps/search/Mon+Coin+Studio+Athens" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Mon Coin Studio &#8599;</a>
                 </div>
 
                 <!-- Cocktails -->
                 <div class="benefits-heading mb-2">&#127864; Cocktails &nbsp;<span style="font-weight:400;font-size:0.82rem;opacity:0.75;">5 min walk from hotel</span></div>
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">A for Athens</span>
+                  <a href="https://aforathens.com" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">A for Athens &#8599;</a>
                 </div>
 
                 <!-- Optional -->
@@ -252,7 +252,11 @@
                 <div class="benefits-heading mb-2">&#127981; Optional &nbsp;<span style="font-weight:400;font-size:0.82rem;opacity:0.75;">~30 min walk from hotel</span></div>
                 <div class="confirm-row mb-1" style="align-items:flex-start;">
                   <span class="detail-label" style="min-width:90px;">Museum:</span>
-                  <span>National Museum of Contemporary Art Athens (ΕΜΣΤ) &mdash; Leof. Andrea Siggrou 51–53, Athina 117 43</span>
+                  <a href="https://www.emst.gr/en" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">National Museum of Contemporary Art Athens (ΕΜΣΤ) &#8599;</a>
+                </div>
+                <div class="confirm-row mb-1" style="align-items:flex-start;margin-top:4px;">
+                  <span class="detail-label" style="min-width:90px;"></span>
+                  <span style="font-size:0.82rem;opacity:0.75;">Leof. Andrea Siggrou 51–53, Athina 117 43</span>
                 </div>
 
               </v-card-text>
