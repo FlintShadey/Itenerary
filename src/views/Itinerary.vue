@@ -270,10 +270,7 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <div class="confirm-row mb-2" style="display:flex;align-items:center;gap:8px;">
-                  <span class="detail-label">Status:</span>
-                  <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Booking Requested &mdash; Pending</v-chip>
-                </div>
+               
 
                 <div class="checkin-row mb-4">
                   <div class="checkin-block">
@@ -425,6 +422,13 @@
                 <div class="confirm-row mb-3">
                   <span class="detail-label">Tickets:</span>
                   <span style="font-weight:600;color:#388E3C;">&#10003; Confirmed &mdash; 2 tickets &nbsp;&middot;&nbsp; &euro;70.00 paid &nbsp;&middot;&nbsp; Order #3883813065372609</span>
+                </div>
+
+                <!-- Lunch -->
+                <div class="benefits-heading mb-2">&#127860; Lunch</div>
+                <div class="confirm-row mb-3">
+                  <a href="https://www.karamanlidika.gr" target="_blank" rel="noopener" class="med-link" style="font-weight:600;">Karamanlidika tou Fani &#8599;</a>
+                  <span style="margin-left:8px;font-size:0.82rem;opacity:0.75;">Best atmospheric old Greek food</span>
                 </div>
 
                 <v-alert type="warning" variant="tonal" density="compact" class="mb-3">
