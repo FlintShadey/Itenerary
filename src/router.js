@@ -6,6 +6,7 @@ import AthensWalkingTour from './views/AthensWalkingTour.vue'
 import AthensWalkingDay from './views/AthensWalkingDay.vue'
 import EwrLayover from './views/EwrLayover.vue'
 import AigialosTransport from './views/AigialosTransport.vue'
+import KourosTransport from './views/KourosTransport.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -15,6 +16,7 @@ const routes = [
   { path: '/athens-walking-day', component: AthensWalkingDay },
   { path: '/ewr-layover', component: EwrLayover },
   { path: '/aigialos-transport', component: AigialosTransport },
+  { path: '/kouros-transport', component: KourosTransport },
 ]
 
 export default createRouter({

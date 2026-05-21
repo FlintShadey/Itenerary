@@ -660,6 +660,14 @@
                   <div><span class="detail-label">&#127758; Website:</span> <a href="https://www.kouroshotelmykonos.gr" target="_blank" rel="noopener" class="med-link">kouroshotelmykonos.gr</a></div>
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/kouros-transport" style="text-decoration:none;">
+                    <v-btn color="blue-grey-darken-2" variant="tonal" size="small">
+                      Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
