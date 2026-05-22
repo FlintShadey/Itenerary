@@ -1053,6 +1053,14 @@
                   <div><span class="detail-label">&#128205; Address:</span> 16 Polidorou, Rhodes 851 00, GR</div>
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/rhodes-transport" style="text-decoration:none;">
+                    <v-btn color="brown-darken-2" variant="tonal" size="small">
+                      Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
