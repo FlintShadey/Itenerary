@@ -729,10 +729,18 @@
 
                 <v-divider class="my-3"></v-divider>
 
-                <!-- Pending -->
-                <v-alert type="warning" variant="tonal" density="compact" class="mb-2">
-                  &#9203; <strong>Pending:</strong> Cavo Paradiso &mdash; emailed for table price
+                <!-- Cavo Paradiso confirmed -->
+                <v-alert type="success" variant="tonal" density="compact" class="mb-3">
+                  &#10003; <strong>Cavo Paradiso &mdash; Table Confirmed</strong> &mdash; PRFX04 &nbsp;&middot;&nbsp; 2 guests &nbsp;&middot;&nbsp; 00:20 (early Jun 07) &nbsp;&middot;&nbsp; &euro;300 balance due
                 </v-alert>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/cavo-paradiso" style="text-decoration:none;">
+                    <v-btn color="indigo-darken-3" variant="tonal" size="small">
+                      Full Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
 
               </v-card-text>
             </v-card>

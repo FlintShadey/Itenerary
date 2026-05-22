@@ -7,6 +7,7 @@ import AthensWalkingDay from './views/AthensWalkingDay.vue'
 import EwrLayover from './views/EwrLayover.vue'
 import AigialosTransport from './views/AigialosTransport.vue'
 import KourosTransport from './views/KourosTransport.vue'
+import CavoParadiso from './views/CavoParadiso.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -17,6 +18,7 @@ const routes = [
   { path: '/ewr-layover', component: EwrLayover },
   { path: '/aigialos-transport', component: AigialosTransport },
   { path: '/kouros-transport', component: KourosTransport },
+  { path: '/cavo-paradiso', component: CavoParadiso },
 ]
 
 export default createRouter({
