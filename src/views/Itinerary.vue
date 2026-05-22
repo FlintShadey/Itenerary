@@ -991,6 +991,14 @@
                   </div>
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <a href="https://www.bluestarferries.com/en-gb/web-check-in/?reference=100792986&accesscode=726155" target="_blank" rel="noopener" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      &#10003; Online Check-In &rarr;
+                    </v-btn>
+                  </a>
+                </div>
+
               </v-card-text>
             </v-card>
 
