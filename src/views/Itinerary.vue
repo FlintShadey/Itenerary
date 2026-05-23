@@ -1443,6 +1443,14 @@
 
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/ryanair-departure" style="text-decoration:none;">
+                    <v-btn color="red-darken-3" variant="tonal" size="small">
+                      Departure Day Plan &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
