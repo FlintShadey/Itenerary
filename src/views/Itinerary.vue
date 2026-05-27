@@ -416,8 +416,7 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Route -->
-                <div class="flight-route mb-4">
+                <div class="flight-route mb-3">
                   <div class="route-endpoint">
                     <div class="route-time">2:20 PM</div>
                     <div class="route-iata ferry-iata">RAF</div>
@@ -436,81 +435,23 @@
                   </div>
                 </div>
 
-                <div class="ferry-vessel mb-4">
+                <div class="ferry-vessel mb-3">
                   <span class="vessel-icon">&#128674;</span>
                   <span class="vessel-name">SUPERRUNNER JET</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Booking details -->
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Operator:</span>
-                  <span style="font-weight:600;">SeaJets</span>
-                </div>
-                <div class="confirm-row mb-1">
+                <div class="confirm-row mb-3">
                   <span class="detail-label">Booking Ref:</span>
                   <span class="confirm-code ferry-code">1112QCMBH</span>
                 </div>
-                <div class="confirm-row mb-2">
-                  <span class="detail-label">Order ID:</span>
-                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1112QCMBH</span>
-                  <span class="trip-id">&middot; Reserved 03/04/2026</span>
-                </div>
 
-                <div class="mb-3" style="text-align:right;">
-                  <a href="https://www.seajets.com/en/my-bookings/" target="_blank" rel="noopener" style="text-decoration:none;">
+                <div style="text-align:right;">
+                  <router-link to="/rafina-mykonos-ferry" style="text-decoration:none;">
                     <v-btn color="cyan-darken-3" variant="tonal" size="small">
-                      &#9973; SeaJets Reservation &nbsp;&#8250;
+                      Ferry Details &nbsp;&#8250;
                     </v-btn>
-                  </a>
+                  </router-link>
                 </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Passengers -->
-                <div class="benefits-heading mb-2">&#128100; Passengers</div>
-                <div class="passenger-table">
-                  <div class="passenger-row passenger-header">
-                    <span>Name</span>
-                    <span>Nationality</span>
-                    <span>Type</span>
-                    <span>Cabin</span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">SMITH JOHN FLINT</span>
-                    <span>United States</span>
-                    <span>Adult &middot; Male</span>
-                    <span class="seat-badge">SLV</span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">MILLER JESSICA</span>
-                    <span>United States</span>
-                    <span>Adult &middot; Female</span>
-                    <span class="seat-badge">SLV</span>
-                  </div>
-                </div>
-
-                <v-divider class="my-4"></v-divider>
-
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Online Check-in:</span>
-                  <span>Use Order ID &amp; phone to check in</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Order ID:</span>
-                  <span class="confirm-code ferry-code">1112QCMBH</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Phone:</span>
-                  <span class="ferry-code">0012103859809</span>
-                </div>
-
-                <a href="https://webcheckin.seajets.com" target="_blank" rel="noopener" style="text-decoration:none;display:block;text-align:right;">
-                  <v-btn color="blue-darken-3" variant="elevated" size="small">
-                    &#9989; Online Check-In &nbsp;&rarr;
-                  </v-btn>
-                </a>
 
               </v-card-text>
             </v-card>
