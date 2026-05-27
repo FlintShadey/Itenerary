@@ -1720,6 +1720,16 @@
                   <span class="detail-label">&#128222; Also contacted via WhatsApp</span>
                 </div>
 
+                <v-divider class="my-3"></v-divider>
+
+                <div style="text-align:right;">
+                  <router-link to="/sea-pools-walk" style="text-decoration:none;">
+                    <v-btn color="green-darken-3" variant="tonal" size="small">
+                      Walk Route &amp; Map &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
