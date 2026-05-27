@@ -991,6 +991,38 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 09 — Dinner: BLU Restaurant, Imerovigli -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#3949AB 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127860;</span>
+                Dinner &mdash; BLU Restaurant &nbsp;&middot;&nbsp; Tue, Jun 09, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Time:</span>
+                  <span><strong>9:00 PM</strong></span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Location:</span>
+                  <span>Malteza Square, Imerovigli &mdash; Santorini</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Chef:</span>
+                  <span>Elvis Giovaso &mdash; Greek Mediterranean gastronomy</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/blu-restaurant" style="text-decoration:none;">
+                    <v-btn color="indigo-darken-3" variant="tonal" size="small">
+                      Reservation Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 10 — Ferry: Santorini → Rhodes (ANEK Lines) -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
