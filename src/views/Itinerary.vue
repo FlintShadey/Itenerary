@@ -1730,113 +1730,41 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <v-alert type="warning" variant="tonal" density="compact" class="mb-4">
-                  <strong>&#9888; Start early.</strong> The trail is exposed &amp; rocky &mdash; much less pleasant if started late in the day. Due biglietti Orario AC 2 per Bomerano, per favore.
-                </v-alert>
-
-                <!-- Timeline overview -->
-                <div class="benefits-heading mb-3">&#128336; Day Timeline</div>
-                <div class="hotel-contact mb-4">
-                  <div><span class="detail-label">7:00 AM</span> &mdash; Depart Airbnb, Minori</div>
-                  <div><span class="detail-label">8:30–9:00 AM</span> &mdash; Start hiking from Bomerano</div>
-                  <div><span class="detail-label">12:00–1:00 PM</span> &mdash; Arrive Nocelle</div>
-                  <div><span class="detail-label">Afternoon</span> &mdash; Bus or walk down to Positano &bull; Lunch in Positano</div>
-                  <div><span class="detail-label">Evening</span> &mdash; Ferry, driver, or bus back to Minori <span class="benefit-note">(TBD on the day)</span></div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Bus route: Minori → Bomerano -->
-                <div class="benefits-heading mb-3">&#128652; Bus Route &mdash; Minori &rarr; Bomerano</div>
-                <div class="hotel-contact mb-2">
-                  <div><span class="detail-label">&#128205; Start:</span> Via S. Pietro, 47, Minori</div>
-                </div>
-
-                <!-- Leg 1: Walk to stop -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E8EAF6;">
-                    <span class="sail-day-date" style="color:#283593;">7:26 AM</span>
-                    <span class="sail-day-island" style="color:#283593;">&#128694; Walk to bus stop</span>
-                    <span class="sail-nm" style="color:#555;">4 min &bull; 260 m</span>
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Depart Airbnb</div>
+                    <div class="checkin-time">7:00 AM</div>
                   </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Stop: <strong>Hotel 7 Bello</strong> (Minori)</div>
+                  <div class="checkin-divider">&#127956;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Trailhead</div>
+                    <div class="checkin-time">8:49 AM</div>
+                    <div class="checkin-date">Bomerano</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Arrive</div>
+                    <div class="checkin-time">12–1 PM</div>
+                    <div class="checkin-date">Nocelle / Positano</div>
                   </div>
                 </div>
 
-                <!-- Map: walk to stop -->
-                <img src="/walk from airbnb to bus stop board 5120.png" alt="Walk from Airbnb to bus stop" style="width:100%;max-width:380px;border-radius:10px;border:1px solid #ddd;display:block;margin:10px 0;" />
-
-                <!-- Leg 2: Bus 5120 -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E8EAF6;">
-                    <span class="sail-day-date" style="color:#283593;">7:30 AM</span>
-                    <span class="sail-day-island" style="color:#283593;">&#128652; Bus 5120</span>
-                    <span class="sail-nm" style="color:#555;">15 min &bull; 14 stops</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Route: Maiori – Minori – Amalfi</div>
-                    <div class="sail-fact">Arrival: <strong>Amalfi at 7:45 AM</strong></div>
-                    <div class="sail-fact" style="color:#888;font-size:0.8rem;">Alt. departures: 7:50 AM or 8:10 AM</div>
-                  </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Bus route:</span>
+                  <span>5120 Minori &rarr; Amalfi &middot; then 5080 Amalfi &rarr; Bomerano</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Evening:</span>
+                  <span>Ferry / taxi / bus back to Minori (TBD on the day)</span>
                 </div>
 
-                <!-- Leg 3: Transfer -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#FFF8E1;">
-                    <span class="sail-day-date" style="color:#F57F17;">7:45 AM</span>
-                    <span class="sail-day-island" style="color:#F57F17;">&#8635; Transfer in Amalfi</span>
-                    <span class="sail-nm" style="color:#555;">~20 min wait</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Board Bus 5080 at Amalfi.</div>
-                  </div>
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/path-of-the-gods" style="text-decoration:none;">
+                    <v-btn color="indigo-darken-3" variant="tonal" size="small">
+                      Trail Guide &amp; Bus Route &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
-
-                <!-- Map: transfer -->
-                <img src="/transfer to 5080 in amalfi .png" alt="Transfer to Bus 5080 in Amalfi" style="width:100%;max-width:380px;border-radius:10px;border:1px solid #ddd;display:block;margin:10px 0;" />
-
-                <!-- Leg 4: Bus 5080 -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E8EAF6;">
-                    <span class="sail-day-date" style="color:#283593;">8:05 AM</span>
-                    <span class="sail-day-island" style="color:#283593;">&#128652; Bus 5080</span>
-                    <span class="sail-nm" style="color:#555;">41 min &bull; 29 stops</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Route: Amalfi – Conca – Bomerano – San Lazzaro</div>
-                    <div class="sail-fact">Get off: <strong>Via Villani (Pianillo)</strong> at 8:46 AM</div>
-                    <div class="sail-fact" style="color:#888;font-size:0.8rem;">Alt. departures: 8:45 AM or 10:15 AM</div>
-                  </div>
-                </div>
-
-                <!-- Leg 5: Walk to trailhead -->
-                <div class="sail-day mb-4" style="margin-bottom:16px!important;">
-                  <div class="sail-day-header" style="background:#E8F5E9;">
-                    <span class="sail-day-date" style="color:#2E7D32;">8:46 AM</span>
-                    <span class="sail-day-island" style="color:#2E7D32;">&#128694; Walk to Bomerano trailhead</span>
-                    <span class="sail-nm" style="color:#555;">3 min &bull; 170 m</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">&#128205; <strong>Piazza Paolo Capasso, 12 — 80051 Agerola NA, Italy</strong></div>
-                    <div class="sail-fact">Arrival: 8:49 AM</div>
-                  </div>
-                </div>
-
-                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
-                  &#128241; Use the <strong>Unico Campania app</strong> for bus tickets &amp; schedules.
-                </v-alert>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- What to bring -->
-                <div class="benefits-heading mb-2">&#127920; What to Bring</div>
-                <ul class="benefits-list">
-                  <li>&#128095; Real hiking / trail shoes (not sandals)</li>
-                  <li>&#128167; 1.5–2 liters of water per person</li>
-                  <li>&#127913; Hat &amp; sunscreen — trail is exposed</li>
-                  <li>&#127822; Light snack</li>
-                </ul>
 
               </v-card-text>
             </v-card>
