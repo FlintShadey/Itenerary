@@ -2465,6 +2465,16 @@
                   <div class="confirm-row"><span class="pax-name">2. Jessica Miller</span></div>
                 </div>
 
+                <v-divider class="my-3"></v-divider>
+
+                <div style="text-align:right;">
+                  <router-link to="/dublin-airport" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Airport Transfer Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 

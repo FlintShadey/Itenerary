@@ -28,6 +28,7 @@ import WestburyDublin from './views/WestburyDublin.vue'
 import OldMillRestaurant from './views/OldMillRestaurant.vue'
 import Cobblestone from './views/Cobblestone.vue'
 import DublinJul1 from './views/DublinJul1.vue'
+import DublinAirport from './views/DublinAirport.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -59,6 +60,7 @@ const routes = [
   { path: '/old-mill-restaurant', component: OldMillRestaurant },
   { path: '/cobblestone', component: Cobblestone },
   { path: '/dublin-jul1', component: DublinJul1 },
+  { path: '/dublin-airport', component: DublinAirport },
 ]
 
 export default createRouter({
