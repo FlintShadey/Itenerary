@@ -1870,6 +1870,14 @@
                   <img src="/map to airbnb .png" alt="Map to Airbnb" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;" />
                 </div>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/minori-arrival" style="text-decoration:none;">
+                    <v-btn color="teal-darken-2" variant="tonal" size="small">
+                      Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
