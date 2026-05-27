@@ -26,6 +26,7 @@ import PathOfTheGods from './views/PathOfTheGods.vue'
 import DublinDay from './views/DublinDay.vue'
 import WestburyDublin from './views/WestburyDublin.vue'
 import OldMillRestaurant from './views/OldMillRestaurant.vue'
+import Cobblestone from './views/Cobblestone.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -55,6 +56,7 @@ const routes = [
   { path: '/dublin-day', component: DublinDay },
   { path: '/westbury-dublin', component: WestburyDublin },
   { path: '/old-mill-restaurant', component: OldMillRestaurant },
+  { path: '/cobblestone', component: Cobblestone },
 ]
 
 export default createRouter({

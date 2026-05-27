@@ -2298,6 +2298,38 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jul 01 — The Cobblestone (Smithfield) -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#303F9F 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127926;</span>
+                The Cobblestone &nbsp;&middot;&nbsp; Wed, Jul 01, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Where:</span>
+                  <span>77 North King Street, Smithfield &mdash; <em>"A drinking pub with a music problem"</em></span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Arrive by:</span>
+                  <span><strong>7:30 PM</strong> to secure a spot near the session circle</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Trad music:</span>
+                  <span>Fiddles &middot; Uilleann pipes &middot; Tin whistles &mdash; fully acoustic, 7 nights a week</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/cobblestone" style="text-decoration:none;">
+                    <v-btn color="indigo-darken-3" variant="tonal" size="small">
+                      Full Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jul 02 — Guinness & Dublin City Experience -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 55%,#388E3C 100%)!important;color:#fff!important;">
