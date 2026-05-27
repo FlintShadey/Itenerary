@@ -248,7 +248,12 @@
                   &#128241; <strong>Use the Headout app</strong> for offline ticket access &amp; real-time updates. Bring earphones for the audio guide.
                 </v-alert>
 
-                <div class="mt-2" style="text-align:right;">
+                <div class="mt-2" style="text-align:right;display:flex;gap:8px;justify-content:flex-end;">
+                  <router-link to="/acropolis-photos" style="text-decoration:none;">
+                    <v-btn color="purple-darken-1" variant="tonal" size="small">
+                      &#127981; Acropolis 1800 Tickets &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                   <router-link to="/athens-walking-tour" style="text-decoration:none;">
                     <v-btn color="purple-darken-3" variant="tonal" size="small">
                       Full Details &nbsp;&#8250;
