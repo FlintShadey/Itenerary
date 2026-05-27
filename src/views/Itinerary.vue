@@ -1761,62 +1761,26 @@
                   </div>
                 </div>
 
-                <div class="ferry-vessel mb-4">
+                <div class="ferry-vessel mb-3">
                   <span class="vessel-icon">&#128674;</span>
                   <span class="vessel-name">Coastlines</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Ref:</span>
+                  <span class="detail-label">Ferryhopper Code:</span>
+                  <span class="confirm-code ferry-code">FH84MY2582HM</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Reservation Code:</span>
                   <span class="confirm-code ferry-code">50008TVKJI</span>
                 </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Booked:</span>
-                  <span>25/04/2026 &middot; Agency 50008</span>
-                </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <div class="benefits-heading mb-2">&#128100; Passengers</div>
-                <div class="passenger-table">
-                  <div class="passenger-row passenger-header">
-                    <span>Name</span>
-                    <span>Ticket</span>
-                    <span>Class</span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">John Smith</span>
-                    <span class="seat-badge">T141266</span>
-                    <span>Full Fare &middot; Deck-lounge <span class="benefit-note">(1 small bag)</span></span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">Jessica Miller</span>
-                    <span class="seat-badge">T141267</span>
-                    <span>Full Fare &middot; Deck-lounge <span class="benefit-note">(1 small bag)</span></span>
-                  </div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <div class="hotel-contact">
-                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
-                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <div class="benefits-heading mb-3">&#128247; Boarding QR Codes</div>
-                <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;">
-                  <div style="text-align:center;">
-                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Flint &mdash; T141266</div>
-                    <img src="/Flint Sorrento → Maiori ferry QR.png" alt="Flint boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
-                  </div>
-                  <div style="text-align:center;">
-                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Jessica &mdash; T141267</div>
-                    <img src="/Jessica Sorrento → Maiori ferry QR.png" alt="Jessica boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
-                  </div>
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/sorrento-maiori-ferry" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Ferry Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>
