@@ -34,6 +34,9 @@ import OutboundFlights from './views/OutboundFlights.vue'
 import RafinaMykonosFerry from './views/RafinaMykonosFerry.vue'
 import Tramonti from './views/Tramonti.vue'
 import MykonosSantoriniFerry from './views/MykonosSantoriniFerry.vue'
+import AmalfiDay from './views/AmalfiDay.vue'
+
+import LaSpondaPositano from './views/LaSpondaPositano.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -71,6 +74,8 @@ const routes = [
   { path: '/rafina-mykonos-ferry', component: RafinaMykonosFerry },
   { path: '/tramonti', component: Tramonti },
   { path: '/mykonos-santorini-ferry', component: MykonosSantoriniFerry },
+  { path: '/amalfi-day', component: AmalfiDay },
+  { path: '/la-sponda-positano', component: LaSpondaPositano },
 ]
 
 export default createRouter({

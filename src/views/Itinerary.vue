@@ -1650,123 +1650,21 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Getting There -->
-                <div class="benefits-heading mb-2">&#128652; Getting to Amalfi &nbsp;&middot;&nbsp; 8:30 AM Depart Minori</div>
-                <div class="hotel-contact mb-4">
-                  <div><span class="detail-label">Option A:</span> <strong>Path of the Lemons</strong> &mdash; scenic walk from Minori toward Maiori / Amalfi</div>
-                  <div style="margin-top:4px;"><span class="detail-label">Option B:</span> Ferry or taxi from Minori to Amalfi</div>
-                  <div style="margin-top:6px;"><a href="https://www.google.com/maps/dir/Minori,+SA,+Italy/Amalfi,+SA,+Italy" target="_blank" rel="noopener" class="med-link">&#128506; Minori → Amalfi on Google Maps</a></div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Depart Minori:</span>
+                  <span>8:30 AM &mdash; Path of the Lemons or ferry/taxi</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Highlights:</span>
+                  <span>Cathedral of St. Andrew, Pasticceria Pansa, Atrani walk, aperitivo</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Schedule -->
-                <div class="benefits-heading mb-3">&#128336; Day Schedule</div>
-
-                <!-- 10:30 Arrive Amalfi -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">10:30 AM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#128205; Arrive Amalfi</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/Amalfi+waterfront" target="_blank" rel="noopener" class="med-link">&#128506; Amalfi on Google Maps</a></div>
-                  </div>
-                </div>
-
-                <!-- 10:45 Cathedral -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">10:45 AM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#9964; Cathedral of St. Andrew &amp; Paradise Cloister</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Duomo di Amalfi &mdash; stunning 9th-century cathedral with the famous Arab-Norman cloister.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/Cathedral+of+Saint+Andrew+Amalfi" target="_blank" rel="noopener" class="med-link">&#128506; Cathedral on Google Maps</a></div>
-                  </div>
-                </div>
-
-                <!-- 11:45 Pansa -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">11:45 AM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#9749; Pasticceria Pansa</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Historic pastry shop on Piazza del Duomo since 1830 &mdash; sfogliatelle, limoncello, and almond pastries.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/Pasticceria+Pansa+Amalfi" target="_blank" rel="noopener" class="med-link">&#128506; Pasticceria Pansa on Google Maps</a></div>
-                  </div>
-                </div>
-
-                <!-- 12:30 Lunch -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">12:30 PM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#127869; Lunch &mdash; Amalfi</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Choose a restaurant in the old town or near the waterfront.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/restaurants+Amalfi+Italy" target="_blank" rel="noopener" class="med-link">&#128506; Restaurants in Amalfi</a></div>
-                  </div>
-                </div>
-
-                <!-- 1:45 Antichi Sapori -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">1:45 PM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#127787; Antichi Sapori d&rsquo;Amalfi</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Local specialty shop &mdash; limoncello, ceramics, and Amalfi Coast products.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/Antichi+Sapori+d'Amalfi" target="_blank" rel="noopener" class="med-link">&#128506; Antichi Sapori on Google Maps</a></div>
-                  </div>
-                </div>
-
-                <!-- 2:30 Paper Museum -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#FFF8E1;">
-                    <span class="sail-day-date" style="color:#F57F17;">2:30 PM</span>
-                    <span class="sail-day-island" style="color:#F57F17;">&#128220; Paper Museum <span style="font-size:0.78rem;font-weight:400;">(optional)</span></span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Museo della Carta &mdash; Amalfi was once one of Europe&rsquo;s great papermaking centers.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/search/Museo+della+Carta+Amalfi" target="_blank" rel="noopener" class="med-link">&#128506; Museo della Carta on Google Maps</a></div>
-                  </div>
-                </div>
-
-                <!-- 3:45 Walk to Atrani -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">3:45 PM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#128694; Walk to Atrani</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">A 10-minute walk east along the beach &mdash; one of Italy&rsquo;s smallest and most charming towns, tucked into a cliff.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/dir/Amalfi+SA+Italy/Atrani+SA+Italy" target="_blank" rel="noopener" class="med-link">&#128506; Amalfi → Atrani walk</a></div>
-                  </div>
-                </div>
-
-                <!-- 4:30 Aperitivo -->
-                <div class="sail-day" style="margin-bottom:0;">
-                  <div class="sail-day-header" style="background:#E0F7FA;">
-                    <span class="sail-day-date" style="color:#006064;">4:30 PM</span>
-                    <span class="sail-day-island" style="color:#006064;">&#127867; Aperitivo &amp; Wander &mdash; Atrani</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Sit in the tiny piazza, have a spritz or limoncello, soak it in.</div>
-                  </div>
-                </div>
-
-                <!-- 5:30 Return -->
-                <div class="sail-day mb-4" style="margin-bottom:16px!important;">
-                  <div class="sail-day-header" style="background:#E8F5E9;">
-                    <span class="sail-day-date" style="color:#2E7D32;">5:30–6:30 PM</span>
-                    <span class="sail-day-island" style="color:#2E7D32;">&#9973; Return to Minori</span>
-                  </div>
-                  <div class="sail-day-body">
-                    <div class="sail-fact">Ferry, taxi, or bus back from Amalfi/Atrani to Minori.</div>
-                    <div class="sail-fact"><a href="https://www.google.com/maps/dir/Atrani+SA+Italy/Minori+SA+Italy" target="_blank" rel="noopener" class="med-link">&#128506; Atrani → Minori on Google Maps</a></div>
-                  </div>
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/amalfi-day" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Full Day Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>
@@ -1808,77 +1706,29 @@
             </v-card>
 
             <!-- Jun 28 — Dinner: La Sponda, Positano -->
-            <v-card hover elevation="4" class="mb-6 itinerary-card">
-              <v-card-title class="card-header" style="background:linear-gradient(135deg,#880E4F 0%,#AD1457 55%,#E91E63 100%)!important;color:#fff!important;">
-                <span class="card-header-icon">&#127869;</span>
-                Dinner &mdash; La Sponda, Positano &nbsp;&middot;&nbsp; Sun, Jun 28, 2026
-              </v-card-title>
-              <v-card-text class="pa-4">
-
-                <!-- Reservation summary -->
-                <div class="checkin-row mb-4">
-                  <div class="checkin-block">
-                    <div class="checkin-label">Arrives</div>
-                    <div class="checkin-time">10:00 PM</div>
-                    <div class="checkin-date">Sun, Jun 28</div>
+              <v-card hover elevation="4" class="mb-6 itinerary-card">
+                <v-card-title class="card-header" style="background:linear-gradient(135deg,#880E4F 0%,#AD1457 55%,#E91E63 100%)!important;color:#fff!important;">
+                  <span class="card-header-icon">&#127869;</span>
+                  Dinner &mdash; La Sponda, Positano &nbsp;&middot;&nbsp; Sun, Jun 28, 2026
+                </v-card-title>
+                <v-card-text class="pa-4">
+                  <div class="confirm-row mb-1">
+                    <span class="detail-label">Reservation:</span>
+                    <span>10:00 PM &mdash; Jessica Miller, 2 guests</span>
                   </div>
-                  <div class="checkin-divider">&#127860;</div>
-                  <div class="checkin-block">
-                    <div class="checkin-label">Ends</div>
-                    <div class="checkin-time">12:30 AM</div>
-                    <div class="checkin-date">Mon, Jun 29</div>
+                  <div class="confirm-row mb-3">
+                    <span class="detail-label">Location:</span>
+                    <span>Via Cristoforo Colombo, 30, Positano</span>
                   </div>
-                  <div class="checkin-divider">&#128101;</div>
-                  <div class="checkin-block text-right">
-                    <div class="checkin-label">Party</div>
-                    <div class="checkin-time">2 guests</div>
+                  <div class="mt-2" style="text-align:right;">
+                    <router-link to="/la-sponda-positano" style="text-decoration:none;">
+                      <v-btn color="pink-darken-3" variant="tonal" size="small">
+                        Full Dinner Details &nbsp;&#8250;
+                      </v-btn>
+                    </router-link>
                   </div>
-                </div>
-
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Name on Reservation:</span>
-                  <span>Jessica Miller</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Reservation #:</span>
-                  <span class="confirm-code ferry-code">4XBXED3LUNNS</span>
-                </div>
-
-                <v-alert type="error" variant="tonal" density="compact" class="mb-4">
-                  <strong>&#9203; Table held 15 minutes only.</strong> If running late, call <a href="tel:+39089875066" class="med-link">+39 089 875066</a> immediately.
-                </v-alert>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Location & Contact -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128205; Location &amp; Contact</div>
-                <div class="hotel-contact mb-3">
-                  <div><span class="detail-label">&#128205; Address:</span> Via Cristoforo Colombo, 30, Positano, Campania 84017</div>
-                  <div><span class="detail-label">&#128222; Phone:</span> <a href="tel:+39089875066" class="med-link">+39 089 875066</a></div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Policies for Non-Hotel Guests -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128176; Policies for Non-Hotel Guests</div>
-                <ul class="benefits-list mb-3">
-                  <li><strong>Minimum Spend:</strong> &euro;160 per person.</li>
-                  <li><strong>Service Charge:</strong> A discretionary 15% service charge will be added to the bill.</li>
-                  <li><strong>Seating:</strong> Preferences noted but a &ldquo;front row table&rdquo; is not guaranteed &mdash; priority given to hotel residents.</li>
-                </ul>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Important Rules & Cancellation -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Rules &amp; Cancellation</div>
-                <ul class="benefits-list mb-0">
-                  <li><strong>Cancellation Policy:</strong> Cancellations accepted up to <strong>24 hours before</strong> booking time.</li>
-                  <li><strong>No-Show / Late Cancellation Fee:</strong> <span style="color:#C62828;font-weight:700;">&euro;100.00 per person.</span></li>
-                  <li><strong>Photography:</strong> Professional photography is strictly prohibited in all public areas (bars, restaurants) to protect guest privacy.</li>
-                </ul>
-
-              </v-card-text>
-            </v-card>
+                </v-card-text>
+              </v-card>
 
             <!-- Jun 29–30 — Artemisia Domus, Naples -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
