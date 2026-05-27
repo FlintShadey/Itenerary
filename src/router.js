@@ -19,6 +19,7 @@ import MinoriArrival from './views/MinoriArrival.vue'
 import SorrentoMaioriFerry from './views/SorrentoMaioriFerry.vue'
 import AmmoudiFishTavern from './views/AmmoudiFishTavern.vue'
 import BluRestaurant from './views/BluRestaurant.vue'
+import SailingCharter from './views/SailingCharter.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -41,6 +42,7 @@ const routes = [
   { path: '/sorrento-maiori-ferry', component: SorrentoMaioriFerry },
   { path: '/ammoudi-fish-tavern', component: AmmoudiFishTavern },
   { path: '/blu-restaurant', component: BluRestaurant },
+  { path: '/sailing-charter', component: SailingCharter },
 ]
 
 export default createRouter({
