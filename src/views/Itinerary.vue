@@ -1616,35 +1616,23 @@
                   <span class="detail-label">Booking #:</span>
                   <span class="confirm-code">2026042047803518</span>
                 </div>
-                <div class="confirm-row mb-3">
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Meal Plan:</span>
                   <span style="color:#2E7D32;font-weight:600;">Breakfast Included</span>
                 </div>
 
                 <v-divider class="my-3"></v-divider>
 
-                <!-- Rate includes -->
-                <div class="benefits-heading mb-2">&#9733; Rate Includes</div>
-                <ul class="benefits-list">
-                  <li>&#9749; Buffet Breakfast</li>
-                  <li>&#128246; Wi-Fi throughout the hotel</li>
-                  <li>&#127946; Panoramic swimming pool with umbrella, sun bed &amp; one pool towel per person</li>
-                  <li>&#128338; Early check-in 1:00 PM &amp; late check-out 12:00 PM <span class="benefit-note">(subject to availability)</span></li>
-                  <li>&#127860; 10% discount at dinner &mdash; panoramic restaurant <span class="benefit-note">(drinks not included)</span></li>
-                  <li>&#128652; Shuttle service to the center of Sorrento</li>
-                  <li>&#127867; Welcome non-alcoholic drink</li>
-                </ul>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Address & Contact -->
                 <div class="hotel-contact">
                   <div><span class="detail-label">&#128205; Address:</span> Via Nuovo Rione Cappuccini, 12 &mdash; Sant&rsquo;Agnello</div>
-                  <div><span class="detail-label">&#128222; Phone:</span> <a href="tel:+390818073355" class="med-link">+39 081 8073355</a></div>
-                  <div><span class="detail-label">&#128223; Fax:</span> +39 081 8074407</div>
-                  <div><span class="detail-label">&#128231; Email:</span> <a href="mailto:info@hotelcorallosorrento.com" class="med-link">info@hotelcorallosorrento.com</a></div>
-                  <div><span class="detail-label">&#127758; Website:</span> <a href="http://www.hotelcorallosorrento.com" target="_blank" rel="noopener" class="med-link">hotelcorallosorrento.com</a></div>
-                  <div class="mt-2"><span class="detail-label">&#127759; GPS:</span> 40.6352413&deg; N, 14.391022&deg; E</div>
+                </div>
+
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/corallo-sorrento" style="text-decoration:none;">
+                    <v-btn color="teal-darken-2" variant="tonal" size="small">
+                      Hotel Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>
