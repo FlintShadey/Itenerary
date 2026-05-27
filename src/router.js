@@ -21,6 +21,7 @@ import AmmoudiFishTavern from './views/AmmoudiFishTavern.vue'
 import BluRestaurant from './views/BluRestaurant.vue'
 import SailingCharter from './views/SailingCharter.vue'
 import ElliBeachRonda from './views/ElliBeachRonda.vue'
+import VillaMariaDinner from './views/VillaMariaDinner.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -45,6 +46,7 @@ const routes = [
   { path: '/blu-restaurant', component: BluRestaurant },
   { path: '/sailing-charter', component: SailingCharter },
   { path: '/elli-beach-ronda', component: ElliBeachRonda },
+  { path: '/villa-maria-dinner', component: VillaMariaDinner },
 ]
 
 export default createRouter({

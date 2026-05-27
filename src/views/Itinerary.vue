@@ -1711,6 +1711,14 @@
                   &#128395; Reservation submitted by email &mdash; follow up if no confirmation received.
                 </v-alert>
 
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/villa-maria-dinner" style="text-decoration:none;">
+                    <v-btn color="brown-darken-2" variant="tonal" size="small">
+                      Getting Here &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
