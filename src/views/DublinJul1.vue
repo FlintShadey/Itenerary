@@ -55,6 +55,9 @@
                 <span class="detail-label">Party Size:</span>
                 <span>2 people</span>
               </div>
+              <div class="mb-4">
+                <a href="https://www.google.com/maps/search/The+Old+Mill+Restaurant+Dublin+Temple+Bar" target="_blank" rel="noopener" class="med-link">&#128506; View on Google Maps &#8599;</a>
+              </div>
 
               <div class="benefits-heading mb-2">&#127981; The Food</div>
               <ul class="benefits-list mb-3">
@@ -97,6 +100,9 @@
                 <li>Turn left at the end of Grafton Street onto <strong>College Green</strong>, then take an immediate right onto <strong>Westmoreland Street</strong>.</li>
                 <li>Turn left onto <strong>Fleet Street</strong>; The Palace Bar is immediately on your right.</li>
               </ol>
+              <div style="margin-top:12px;">
+                <a href="https://www.google.com/maps/place/The+Palace+Bar/@53.3463,-6.2593,17z" target="_blank" rel="noopener" class="med-link">&#128506; The Palace Bar on Google Maps &#8599;</a>
+              </div>
 
             </v-card-text>
           </v-card>
@@ -113,9 +119,12 @@
                 <span class="detail-label">Address:</span>
                 <span>77 North King Street, Smithfield</span>
               </div>
-              <div class="confirm-row mb-4">
+              <div class="confirm-row mb-2">
                 <span class="detail-label">Known as:</span>
                 <span style="font-style:italic;">"A drinking pub with a music problem."</span>
+              </div>
+              <div class="mb-4">
+                <a href="https://www.google.com/maps/place/The+Cobblestone/@53.3484,-6.2789,17z" target="_blank" rel="noopener" class="med-link">&#128506; The Cobblestone on Google Maps &#8599;</a>
               </div>
 
               <div class="benefits-heading mb-2">&#127926; The Music</div>
