@@ -33,115 +33,32 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Flight 1 of 2 -->
-                <div class="flight-segment mb-1">
-                  <div class="flight-label">
-                    <span class="flight-num">Flight 1 of 2 &nbsp;&middot;&nbsp; UA1449</span>
-                    <span class="flight-class">United Economy (YN)</span>
+                <div class="flight-route mb-2">
+                  <div class="route-endpoint">
+                    <div class="route-time">07:05 AM</div>
+                    <div class="route-iata">AUS</div>
+                    <div class="route-city">Austin</div>
+                    <div class="route-date">Mon, Jun 01</div>
                   </div>
-                  <div class="flight-route mt-3">
-                    <div class="route-endpoint">
-                      <div class="route-time">07:05 AM</div>
-                      <div class="route-iata">AUS</div>
-                      <div class="route-city">Austin, TX, US</div>
-                      <div class="route-date">Mon, Jun 01</div>
-                    </div>
-                    <div class="route-middle">
-                      <span class="route-arrow-plane">&#9992;</span>
-                      <div class="route-arrow-line"></div>
-                    </div>
-                    <div class="route-endpoint text-right">
-                      <div class="route-time">11:50 AM</div>
-                      <div class="route-iata">EWR</div>
-                      <div class="route-city">Newark, NJ / New York, NY, US</div>
-                      <div class="route-date">Mon, Jun 01</div>
-                    </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9992;</span>
+                    <div class="route-arrow-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">08:10 AM</div>
+                    <div class="route-iata">ATH</div>
+                    <div class="route-city">Athens</div>
+                    <div class="route-date">Tue, Jun 02</div>
                   </div>
                 </div>
+                <div class="route-sub text-center mb-4" style="color:#546E7A;font-size:0.82rem;">1 stop EWR (4h 05m) &middot; UA1449 + UA124 &middot; Premium Plus transatlantic</div>
 
-                <v-divider class="my-4"></v-divider>
-
-                <!-- Flight 2 of 2 -->
-                <div class="flight-segment mb-1">
-                  <div class="flight-label">
-                    <span class="flight-num">Flight 2 of 2 &nbsp;&middot;&nbsp; UA124</span>
-                    <span class="flight-class premium">United Premium Plus (ON)</span>
-                  </div>
-                  <div class="flight-route mt-3">
-                    <div class="route-endpoint">
-                      <div class="route-time">03:55 PM</div>
-                      <div class="route-iata">EWR</div>
-                      <div class="route-city">Newark, NJ / New York, NY, US</div>
-                      <div class="route-date">Mon, Jun 01</div>
-                    </div>
-                    <div class="route-middle">
-                      <span class="route-arrow-plane">&#9992;</span>
-                      <div class="route-arrow-line"></div>
-                    </div>
-                    <div class="route-endpoint text-right">
-                      <div class="route-time">08:10 AM</div>
-                      <div class="route-iata">ATH</div>
-                      <div class="route-city">Athens, GR</div>
-                      <div class="route-date">Tue, Jun 02</div>
-                    </div>
-                  </div>
-                </div>
-
-                <v-divider class="my-4"></v-divider>
-
-                <!-- Traveler Details -->
-                <div class="traveler-section">
-                  <h4 class="traveler-heading mb-3">Traveler Details</h4>
-
-                  <!-- MILLER/JESSICA -->
-                  <v-card variant="outlined" class="traveler-card mb-3 pa-3">
-                    <div class="traveler-name mb-2">MILLER / JESSICA</div>
-                    <div class="traveler-detail">
-                      <span class="detail-label">eTicket:</span>
-                      <span class="detail-value">0162390534026</span>
-                    </div>
-                    <div class="seat-row mt-2">
-                      <span class="detail-label">Seats:</span>
-                      <span class="seat-badge">AUS&ndash;EWR&nbsp;20E</span>
-                      <span class="seat-badge">EWR&ndash;ATH&nbsp;20C</span>
-                    </div>
-                    <div class="upgrade-row mt-2">
-                      <v-chip size="small" color="#C1440E" variant="elevated" class="upgrade-chip">
-                        Economy Plus Seat
-                      </v-chip>
-                      <span class="upgrade-segment">AUS&ndash;EWR</span>
-                      <span class="upgrade-ticket">(0164384719526)</span>
-                    </div>
-                  </v-card>
-
-                  <!-- SMITH/JOHN -->
-                  <v-card variant="outlined" class="traveler-card pa-3">
-                    <div class="traveler-name mb-2">SMITH / JOHN</div>
-                    <div class="traveler-detail">
-                      <span class="detail-label">eTicket:</span>
-                      <span class="detail-value">0162390534025</span>
-                    </div>
-                    <div class="traveler-detail mt-1">
-                      <span class="detail-label">Frequent Flyer:</span>
-                      <span class="ff-badge">UA&#8209;XXXXX327 Member</span>
-                    </div>
-                    <div class="seat-row mt-2">
-                      <span class="detail-label">Seats:</span>
-                      <span class="seat-badge">AUS&ndash;EWR&nbsp;20F</span>
-                      <span class="seat-badge">EWR&ndash;ATH&nbsp;20A</span>
-                    </div>
-                    <div class="upgrade-row mt-2">
-                      <v-chip size="small" color="#C1440E" variant="elevated" class="upgrade-chip">
-                        Economy Plus Seat
-                      </v-chip>
-                      <span class="upgrade-segment">AUS&ndash;EWR</span>
-                      <span class="upgrade-ticket">(0164384719527)</span>
-                    </div>
-                  </v-card>
-
-                </div>
-
-                <div class="mt-4" style="text-align:right;">
+                <div style="text-align:right;display:flex;gap:8px;justify-content:flex-end;">
+                  <router-link to="/outbound-flights" style="text-decoration:none;">
+                    <v-btn color="grey-darken-2" variant="tonal" size="small">
+                      Flight Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                   <router-link to="/ewr-layover" style="text-decoration:none;">
                     <v-btn color="blue-darken-3" variant="tonal" size="small">
                       &#9992; EWR Layover Guide &nbsp;&#8250;

@@ -30,6 +30,7 @@ import Cobblestone from './views/Cobblestone.vue'
 import DublinJul1 from './views/DublinJul1.vue'
 import DublinAirport from './views/DublinAirport.vue'
 import DublinReturnFlights from './views/DublinReturnFlights.vue'
+import OutboundFlights from './views/OutboundFlights.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -63,6 +64,7 @@ const routes = [
   { path: '/dublin-jul1', component: DublinJul1 },
   { path: '/dublin-airport', component: DublinAirport },
   { path: '/dublin-return-flights', component: DublinReturnFlights },
+  { path: '/outbound-flights', component: OutboundFlights },
 ]
 
 export default createRouter({
