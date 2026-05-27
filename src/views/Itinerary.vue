@@ -1180,6 +1180,38 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 12 — Elli Beach & Ronda -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#01579B 0%,#0277BD 55%,#0288D1 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127949;</span>
+                Elli Beach &amp; Ronda &nbsp;&middot;&nbsp; Fri, Jun 12, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Venue:</span>
+                  <span>Ronda Restaurant &amp; Beach Bar &mdash; Elli Beach, Rhodes</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Getting There:</span>
+                  <span>15&ndash;20 min walk or ~5 min taxi from 10GR Hotel</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Experience:</span>
+                  <span>Luxury day club &rarr; DJ evening lounge &middot; Large group friendly</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/elli-beach-ronda" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Venue Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 13–20 — Sailing Charter: Dodecanese Islands -->
             <v-card hover elevation="4" class="mb-6 itinerary-card charter-card">
               <v-card-title class="card-header card-header-charter">
