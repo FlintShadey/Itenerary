@@ -2291,6 +2291,54 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jul 02 — Guinness & Dublin City Experience -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 55%,#388E3C 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127866;</span>
+                Guinness &amp; Dublin City &nbsp;&middot;&nbsp; Thu, Jul 02, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Lunch</div>
+                    <div class="checkin-time">1:45 PM</div>
+                    <div class="checkin-date">WILDE &mdash; The Westbury</div>
+                  </div>
+                  <div class="checkin-divider">&#127866;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Storehouse</div>
+                    <div class="checkin-time">3:15 PM</div>
+                    <div class="checkin-date">Guinness Academy</div>
+                  </div>
+                  <div class="checkin-divider">&#127981;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Pubs</div>
+                    <div class="checkin-time">5:15 PM</div>
+                    <div class="checkin-date">Neary's / Kehoe's</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Highlight:</span>
+                  <span>Gravity Bar 360&deg; views &middot; Pour your own pint &middot; STOUTie experience</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Getting there:</span>
+                  <span>20&ndash;25 min scenic walk west from Westbury (past Dublin Castle &amp; Christ Church)</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/dublin-day" style="text-decoration:none;">
+                    <v-btn color="green-darken-3" variant="tonal" size="small">
+                      Full Day Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jul 03 — Return Flights: Dublin → Austin -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header">
