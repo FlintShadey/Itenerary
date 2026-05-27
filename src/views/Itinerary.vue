@@ -959,6 +959,38 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 09 — Lunch: Ammoudi Fish Tavern -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#006064 0%,#00838F 55%,#00ACC1 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127840;</span>
+                Lunch &mdash; Ammoudi Fish Tavern &nbsp;&middot;&nbsp; Tue, Jun 09, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Time:</span>
+                  <span><strong>1:45 PM</strong></span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Location:</span>
+                  <span>Ammoudi Bay, Oia &mdash; Santorini</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Confirmation:</span>
+                  <span class="confirm-code ferry-code">AMMS.D351B50B3C</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/ammoudi-fish-tavern" style="text-decoration:none;">
+                    <v-btn color="cyan-darken-3" variant="tonal" size="small">
+                      Reservation Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 10 — Ferry: Santorini → Rhodes (ANEK Lines) -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
