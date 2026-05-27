@@ -2270,59 +2270,43 @@
               </v-card-text>
             </v-card>
 
-            <!-- Jul 01 — Dinner at The Old Mill Restaurant -->
+            <!-- Jul 01 — Dublin Day: Old Mill → Palace Bar → Cobblestone -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
-              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A1A00 0%,#6D2C00 55%,#8B3A0F 100%)!important;color:#fff!important;">
-                <span class="card-header-icon">&#127869;</span>
-                The Old Mill Restaurant &nbsp;&middot;&nbsp; Wed, Jul 01, 2026
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A1A00 0%,#7B3F00 50%,#1A237E 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127981;</span>
+                Dublin Day Out &nbsp;&middot;&nbsp; Wed, Jul 01, 2026
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Time:</span>
-                  <span><strong>12:00 PM</strong> &middot; 2 guests &middot; Temple Bar, Dublin</span>
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Lunch</div>
+                    <div class="checkin-time">12:00 PM</div>
+                    <div class="checkin-date">The Old Mill</div>
+                  </div>
+                  <div class="checkin-divider">&#127867;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Evening</div>
+                    <div class="checkin-time">6:30 PM</div>
+                    <div class="checkin-date">The Palace Bar</div>
+                  </div>
+                  <div class="checkin-divider">&#127926;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Trad Session</div>
+                    <div class="checkin-time">7:50 PM</div>
+                    <div class="checkin-date">The Cobblestone</div>
+                  </div>
                 </div>
+
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">Highlights:</span>
-                  <span>Guinness beef casserole &middot; Lamb stew &middot; Fish &amp; chips &middot; Dark-wood Irish interior</span>
+                  <span class="detail-label">Route:</span>
+                  <span>Westbury &rarr; Fleet St. (6 min) &rarr; Smithfield (20 min walk across the Liffey)</span>
                 </div>
 
                 <div class="mt-2" style="text-align:right;">
-                  <router-link to="/old-mill-restaurant" style="text-decoration:none;">
-                    <v-btn color="brown-darken-3" variant="tonal" size="small">
-                      Restaurant Details &nbsp;&#8250;
-                    </v-btn>
-                  </router-link>
-                </div>
-
-              </v-card-text>
-            </v-card>
-
-            <!-- Jul 01 — The Cobblestone (Smithfield) -->
-            <v-card hover elevation="4" class="mb-6 itinerary-card">
-              <v-card-title class="card-header" style="background:linear-gradient(135deg,#1A237E 0%,#283593 55%,#303F9F 100%)!important;color:#fff!important;">
-                <span class="card-header-icon">&#127926;</span>
-                The Cobblestone &nbsp;&middot;&nbsp; Wed, Jul 01, 2026
-              </v-card-title>
-              <v-card-text class="pa-4">
-
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Where:</span>
-                  <span>77 North King Street, Smithfield &mdash; <em>"A drinking pub with a music problem"</em></span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Arrive by:</span>
-                  <span><strong>7:30 PM</strong> to secure a spot near the session circle</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Trad music:</span>
-                  <span>Fiddles &middot; Uilleann pipes &middot; Tin whistles &mdash; fully acoustic, 7 nights a week</span>
-                </div>
-
-                <div class="mt-2" style="text-align:right;">
-                  <router-link to="/cobblestone" style="text-decoration:none;">
-                    <v-btn color="indigo-darken-3" variant="tonal" size="small">
-                      Full Guide &nbsp;&#8250;
+                  <router-link to="/dublin-jul1" style="text-decoration:none;">
+                    <v-btn color="brown-darken-4" variant="tonal" size="small">
+                      Full Day Guide &nbsp;&#8250;
                     </v-btn>
                   </router-link>
                 </div>
