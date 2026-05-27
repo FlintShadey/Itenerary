@@ -1776,9 +1776,17 @@
                   <span class="detail-label">Guest:</span>
                   <span>John Smith &nbsp;&middot;&nbsp; <a href="tel:+12103859809" class="med-link">+1 210 385-9809</a></span>
                 </div>
-                <div class="confirm-row mb-0">
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Price:</span>
                   <span style="font-weight:600;color:#2E7D32;">&euro;138.35</span>
+                </div>
+
+                <div class="mt-3" style="text-align:right;">
+                  <router-link to="/minori-transfer" style="text-decoration:none;">
+                    <v-btn color="blue-grey-darken-2" variant="tonal" size="small">
+                      Transfer Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>

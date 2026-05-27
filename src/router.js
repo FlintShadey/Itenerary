@@ -14,6 +14,7 @@ import SantoriniDay from './views/SantoriniDay.vue'
 import CoralloSorrento from './views/CoralloSorrento.vue'
 import CapriDay from './views/CapriDay.vue'
 import SeaPoolsWalk from './views/SeaPoolsWalk.vue'
+import MinoriTransfer from './views/MinoriTransfer.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -31,6 +32,7 @@ const routes = [
   { path: '/corallo-sorrento', component: CoralloSorrento },
   { path: '/capri-day', component: CapriDay },
   { path: '/sea-pools-walk', component: SeaPoolsWalk },
+  { path: '/minori-transfer', component: MinoriTransfer },
 ]
 
 export default createRouter({
