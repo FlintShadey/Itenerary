@@ -2250,42 +2250,21 @@
                   </div>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
                 <div class="confirm-row mb-1">
                   <span class="detail-label">Confirmation:</span>
                   <span class="confirm-code">6715SG041098</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Primary Guest:</span>
-                  <span>John Flint Smith</span>
                 </div>
                 <div class="confirm-row mb-3">
                   <span class="detail-label">Total:</span>
                   <span style="font-weight:600;color:#2E7D32;">$2,058.26</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Cardmember Benefits -->
-                <div class="benefits-heading mb-2">&#11088; Cardmember Benefits</div>
-                <ul class="benefits-list mb-3">
-                  <li>&#9749; Daily breakfast for 2</li>
-                  <li>&#128176; $100 property credit <span class="benefit-note">(applied once per stay; not valid on room rate, taxes, fees, or gratuities)</span></li>
-                  <li>&#127873; Welcome amenity</li>
-                  <li>&#128246; Wi-Fi included</li>
-                  <li>&#127957; Room upgrade at check-in, if available</li>
-                  <li>&#128338; Early check-in &amp; late check-out, if available</li>
-                </ul>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Address & Contact -->
-                <div class="hotel-contact">
-                  <div><span class="detail-label">&#128205; Address:</span> Grafton Street, Dublin, D02 CH66, Ireland</div>
-                  <div style="margin-top:6px;">
-                    <a href="https://www.google.com/maps/search/The+Westbury+Dublin+Grafton+Street" target="_blank" rel="noopener" class="med-link">&#128506; View on Google Maps</a>
-                  </div>
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/westbury-dublin" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Hotel Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>

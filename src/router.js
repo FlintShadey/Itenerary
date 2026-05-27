@@ -24,6 +24,7 @@ import ElliBeachRonda from './views/ElliBeachRonda.vue'
 import VillaMariaDinner from './views/VillaMariaDinner.vue'
 import PathOfTheGods from './views/PathOfTheGods.vue'
 import DublinDay from './views/DublinDay.vue'
+import WestburyDublin from './views/WestburyDublin.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -51,6 +52,7 @@ const routes = [
   { path: '/villa-maria-dinner', component: VillaMariaDinner },
   { path: '/path-of-the-gods', component: PathOfTheGods },
   { path: '/dublin-day', component: DublinDay },
+  { path: '/westbury-dublin', component: WestburyDublin },
 ]
 
 export default createRouter({
