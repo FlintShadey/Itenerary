@@ -2270,6 +2270,34 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jul 01 — Dinner at The Old Mill Restaurant -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#4A1A00 0%,#6D2C00 55%,#8B3A0F 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127869;</span>
+                The Old Mill Restaurant &nbsp;&middot;&nbsp; Wed, Jul 01, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Time:</span>
+                  <span><strong>12:00 PM</strong> &middot; 2 guests &middot; Temple Bar, Dublin</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Highlights:</span>
+                  <span>Guinness beef casserole &middot; Lamb stew &middot; Fish &amp; chips &middot; Dark-wood Irish interior</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/old-mill-restaurant" style="text-decoration:none;">
+                    <v-btn color="brown-darken-3" variant="tonal" size="small">
+                      Restaurant Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jul 02 — Guinness & Dublin City Experience -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header" style="background:linear-gradient(135deg,#1B5E20 0%,#2E7D32 55%,#388E3C 100%)!important;color:#fff!important;">
