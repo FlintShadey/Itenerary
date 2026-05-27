@@ -626,7 +626,6 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Route -->
                 <div class="flight-route mb-4">
                   <div class="route-endpoint">
                     <div class="route-time">9:40 AM</div>
@@ -646,57 +645,17 @@
                   </div>
                 </div>
 
-                <div class="ferry-vessel mb-4">
+                <div class="ferry-vessel mb-3">
                   <span class="vessel-icon">&#128674;</span>
-                  <span class="vessel-name">SUPERJET</span>
+                  <span class="vessel-name">SUPERJET &nbsp;&middot;&nbsp; SeaJets &nbsp;&middot;&nbsp; Ref: 1112QCMXX</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Booking details -->
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Ref:</span>
-                  <span class="confirm-code ferry-code">1112QCMXX</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Order ID:</span>
-                  <span class="trip-id" style="font-family:'Courier New',monospace;color:#333;">1112QCMXX</span>
-                  <span class="trip-id">&middot; Reserved 03/04/2026</span>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Passengers -->
-                <div class="benefits-heading mb-2">&#128100; Passengers</div>
-                <div class="passenger-table">
-                  <div class="passenger-row passenger-header">
-                    <span>Name</span>
-                    <span>Nationality</span>
-                    <span>Type</span>
-                    <span>Cabin</span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">SMITH JOHN FLINT</span>
-                    <span>United States</span>
-                    <span>Adult &middot; Male</span>
-                    <span class="seat-badge">SLV</span>
-                  </div>
-                  <div class="passenger-row">
-                    <span class="pax-name">MILLER JESSICA</span>
-                    <span>United States</span>
-                    <span>Adult &middot; Female</span>
-                    <span class="seat-badge">SLV</span>
-                  </div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <div class="mt-2" style="text-align:right;">
-                  <a href="https://webcheckin.seajets.com" target="_blank" rel="noopener" style="text-decoration:none;">
+                <div class="mt-4" style="text-align:right;">
+                  <router-link to="/mykonos-santorini-ferry" style="text-decoration:none;">
                     <v-btn color="teal-darken-2" variant="tonal" size="small">
-                      &#10003; Online Check-In &rarr;
+                      Ferry Details &nbsp;&#8250;
                     </v-btn>
-                  </a>
+                  </router-link>
                 </div>
 
               </v-card-text>
