@@ -81,55 +81,59 @@
           <v-card hover elevation="4" class="mb-6 itinerary-card">
             <v-card-title class="card-header" style="background:linear-gradient(135deg,#0D47A1 0%,#1565C0 55%,#1976D2 100%)!important;color:#fff!important;">
               <span class="card-header-icon">&#127700;</span>
-              Capri Island Boat Tour with Blue Grotto Stop &nbsp;&middot;&nbsp; 10:00 AM
+              Capri: Island Boat Tour with Blue Grotto Stop &nbsp;&middot;&nbsp; 10:00 AM
             </v-card-title>
             <v-card-text class="pa-4">
-
-              <div class="confirm-row mb-3" style="display:flex;align-items:center;gap:8px;">
-                <span class="detail-label">Status:</span>
-                <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Reserved &mdash; No payment made yet</v-chip>
-              </div>
-
-              <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                <strong>&#9201; Arrive by 9:55 AM</strong> &mdash; 5 minutes before your 10:00 AM slot.
-              </v-alert>
 
               <div class="confirm-row mb-1">
                 <span class="detail-label">Activity Date:</span>
                 <span>June 21, 2026 &nbsp;&middot;&nbsp; 10:00 AM</span>
               </div>
               <div class="confirm-row mb-1">
+                <span class="detail-label">Guests:</span>
+                <span>2 Adults (Age 0&ndash;99) &nbsp;&middot;&nbsp; English</span>
+              </div>
+              <div class="confirm-row mb-1">
                 <span class="detail-label">Duration:</span>
                 <span>2 hours</span>
               </div>
-              <div class="confirm-row mb-1">
-                <span class="detail-label">Guests:</span>
-                <span>2 Adults</span>
-              </div>
-              <div class="confirm-row mb-1">
-                <span class="detail-label">Language:</span>
-                <span>English</span>
-              </div>
-              <div class="confirm-row mb-1">
+              <div class="confirm-row mb-3">
                 <span class="detail-label">Total Cost:</span>
                 <span style="font-weight:700;color:#1B5E20;">$58.72</span>
-              </div>
-              <div class="confirm-row mb-3">
-                <span class="detail-label">Payment:</span>
-                <span>Card auto-charged <strong>June 18, 2026</strong>.</span>
               </div>
 
               <v-divider class="my-3"></v-divider>
 
-              <div class="benefits-heading mb-2">&#128205; Meeting Point</div>
+              <!-- Mobile Tickets -->
+              <div class="benefits-heading mb-2">&#127903; Mobile Tickets</div>
+              <v-alert type="info" variant="tonal" density="compact" class="mb-3">
+                &#128241; Your tickets will be available in the GetYourGuide app once your payment of <strong>$58.72</strong> is processed on <strong>June 18, 2026</strong>. You may pay earlier if you prefer.
+              </v-alert>
+
+              <v-divider class="my-3"></v-divider>
+
+              <!-- What to do on the day -->
+              <div class="benefits-heading mb-3">&#128203; What to Do on the Day</div>
+
+              <div class="confirm-row mb-1">
+                <span class="detail-label">&#128205; Where to go:</span>
+              </div>
               <div class="hotel-contact mb-2">
-                <div>Molo Numero 0, Porto di Capri, Marina Grande, 80073 Capri NA, Italia</div>
-                <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock 0, Port of Capri (Motoscafisti Capri). Show your ticket and board the first available island tour.</div>
+                <div style="font-weight:500;">Molo Numero 0, Porto di Capri, Marina Grande, 80073 Capri NA, Italia</div>
+                <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock number 0, Port of Capri (Motoscafisti Capri). Show your ticket and board the first available island tour.</div>
                 <div style="font-size:0.82rem;color:#555;margin-top:2px;">Departures every ~30 minutes from 9:45 AM to 2:00 PM daily.</div>
-                <div class="mt-2"><span class="detail-label">End Point:</span> Returns to starting location.</div>
               </div>
 
-              <img :src="'/Capri Boat Tour meeting spot .webp'" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;margin-top:8px;" />
+              <img :src="'/Capri Boat Tour meeting spot .webp'" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;margin-top:4px;" />
+
+              <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
+                <strong>&#9201; When to arrive: 9:55 AM</strong> &mdash; Arrive at the meeting point 5 minutes before your chosen time so you don&rsquo;t lose your time slot.
+              </v-alert>
+
+              <div class="confirm-row mb-3">
+                <span class="detail-label">&#127937; Where activity ends:</span>
+                <span>Returns to the starting location.</span>
+              </div>
 
               <v-divider class="my-3"></v-divider>
 
@@ -145,21 +149,30 @@
 
               <v-divider class="my-3"></v-divider>
 
-              <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Notes</div>
+              <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Information</div>
               <ul class="benefits-list mb-3">
-                <li><strong>Weather:</strong> Full refund or replacement tour if weather is adverse.</li>
-                <li><strong>Blue Grotto wait:</strong> If wait exceeds 60 min, crew may return to port &mdash; you'll receive a free Blue Grotto-only ticket.</li>
-                <li><strong>Boat type:</strong> Subject to change based on availability.</li>
-                <li><strong>Cancellation:</strong> Cancel before <strong>10:00 AM on June 20, 2026</strong> for a full refund.</li>
+                <li>A full refund or a replacement tour will be offered in case of adverse weather conditions.</li>
+                <li>If the estimated waiting time at the Blue Grotto exceeds 60 minutes, the crew reserves the right to return to port for safety reasons. You will receive a free ticket to Blue Grotto only.</li>
+                <li>The type of boat used for the excursion may vary depending on availability.</li>
               </ul>
 
               <v-divider class="my-3"></v-divider>
 
+              <!-- Cancellation Policy -->
+              <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128197; Cancellation Policy</div>
+              <v-alert type="success" variant="tonal" density="compact" class="mb-3">
+                Cancel before <strong>10:00 AM on June 20, 2026</strong> for a full refund.
+              </v-alert>
+
+              <v-divider class="my-3"></v-divider>
+
+              <!-- Booking References -->
               <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128273; Booking References</div>
               <div class="confirm-row mb-1">
                 <span class="detail-label">Activity Provider:</span>
                 <span>Motoscafisti Capri</span>
               </div>
+              <div style="font-size:0.82rem;color:#555;margin-bottom:12px;">Contact them via email if you have any questions about your activity.</div>
               <div class="confirm-row mb-1">
                 <span class="detail-label">Booking Ref:</span>
                 <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
@@ -170,7 +183,7 @@
               </div>
 
               <v-alert type="info" variant="tonal" density="compact">
-                &#128241; <strong>Tip:</strong> Download the GetYourGuide app to manage your booking and access mobile tickets.
+                &#128241; Download the <strong>GetYourGuide app</strong> to manage your booking and access mobile tickets on the day.
               </v-alert>
 
             </v-card-text>
