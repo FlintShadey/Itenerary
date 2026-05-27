@@ -12,6 +12,7 @@ import RhodesTransport from './views/RhodesTransport.vue'
 import RyanairDeparture from './views/RyanairDeparture.vue'
 import SantoriniDay from './views/SantoriniDay.vue'
 import CoralloSorrento from './views/CoralloSorrento.vue'
+import CapriDay from './views/CapriDay.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -27,6 +28,7 @@ const routes = [
   { path: '/ryanair-departure', component: RyanairDeparture },
   { path: '/santorini-day', component: SantoriniDay },
   { path: '/corallo-sorrento', component: CoralloSorrento },
+  { path: '/capri-day', component: CapriDay },
 ]
 
 export default createRouter({

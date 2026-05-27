@@ -1646,225 +1646,45 @@
               </v-card-title>
               <v-card-text class="pa-4">
 
-                <!-- Ferry there -->
-                <div class="benefits-heading mb-2">&#9973; Ferry &mdash; Sorrento &rarr; Capri</div>
-                <div class="flight-route mb-3">
-                  <div class="route-endpoint">
-                    <div class="route-time">8:29 AM</div>
-                    <div class="route-city">Sorrento</div>
-                    <div class="route-sub">Deck 1</div>
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Outbound</div>
+                    <div class="checkin-time">8:29 AM</div>
+                    <div class="checkin-date">Sorrento &rarr; Capri</div>
                   </div>
-                  <div class="route-middle">
-                    <span class="route-arrow-plane">&#9973;</span>
-                    <div class="route-arrow-line ferry-line"></div>
-                    <div class="route-duration">25 min</div>
+                  <div class="checkin-divider">&#127700;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Boat Tour</div>
+                    <div class="checkin-time">10:00 AM</div>
+                    <div class="checkin-date">Blue Grotto</div>
                   </div>
-                  <div class="route-endpoint text-right">
-                    <div class="route-time">8:54 AM</div>
-                    <div class="route-city">Capri</div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Return</div>
+                    <div class="checkin-time">6:35 PM</div>
+                    <div class="checkin-date">Capri &rarr; Sorrento</div>
                   </div>
                 </div>
+
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Operator:</span>
-                  <span>General Gruson &nbsp;&middot;&nbsp; Alilauro Gruson</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Ref:</span>
+                  <span class="detail-label">Ferry Ref:</span>
                   <span class="confirm-code ferry-code">50008TVUBI</span>
                 </div>
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Class:</span>
-                  <span>Full Fare &nbsp;&middot;&nbsp; Deck-Lounge</span>
-                </div>
-                <div style="margin:8px 0 4px;">
-                  <table class="passenger-table">
-                    <tr class="passenger-row">
-                      <td class="pax-name">John Smith</td>
-                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414469</span></td>
-                    </tr>
-                    <tr class="passenger-row">
-                      <td class="pax-name">Jessica Miller</td>
-                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414470</span></td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="hotel-contact mb-3">
-                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
-                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
-                </div>
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128247; Boarding QR Codes</div>
-                <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;margin-bottom:8px;">
-                  <div style="text-align:center;">
-                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">John &mdash; R1414469</div>
-                    <img src="/John Sorrento to Capri QR.png" alt="John boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
-                  </div>
-                  <div style="text-align:center;">
-                    <div style="font-size:0.8rem;font-weight:600;color:#555;margin-bottom:6px;">Jessica &mdash; R1414470</div>
-                    <img src="/Jessica Sorrento to Capri QR.png" alt="Jessica boarding QR" style="width:140px;height:140px;border:1px solid #ddd;border-radius:8px;" />
-                  </div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Blue Grotto Tour -->
-                <div class="benefits-heading mb-2">&#127700; Capri Island Boat Tour with Blue Grotto Stop &nbsp;&middot;&nbsp; 10:00 AM</div>
-
-                <!-- Status -->
-                <div class="confirm-row mb-3" style="display:flex;align-items:center;gap:8px;">
-                  <span class="detail-label">Status:</span>
-                  <v-chip size="small" color="#E65100" variant="elevated" style="font-weight:600;">Reserved &mdash; No payment made yet</v-chip>
-                </div>
-
-                <!-- Date & Time -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128197; Date &amp; Time</div>
-                <v-alert type="warning" variant="tonal" class="mb-3" density="compact">
-                  <strong>&#9201; Arrive by 9:55 AM</strong> &mdash; 5 minutes before your 10:00 AM slot.
-                </v-alert>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Activity Date:</span>
-                  <span>June 21, 2026 &nbsp;&middot;&nbsp; 10:00 AM</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Arrival Time:</span>
-                  <span>9:55 AM (5 minutes before your time slot)</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Duration:</span>
-                  <span>2 hours</span>
-                </div>
-
-                <!-- Travelers & Cost -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128100; Travelers &amp; Cost</div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Guests:</span>
-                  <span>2 Adults (Age 0&ndash;99)</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Language:</span>
-                  <span>English</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Total Cost:</span>
-                  <span style="font-weight:700;color:#1B5E20;">$58.72</span>
-                </div>
-                <div class="confirm-row mb-3">
-                  <span class="detail-label">Payment:</span>
-                  <span>Card auto-charged <strong>June 18, 2026</strong>. Mobile tickets available in app once processed; early payment optional.</span>
-                </div>
-
-                <!-- Logistics -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128205; Logistics (Where to Go)</div>
-                <div class="hotel-contact mb-1">
-                  <div><span class="detail-label">&#128205; Meeting Point:</span> Molo Numero 0, Porto di Capri, Marina Grande, 80073 Capri NA, Italia</div>
-                  <div style="font-size:0.82rem;color:#555;margin-top:4px;">Go to Dock number 0, Port of Capri, Motoscafisti Capri. Show your ticket and board the first available island tour.</div>
-                  <div style="font-size:0.82rem;color:#555;margin-top:2px;">Departures every ~30 minutes from 9:45 AM to 2:00 PM daily.</div>
-                  <div style="margin-top:4px;"><span class="detail-label">End Point:</span> Returns to the starting location.</div>
-                </div>
-
-                <img src="/Capri Boat Tour meeting spot .webp" alt="Capri Boat Tour meeting point" style="width:100%;max-width:340px;border-radius:10px;border:1px solid #ddd;display:block;margin-bottom:12px;margin-top:8px;" />
-
-                <!-- Included / Not Included -->
-                <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#9989; Included</div>
-                <ul class="benefits-list mb-2">
-                  <li>Capri island boat tour</li>
-                  <li>Crew &amp; Captain</li>
-                </ul>
-                <div class="benefits-heading mb-1" style="font-size:0.85rem;">&#10060; Not Included</div>
-                <ul class="benefits-list mb-3">
-                  <li>Blue Grotto entry by rowboat &mdash; purchase on the spot (~&euro;18)</li>
-                </ul>
-
-                <!-- Important Information -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#9888;&#65039; Important Information</div>
-                <ul class="benefits-list mb-3">
-                  <li><strong>Weather:</strong> Full refund or replacement tour offered if weather is adverse.</li>
-                  <li><strong>Blue Grotto Limit:</strong> If wait time exceeds 60 minutes, crew may return to port for safety &mdash; you will receive a free ticket for the Blue Grotto only.</li>
-                  <li><strong>Boat Type:</strong> Subject to change based on availability.</li>
-                  <li><strong>Cancellation:</strong> Cancel before <strong>10:00 AM on June 20, 2026</strong> for a full refund.</li>
-                </ul>
-
-                <!-- Booking References -->
-                <div class="benefits-heading mb-2" style="font-size:0.85rem;">&#128273; Booking References &amp; Support</div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Activity Provider:</span>
-                  <span>Motoscafisti Capri <span style="color:#666;">(contact via email for questions)</span></span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Reference:</span>
+                  <span class="detail-label">Boat Tour Ref:</span>
                   <span class="confirm-code ferry-code">GYG7VKZRZH3Q</span>
                 </div>
                 <div class="confirm-row mb-3">
-                  <span class="detail-label">PIN:</span>
-                  <span class="confirm-code">AqqxPS=w</span>
+                  <span class="detail-label">Lunch:</span>
+                  <span>Da Paolino &mdash; 1:00 PM</span>
                 </div>
-                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
-                  &#128241; <strong>Tip:</strong> Download the GetYourGuide app to manage your booking and access mobile tickets on the go.
-                </v-alert>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Lunch -->
-                <div class="benefits-heading mb-2">&#127869; Lunch &mdash; Da Paolino &nbsp;&middot;&nbsp; 1:00 PM</div>
-                <div class="confirm-row mb-1">Famous lemon-tree canopy restaurant in Capri.</div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">&#127758; Reserve:</span>
-                  <a href="https://www.paolinocapri.com" target="_blank" rel="noopener" class="med-link">paolinocapri.com</a>
-                </div>
-                <div class="confirm-row mb-4">
-                  <span class="detail-label">&#128231; Email (remind in May):</span>
-                  <a href="mailto:booking@paolinocapri.com" class="med-link">booking@paolinocapri.com</a>
-                </div>
-                <v-alert type="info" variant="tonal" density="compact" class="mb-4">
-                  &#128395; <strong>Action:</strong> Email Da Paolino again around <strong>May 21</strong> to confirm the lunch reservation.
-                </v-alert>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Return ferry -->
-                <div class="benefits-heading mb-2">&#9973; Return Ferry &mdash; Capri &rarr; Sorrento</div>
-                <div class="flight-route mb-3">
-                  <div class="route-endpoint">
-                    <div class="route-time">6:35 PM</div>
-                    <div class="route-city">Capri</div>
-                    <div class="route-sub">Deck-Lounge</div>
-                  </div>
-                  <div class="route-middle">
-                    <span class="route-arrow-plane">&#9973;</span>
-                    <div class="route-arrow-line ferry-line"></div>
-                    <div class="route-duration">32 min</div>
-                  </div>
-                  <div class="route-endpoint text-right">
-                    <div class="route-time">7:07 PM</div>
-                    <div class="route-city">Sorrento</div>
-                  </div>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Operator:</span>
-                  <span>Laser Capri</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Booking Ref:</span>
-                  <span class="confirm-code ferry-code">50008TVUBI</span>
-                </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Class:</span>
-                  <span>Full Fare &nbsp;&middot;&nbsp; Deck-Lounge</span>
-                </div>
-                <div style="margin:8px 0 4px;">
-                  <table class="passenger-table">
-                    <tr class="passenger-row">
-                      <td class="pax-name">John Smith</td>
-                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414469</span></td>
-                    </tr>
-                    <tr class="passenger-row">
-                      <td class="pax-name">Jessica Miller</td>
-                      <td><span class="confirm-code" style="font-size:0.78rem;">R1414470</span></td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="hotel-contact mb-0">
-                  <div><span class="detail-label">&#128222; Call Centre:</span> <a href="tel:+390814972238" class="med-link">+39 081 4972238</a></div>
-                  <div><span class="detail-label">&#128242; WhatsApp:</span> <a href="https://wa.me/393351278104" target="_blank" rel="noopener" class="med-link">+39 335 1278104</a></div>
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/capri-day" style="text-decoration:none;">
+                    <v-btn color="blue-darken-3" variant="tonal" size="small">
+                      Full Day Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                 </div>
 
               </v-card-text>
