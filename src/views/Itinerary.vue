@@ -907,6 +907,58 @@
               </v-card-text>
             </v-card>
 
+            <!-- Jun 09 — Explore Santorini -->
+            <v-card hover elevation="4" class="mb-6 itinerary-card">
+              <v-card-title class="card-header" style="background:linear-gradient(135deg,#E65100 0%,#EF6C00 55%,#FB8C00 100%)!important;color:#fff!important;">
+                <span class="card-header-icon">&#127748;</span>
+                Explore Santorini &nbsp;&middot;&nbsp; Tue, Jun 09, 2026
+              </v-card-title>
+              <v-card-text class="pa-4">
+
+                <div class="checkin-row mb-4">
+                  <div class="checkin-block">
+                    <div class="checkin-label">Morning</div>
+                    <div class="checkin-time">Oia</div>
+                    <div class="checkin-date">Three Domes &amp; Ammoudi Bay</div>
+                  </div>
+                  <div class="checkin-divider">&#8594;</div>
+                  <div class="checkin-block">
+                    <div class="checkin-label">Afternoon</div>
+                    <div class="checkin-time">Fira</div>
+                    <div class="checkin-date">Hike &amp; Imerovigli</div>
+                  </div>
+                  <div class="checkin-divider">&#127751;</div>
+                  <div class="checkin-block text-right">
+                    <div class="checkin-label">Evening</div>
+                    <div class="checkin-time">Sunset</div>
+                    <div class="checkin-date">Assyrtiko &amp; Nightlife</div>
+                  </div>
+                </div>
+
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Morning:</span>
+                  <span>Oia &mdash; Three Domes viewpoint (9:00 AM) &rarr; Ammoudi Bay seafood lunch</span>
+                </div>
+                <div class="confirm-row mb-1">
+                  <span class="detail-label">Afternoon:</span>
+                  <span>Fira&ndash;Oia hike or bus &rarr; Fira boutiques &rarr; Imerovigli &amp; Skaros Rock</span>
+                </div>
+                <div class="confirm-row mb-3">
+                  <span class="detail-label">Evening:</span>
+                  <span>Sunset dinner in Imerovigli &rarr; Fira nightlife &amp; local Assyrtiko wine</span>
+                </div>
+
+                <div class="mt-2" style="text-align:right;">
+                  <router-link to="/santorini-day" style="text-decoration:none;">
+                    <v-btn color="orange-darken-3" variant="tonal" size="small">
+                      Full Day Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
+              </v-card-text>
+            </v-card>
+
             <!-- Jun 10 — Ferry: Santorini → Rhodes (ANEK Lines) -->
             <v-card hover elevation="4" class="mb-6 itinerary-card">
               <v-card-title class="card-header card-header-ferry">
