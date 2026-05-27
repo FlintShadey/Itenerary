@@ -2371,103 +2371,41 @@
               <v-card-text class="pa-4">
 
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Airline Confirmation:</span>
+                  <span class="detail-label">Confirmation:</span>
                   <span class="confirm-code">BFXWUC</span>
                 </div>
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Trip ID:</span>
-                  <span class="trip-id">1016681915</span>
-                </div>
-                <div class="confirm-row mb-4">
+                <div class="confirm-row mb-3">
                   <span class="detail-label">Total:</span>
                   <span style="font-weight:600;color:#2E7D32;">$2,541.26</span>
                 </div>
 
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Segment 1: DUB → DFW -->
-                <div class="flight-segment mb-4">
-                  <div class="flight-label mb-1">
-                    <span class="flight-num">IB 4245 &nbsp;&middot;&nbsp; Iberia</span>
-                    <span class="flight-class">operated by American Airlines &middot; Boeing 777-200</span>
+                <!-- Segment summary -->
+                <div class="flight-route mb-2">
+                  <div class="route-endpoint">
+                    <div class="route-time">12:40 PM</div>
+                    <div class="route-iata">DUB</div>
+                    <div class="route-city">Dublin</div>
+                    <div class="route-date">Fri, Jul 03</div>
                   </div>
-                  <div class="flight-route mt-3">
-                    <div class="route-endpoint">
-                      <div class="route-time">12:40 PM</div>
-                      <div class="route-iata">DUB</div>
-                      <div class="route-city">Dublin, IE</div>
-                      <div class="route-date">Fri, Jul 03</div>
-                    </div>
-                    <div class="route-middle">
-                      <span class="route-arrow-plane">&#9992;</span>
-                      <div class="route-arrow-line"></div>
-                    </div>
-                    <div class="route-endpoint text-right">
-                      <div class="route-iata">DFW</div>
-                      <div class="route-city">Dallas / Fort Worth, TX</div>
-                    </div>
+                  <div class="route-middle">
+                    <span class="route-arrow-plane">&#9992;</span>
+                    <div class="route-arrow-line"></div>
+                  </div>
+                  <div class="route-endpoint text-right">
+                    <div class="route-time">7:16 PM</div>
+                    <div class="route-iata">AUS</div>
+                    <div class="route-city">Austin</div>
+                    <div class="route-date">Fri, Jul 03</div>
                   </div>
                 </div>
+                <div class="route-sub text-center mb-4" style="color:#546E7A;font-size:0.82rem;">12h 36m &middot; 1 stop DFW (1h 44m)</div>
 
-                <!-- Layover -->
-                <div class="layover-row mb-4">
-                  <v-chip size="small" color="#546E7A" variant="elevated" style="font-size:0.78rem;">
-                    &#128336; Layover at DFW &mdash; 1h 44m
-                  </v-chip>
-                </div>
-
-                <!-- Segment 2: DFW → AUS -->
-                <div class="flight-segment mb-3">
-                  <div class="flight-label mb-1">
-                    <span class="flight-num">IB 4074 &nbsp;&middot;&nbsp; Iberia</span>
-                    <span class="flight-class">operated by SkyWest Airlines for Air Alaska &middot; Canadair CRJ-900</span>
-                  </div>
-                  <div class="flight-route mt-3">
-                    <div class="route-endpoint">
-                      <div class="route-iata">DFW</div>
-                      <div class="route-city">Dallas / Fort Worth, TX</div>
-                    </div>
-                    <div class="route-middle">
-                      <span class="route-arrow-plane">&#9992;</span>
-                      <div class="route-arrow-line"></div>
-                    </div>
-                    <div class="route-endpoint text-right">
-                      <div class="route-time">7:16 PM</div>
-                      <div class="route-iata">AUS</div>
-                      <div class="route-city">Austin, TX</div>
-                      <div class="route-date">Fri, Jul 03</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="route-sub text-center mb-4" style="color:#546E7A;font-size:0.82rem;">Total travel time: 12h 36m &middot; 1 stop (DFW)</div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Fare Info -->
-                <div class="confirm-row mb-1">
-                  <span class="detail-label">Fare Class:</span>
-                  <span>Flexible Economy (N)</span>
-                </div>
-                <ul class="benefits-list mb-3">
-                  <li>&#10003; Checked bags included</li>
-                  <li>&#10003; Carry-on bag included</li>
-                  <li>&#10003; Refund included</li>
-                  <li>&#10003; Exchange included</li>
-                </ul>
-
-                <v-divider class="my-3"></v-divider>
-
-                <!-- Travelers -->
-                <div class="traveler-section">
-                  <h4 class="traveler-heading mb-2">Travelers</h4>
-                  <div class="confirm-row mb-1"><span class="pax-name">1. John Flint Smith</span></div>
-                  <div class="confirm-row"><span class="pax-name">2. Jessica Miller</span></div>
-                </div>
-
-                <v-divider class="my-3"></v-divider>
-
-                <div style="text-align:right;">
+                <div style="text-align:right;display:flex;gap:8px;justify-content:flex-end;">
+                  <router-link to="/dublin-return-flights" style="text-decoration:none;">
+                    <v-btn color="grey-darken-2" variant="tonal" size="small">
+                      Flight Details &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
                   <router-link to="/dublin-airport" style="text-decoration:none;">
                     <v-btn color="blue-darken-3" variant="tonal" size="small">
                       Airport Transfer Guide &nbsp;&#8250;
