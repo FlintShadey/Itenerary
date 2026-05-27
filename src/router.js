@@ -32,6 +32,7 @@ import DublinAirport from './views/DublinAirport.vue'
 import DublinReturnFlights from './views/DublinReturnFlights.vue'
 import OutboundFlights from './views/OutboundFlights.vue'
 import RafinaMykonosFerry from './views/RafinaMykonosFerry.vue'
+import Tramonti from './views/Tramonti.vue'
 
 const routes = [
   { path: '/', component: Itinerary },
@@ -67,6 +68,7 @@ const routes = [
   { path: '/dublin-return-flights', component: DublinReturnFlights },
   { path: '/outbound-flights', component: OutboundFlights },
   { path: '/rafina-mykonos-ferry', component: RafinaMykonosFerry },
+  { path: '/tramonti', component: Tramonti },
 ]
 
 export default createRouter({

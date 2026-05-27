@@ -1672,6 +1672,14 @@
                   </div>
                 </div>
 
+                <div class="mt-4" style="text-align:right;">
+                  <router-link to="/tramonti" style="text-decoration:none;">
+                    <v-btn color="purple-darken-4" variant="tonal" size="small">
+                      Full Day Guide &nbsp;&#8250;
+                    </v-btn>
+                  </router-link>
+                </div>
+
               </v-card-text>
             </v-card>
 
