@@ -216,7 +216,7 @@
                 </div>
                 <div class="confirm-row mb-1">
                   <span class="detail-label">Guide:</span>
-                  <span>Maria S. &nbsp;&middot;&nbsp; ToursByLocals</span>
+                  <span>Maria Synodinou &nbsp;&middot;&nbsp; ToursByLocals</span>
                 </div>
                 <div class="confirm-row mb-1">
                   <span class="detail-label">Booking Ref:</span>
@@ -2008,31 +2008,31 @@
 
                 <div class="checkin-row mb-4">
                   <div class="checkin-block">
-                    <div class="checkin-label">Lunch</div>
-                    <div class="checkin-time">1:45 PM</div>
-                    <div class="checkin-date">WILDE &mdash; The Westbury</div>
+                    <div class="checkin-label">Arrive</div>
+                    <div class="checkin-time">10:30 AM</div>
+                    <div class="checkin-date">Guinness Storehouse</div>
                   </div>
                   <div class="checkin-divider">&#127866;</div>
                   <div class="checkin-block">
-                    <div class="checkin-label">Storehouse</div>
-                    <div class="checkin-time">3:15 PM</div>
-                    <div class="checkin-date">Guinness Academy</div>
+                    <div class="checkin-label">Lunch</div>
+                    <div class="checkin-time">2:00 PM</div>
+                    <div class="checkin-date">WILDE &mdash; The Westbury</div>
                   </div>
                   <div class="checkin-divider">&#127981;</div>
                   <div class="checkin-block text-right">
                     <div class="checkin-label">Pubs</div>
-                    <div class="checkin-time">5:15 PM</div>
+                    <div class="checkin-time">6:00 PM</div>
                     <div class="checkin-date">Neary's / Kehoe's</div>
                   </div>
                 </div>
 
                 <div class="confirm-row mb-1">
-                  <span class="detail-label">Highlight:</span>
-                  <span>Gravity Bar 360&deg; views &middot; Pour your own pint &middot; STOUTie experience</span>
+                  <span class="detail-label">Tasting:</span>
+                  <span>Connoisseur Experience &mdash; 12:00 PM &middot; Ref <strong>904179580</strong> &middot; 2 Adults</span>
                 </div>
                 <div class="confirm-row mb-3">
                   <span class="detail-label">Getting there:</span>
-                  <span>20&ndash;25 min scenic walk west from Westbury (past Dublin Castle &amp; Christ Church)</span>
+                  <span>10&ndash;15 min taxi from Westbury to St. James&rsquo;s Gate</span>
                 </div>
 
                 <div class="mt-2" style="text-align:right;">

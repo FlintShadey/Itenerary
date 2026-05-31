@@ -21,8 +21,16 @@
                 <span class="confirm-code ferry-code">#CQZDHZ</span>
               </div>
               <div class="confirm-row mb-1">
+                <span class="detail-label">Tour Title:</span>
+                <span>The Essential Walking Tour in Athens: Acropolis, Acropolis Museum and Ancient Theatre of Dionysos</span>
+              </div>
+              <div class="confirm-row mb-1">
                 <span class="detail-label">Tour #:</span>
                 <span class="confirm-code">217591</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Tour Start:</span>
+                <span>June 3, 2026</span>
               </div>
               <div class="confirm-row mb-1">
                 <span class="detail-label">Booked by:</span>
@@ -52,7 +60,11 @@
               <div class="benefits-heading mb-2">&#128100; Tour Guide</div>
               <div class="confirm-row mb-1">
                 <span class="detail-label">Guide:</span>
-                <span><strong>Maria S.</strong> &nbsp;&middot;&nbsp; Guide #13580</span>
+                <span><strong>Maria Synodinou</strong> &nbsp;&middot;&nbsp; Guide #13580</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">&#128222; Cell Phone:</span>
+                <span><a href="tel:+306944222356" class="med-link">+30 694 422 2356</a> <span style="font-size:0.82rem;color:#666;">(+ required when calling from a cell phone)</span></span>
               </div>
               <div class="confirm-row mb-3">
                 <span class="detail-label">Languages:</span>
