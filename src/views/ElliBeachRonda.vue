@@ -8,6 +8,51 @@
             &#8592; Back to Itinerary
           </v-btn>
 
+          <!-- Reservation Confirmation -->
+          <v-card hover elevation="4" class="mb-6 itinerary-card">
+            <v-card-title class="card-header" style="background:linear-gradient(135deg,#01579B 0%,#0277BD 55%,#0288D1 100%)!important;color:#fff!important;">
+              <span class="card-header-icon">&#127860;</span>
+              Dinner Reservation &mdash; Ronda
+            </v-card-title>
+            <v-card-text class="pa-4">
+
+              <v-alert type="success" variant="tonal" density="compact" class="mb-4">
+                &#10003; <strong>Reservation confirmed</strong> &mdash; Ronda Restaurant &amp; Beach Bar
+              </v-alert>
+
+              <div class="checkin-row mb-4">
+                <div class="checkin-block">
+                  <div class="checkin-label">Date</div>
+                  <div class="checkin-time">Fri, Jun 12</div>
+                </div>
+                <div class="checkin-divider">&#127860;</div>
+                <div class="checkin-block">
+                  <div class="checkin-label">Time</div>
+                  <div class="checkin-time">6:30 PM</div>
+                </div>
+                <div class="checkin-divider">&#128101;</div>
+                <div class="checkin-block text-right">
+                  <div class="checkin-label">Party</div>
+                  <div class="checkin-time">6 guests</div>
+                </div>
+              </div>
+
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Name:</span>
+                <span>Jessica Miller</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">Area:</span>
+                <span>Restaurant</span>
+              </div>
+              <div class="confirm-row mb-1">
+                <span class="detail-label">&#128222; Phone:</span>
+                <a href="tel:+306937404446" class="med-link">+30 693 740 4446</a>
+              </div>
+
+            </v-card-text>
+          </v-card>
+
           <!-- Overview -->
           <v-card hover elevation="4" class="mb-6 itinerary-card">
             <v-card-title class="card-header" style="background:linear-gradient(135deg,#01579B 0%,#0277BD 55%,#0288D1 100%)!important;color:#fff!important;">

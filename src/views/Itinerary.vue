@@ -1015,6 +1015,10 @@
                   <span>Ronda Restaurant &amp; Beach Bar &mdash; Elli Beach, Rhodes</span>
                 </div>
                 <div class="confirm-row mb-1">
+                  <span class="detail-label">Dinner Reservation:</span>
+                  <span>6:30 PM &mdash; Jessica Miller &middot; 6 guests &middot; Restaurant area</span>
+                </div>
+                <div class="confirm-row mb-1">
                   <span class="detail-label">Getting There:</span>
                   <span>15&ndash;20 min walk or ~5 min taxi from 10GR Hotel</span>
                 </div>
